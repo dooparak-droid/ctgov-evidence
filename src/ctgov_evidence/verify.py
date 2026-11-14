@@ -46,6 +46,16 @@ RESULTS_RE = re.compile(
     r"\b(?:posted results|results posted|results (?:are )?posted|have results)\b", re.I
 )
 NEGATION_RE = re.compile(r"\b(?:no|not|none|without|neither|never)\b", re.I)
+# "NCT01234567 with 112 participants", "NCT01234567 (an estimated 1,700 participants)"
+INLINE_COUNT_RE = re.compile(
+    r"(?P<nct>NCT\d{8})(?P<gap>[^.;\[\]]{0,40}?)"
+    r"(?:\b(?P<k1>estimated|actual)\s+)?(?P<n>\d[\d,]*)\s+"
+    r"(?:(?P<k2>estimated|actual)\s+)?(?:participants|patients|subjects|people|individuals)",
+    re.IGNORECASE,
+)
+ESTIMATE_RE = re.compile(r"\bestimated?\b", re.IGNORECASE)
+ACTUAL_RE = re.compile(r"\bactual(?:ly)?\b", re.IGNORECASE)
+STUDY_TYPE_WORDS = {"observational": "OBSERVATIONAL", "interventional": "INTERVENTIONAL"}
 ORG_RE = re.compile(
     r"\b(?:[A-Z][\w&'.-]*\s+){1,6}(?:Inc|Ltd|LLC|Corporation|Corp|Company|Pharmaceuticals?|"
     r"Pharma|University|Hospital|Institute|Foundation|GmbH|AG|SA|Co)\b\.?"
@@ -209,6 +219,40 @@ def verify_sentence(sentence: str, all_trials: list[Trial]) -> SentenceResult:
             continue
         shown = int(n) if n == int(n) else n
         reasons.append(f"number {shown} not supported by cited trials")
+
+    # participant counts written next to a specific NCT ID must belong to that trial
+    for m in INLINE_COUNT_RE.finditer(NCT_RE.sub(lambda x: x.group(0), CITE_RE.sub(" ", sentence))):
+        if "NCT" in m.group("gap"):
+            continue
+        trial = by_id.get(m.group("nct"))
+        if trial is None:
+            continue
+        count = int(m.group("n").replace(",", ""))
+        if trial.enrollment.value is None or count != trial.enrollment.value:
+            reasons.append(
+                f"{trial.nct_id} is recorded with enrollment {trial.enrollment.value}, not {count}"
+            )
+        kind = (m.group("k1") or m.group("k2") or "").upper()
+        if kind and trial.enrollment_type.value and kind != trial.enrollment_type.value:
+            reasons.append(
+                f"{trial.nct_id} enrollment is {trial.enrollment_type.value}, not {kind}"
+            )
+
+    # wording about the kind of count and the kind of study
+    types = {t.enrollment_type.value for t in cited}
+    if ESTIMATE_RE.search(body) and "ESTIMATED" not in types:
+        reasons.append("sentence says estimated, but no cited trial has an estimated enrollment")
+    if ACTUAL_RE.search(body) and "ACTUAL" not in types:
+        reasons.append("sentence says actual, but no cited trial has an actual enrollment")
+    for word, code in STUDY_TYPE_WORDS.items():
+        if re.search(rf"(?<!non-)(?<!non )\b{word}\b", body, re.IGNORECASE) and not any(
+            t.study_type.value == code for t in cited
+        ):
+            reasons.append(f"sentence says {word}, but no cited trial is {word}")
+    if re.search(r"\brandomi[sz]ed\b", body, re.IGNORECASE) and not any(
+        t.allocation.value == "RANDOMIZED" for t in cited
+    ):
+        reasons.append("sentence says randomized, but no cited trial is randomized")
 
     # statuses
     lowered = body.lower()

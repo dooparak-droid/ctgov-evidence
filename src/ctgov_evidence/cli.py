@@ -9,7 +9,7 @@ from pathlib import Path
 
 from .client import RegistryError
 from .models import Evidence, Query
-from .narrative import NarrativeUnavailable, generate_narrative
+from .narrative import NarrativeError, NarrativeUnavailable, generate_narrative
 from .pipeline import build_evidence
 from .summarise import write_outputs
 from .verify import verify_narrative
@@ -20,7 +20,13 @@ def _common(p: argparse.ArgumentParser) -> None:
     p.add_argument(
         "--narrative",
         action="store_true",
-        help="also write an LLM paragraph and verify it (needs ANTHROPIC_API_KEY)",
+        help="also write an LLM paragraph and verify it (needs a Gemini or Anthropic key)",
+    )
+    p.add_argument(
+        "--provider",
+        choices=["auto", "gemini", "anthropic"],
+        default="auto",
+        help="LLM provider for --narrative (auto picks Gemini if its key is set)",
     )
     p.add_argument("--model", default=None, help="model for --narrative")
     p.add_argument(
@@ -72,12 +78,13 @@ def _query_from_args(args: argparse.Namespace) -> Query:
     )
 
 
-def _run_narrative(ev: Evidence, out: Path, model: str | None, drop: bool) -> None:
+def _run_narrative(ev: Evidence, out: Path, provider: str, model: str | None, drop: bool) -> None:
     try:
-        text = generate_narrative(ev, model=model)
-    except NarrativeUnavailable as exc:
+        text = generate_narrative(ev, provider=provider, model=model)
+    except (NarrativeUnavailable, NarrativeError) as exc:
         print(f"Narrative skipped: {exc}.", file=sys.stderr)
         return
+    (out / "narrative_raw.txt").write_text(text + "\n")
     report = verify_narrative(text, ev.trials)
     final = report.render("remove" if drop else "mark")
     (out / "narrative.md").write_text(
@@ -123,7 +130,7 @@ def main(argv: list[str] | None = None) -> int:
     for p in paths.values():
         print(f"  wrote {p}")
     if args.narrative:
-        _run_narrative(ev, out, args.model, args.drop_unverified)
+        _run_narrative(ev, out, args.provider, args.model, args.drop_unverified)
     return 0
 
 

@@ -95,3 +95,63 @@ def test_split_sentences_keeps_decimals():
 def test_case_insensitive_intervention_and_set_size(trials):
     ok = verify_sentence("Of the 8 trials, NCT04349072 tested mavacamten [NCT04349072].", trials)
     assert ok.ok, ok.reasons
+
+
+# ---- regression tests built from real Gemini output on the HCM / mavacamten query ----
+
+
+@pytest.fixture(scope="module")
+def hcm_trials():
+    import json
+
+    from conftest import FIXTURES
+    from ctgov_evidence.models import Trial
+
+    doc = json.loads((FIXTURES / "hcm_trials.json").read_text())
+    return [Trial.model_validate(t) for t in doc["trials"]]
+
+
+def _narrative(name):
+    from conftest import FIXTURES
+
+    return (FIXTURES / name).read_text()
+
+
+def test_accurate_gemini_paragraph_passes_in_full(hcm_trials):
+    """Every claim in this paragraph was checked by hand against the registry records."""
+    rep = verify_narrative(_narrative("narrative_gemini_3_5_flash.txt"), hcm_trials)
+    assert rep.n_total == 7
+    assert rep.n_verified == 7, [s.reasons for s in rep.sentences if not s.ok]
+
+
+def test_estimate_versus_actual_error_in_real_output_is_caught(hcm_trials):
+    """The model called an actual enrolment of 2,000 an estimate."""
+    rep = verify_narrative(_narrative("narrative_gemini_3_1_flash_lite.txt"), hcm_trials)
+    failed = [s for s in rep.sentences if not s.ok]
+    assert (rep.n_verified, rep.n_total) == (5, 6)
+    assert any("estimated" in r for r in failed[0].reasons)
+
+
+def test_swapped_per_trial_numbers_are_caught(hcm_trials):
+    text = _narrative("narrative_gemini_3_5_flash.txt")
+    assert "NCT05135871 with 45 actual" in text
+    swapped = text.replace("NCT05135871 with 45", "NCT05135871 with 84").replace(
+        "NCT05719805 with 84", "NCT05719805 with 45"
+    )
+    rep = verify_narrative(swapped, hcm_trials)
+    assert rep.n_verified == rep.n_total - 1
+    reasons = " ".join(r for s in rep.sentences for r in s.reasons)
+    assert "NCT05135871 is recorded with enrollment 45, not 84" in reasons
+
+
+def test_wrong_study_type_and_estimate_wording(trials):
+    assert not verify_sentence("It was an observational study [NCT04349072].", trials).ok
+    assert not verify_sentence(
+        "It enrolled an estimated 112 participants [NCT04349072].", trials
+    ).ok
+    assert verify_sentence("It enrolled an actual 112 participants [NCT04349072].", trials).ok
+
+
+def test_non_interventional_is_not_read_as_interventional(trials):
+    r = verify_sentence("It was a non-interventional study [NCT07529938].", trials)
+    assert r.ok, r.reasons
