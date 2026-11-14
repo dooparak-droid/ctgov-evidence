@@ -46,7 +46,7 @@ from ctgov_evidence import Query, build_evidence
 
 ev = build_evidence(Query(condition="hypertrophic cardiomyopathy", intervention="mavacamten"))
 ev.summary.by_phase
-ev.trials[0].enrollment      # Sourced(value=..., source="NCT...:protocolSection....")
+ev.trials[0].enrollment  # Sourced(value=..., source="NCT...:protocolSection....")
 ```
 
 Searches stop at `--max-studies` (default 200). If the registry has more matches, the output says so.
