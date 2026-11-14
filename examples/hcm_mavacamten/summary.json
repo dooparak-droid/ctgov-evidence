@@ -1,0 +1,1468 @@
+{
+  "n_trials": 44,
+  "by_phase": {
+    "Phase 1": 3,
+    "Phase 2": 2,
+    "Phase 2 / Phase 3": 1,
+    "Phase 3": 6,
+    "Phase 4": 5,
+    "Not applicable": 5,
+    "Not reported": 22
+  },
+  "by_status": {
+    "COMPLETED": 14,
+    "RECRUITING": 13,
+    "ACTIVE_NOT_RECRUITING": 7,
+    "NOT_YET_RECRUITING": 7,
+    "TERMINATED": 2,
+    "ENROLLING_BY_INVITATION": 1
+  },
+  "by_study_type": {
+    "INTERVENTIONAL": 22,
+    "OBSERVATIONAL": 22
+  },
+  "enrollment": {
+    "ACTUAL": {
+      "n_trials": 20,
+      "total": 5392
+    },
+    "ESTIMATED": {
+      "n_trials": 24,
+      "total": 5956
+    }
+  },
+  "n_enrollment_missing": 0,
+  "sponsors": [
+    {
+      "name": "Bristol-Myers Squibb",
+      "n_trials": 24,
+      "nct_ids": [
+        "NCT03496168",
+        "NCT03723655",
+        "NCT04349072",
+        "NCT05362045",
+        "NCT05414175",
+        "NCT05489705",
+        "NCT05582395",
+        "NCT05719805",
+        "NCT05939700",
+        "NCT06112743",
+        "NCT06146660",
+        "NCT06253221",
+        "NCT06338202",
+        "NCT06372457",
+        "NCT06549608",
+        "NCT06551129",
+        "NCT07004972",
+        "NCT07107373",
+        "NCT07168655",
+        "NCT07361289",
+        "NCT07383025",
+        "NCT07541833",
+        "NCT07557498",
+        "NCT07846059"
+      ]
+    },
+    {
+      "name": "LianBio LLC",
+      "n_trials": 2,
+      "nct_ids": [
+        "NCT05135871",
+        "NCT05174416"
+      ]
+    },
+    {
+      "name": "MyoKardia, Inc.",
+      "n_trials": 2,
+      "nct_ids": [
+        "NCT03442764",
+        "NCT03470545"
+      ]
+    },
+    {
+      "name": "University of Manchester",
+      "n_trials": 2,
+      "nct_ids": [
+        "NCT07120776",
+        "NCT07408427"
+      ]
+    },
+    {
+      "name": "Assistance Publique - Hôpitaux de Paris",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07439952"
+      ]
+    },
+    {
+      "name": "Centro Cardiologico Monzino",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07695272"
+      ]
+    },
+    {
+      "name": "Chinese Academy of Medical Sciences, Fuwai Hospital",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07529938"
+      ]
+    },
+    {
+      "name": "First Affiliated Hospital of Wenzhou Medical University",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07815301"
+      ]
+    },
+    {
+      "name": "French Cardiology Society",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07716826"
+      ]
+    },
+    {
+      "name": "Medical University of Vienna",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07150299"
+      ]
+    },
+    {
+      "name": "Michael Ayers",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06023186"
+      ]
+    },
+    {
+      "name": "Oregon Health and Science University",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07600177"
+      ]
+    },
+    {
+      "name": "Second Affiliated Hospital of Nanchang University",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07807384"
+      ]
+    },
+    {
+      "name": "Second Affiliated Hospital, Zhejiang University, School of Medicine",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07103655"
+      ]
+    },
+    {
+      "name": "Shanghai Chest Hospital",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06856265"
+      ]
+    },
+    {
+      "name": "Technical University of Munich",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07077005"
+      ]
+    },
+    {
+      "name": "UltraSight",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07155434"
+      ]
+    },
+    {
+      "name": "Xu Liu",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06947590"
+      ]
+    }
+  ],
+  "primary_outcomes": [
+    {
+      "name": "Maximum observed plasma concentration (Cmax)",
+      "n_trials": 2,
+      "nct_ids": [
+        "NCT05362045",
+        "NCT05719805"
+      ]
+    },
+    {
+      "name": "Participant blood pressure",
+      "n_trials": 2,
+      "nct_ids": [
+        "NCT06372457",
+        "NCT07168655"
+      ]
+    },
+    {
+      "name": "Participant heart rate",
+      "n_trials": 2,
+      "nct_ids": [
+        "NCT06372457",
+        "NCT07168655"
+      ]
+    },
+    {
+      "name": "Participant insurance coverage",
+      "n_trials": 2,
+      "nct_ids": [
+        "NCT06372457",
+        "NCT07168655"
+      ]
+    },
+    {
+      "name": "Absolute change (mmHg) from baseline in post-Valsalva peak left ventricular outflow tract (LVOT) gradient assessed by transthoracic echocardiography",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07846059"
+      ]
+    },
+    {
+      "name": "Absolute change (mmHg) from baseline in resting peak left ventricular outflow tract (LVOT) gradient assessed by transthoracic echocardiography",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07846059"
+      ]
+    },
+    {
+      "name": "Actions taken after adverse events (AEs) and/or serious AEs (SAEs)",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07383025"
+      ]
+    },
+    {
+      "name": "Agreement in Left Ventricular Ejection Fraction (LVEF)",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07155434"
+      ]
+    },
+    {
+      "name": "Apparent Clearance (CL/F)",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT05135871"
+      ]
+    },
+    {
+      "name": "Apparent Volume of Distribution (Vd/F)",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT05135871"
+      ]
+    },
+    {
+      "name": "Area Under the Curve (AUC) (0-last), AUC(0-inf)",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT05135871"
+      ]
+    },
+    {
+      "name": "Area under the plasma concentration-time curve from time zero extrapolated to infinite time ((AUC(INF))",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT05362045"
+      ]
+    },
+    {
+      "name": "Area under the plasma concentration-time curve from time zero extrapolated to infinite time (AUC [INF])",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT05719805"
+      ]
+    },
+    {
+      "name": "Area under the plasma concentration-time curve from time zero to the time of the last quantifiable concentration ((AUC(0-T))",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT05362045"
+      ]
+    },
+    {
+      "name": "Area under the plasma concentration-time curve from time zero to time of last quantifiable concentration (AUC [0-T])",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT05719805"
+      ]
+    },
+    {
+      "name": "Cardiovascular treatments prescribed to participants",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06372457"
+      ]
+    },
+    {
+      "name": "Change From Baseline in KCCQ-23 CSS at Week 48",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT05582395"
+      ]
+    },
+    {
+      "name": "Change From Baseline in Post-exercise Left Ventricular Outflow Tract (LVOT) Peak Gradient at Week 30",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT05414175"
+      ]
+    },
+    {
+      "name": "Change From Baseline in pVO2 at Week 48",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT05582395"
+      ]
+    },
+    {
+      "name": "Change from baseline in resting valsalva left ventricular outflow tract (LVOT) gradient",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07361289"
+      ]
+    },
+    {
+      "name": "Change from baseline in Valsalva left ventricular outflow tract (LVOT) (VLVOT) gradient",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06253221"
+      ]
+    },
+    {
+      "name": "Change from baseline in Valsalva left ventricular outflow tract (LVOT) gradient",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07361289"
+      ]
+    },
+    {
+      "name": "Change From Baseline in Valsalva Peak Left Ventricular Outflow Tract (LVOT) Pressure Gradient Assessed by Echocardiography at Week 24",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07807384"
+      ]
+    },
+    {
+      "name": "Change From Baseline to Week 30 in Valsalva Left Ventricular Outflow Tract (LVOT) Peak Gradient",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT05174416"
+      ]
+    },
+    {
+      "name": "Change in echocardiographic measure (LVOT gradient)",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07408427"
+      ]
+    },
+    {
+      "name": "Change in either resting or Valsalva Left Ventricular Outflow Tract (LVOT) peak gradient whichever used to judge the initiation of mavacamten treatment",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07541833"
+      ]
+    },
+    {
+      "name": "Change in Myocardial Ischaemia:",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07120776"
+      ]
+    },
+    {
+      "name": "Change in myocardial perfusion reserve after 12 months of mavacamten treatment.",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06023186"
+      ]
+    },
+    {
+      "name": "Change in New York Heart Association (NYHA) functional class following mavacamten treatment initiation",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06338202"
+      ]
+    },
+    {
+      "name": "Change in participant New York Heart Association (NYHA) class from baseline",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07557498"
+      ]
+    },
+    {
+      "name": "Change in resting left ventricular outflow tract (LVOT) gradient from baseline",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT05489705"
+      ]
+    },
+    {
+      "name": "Change in Resting Left Ventricular Outflow Tract (LVOT) Peak Gradient at Week 30",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07529938"
+      ]
+    },
+    {
+      "name": "Change in the highest left ventricular outflow tract (LVOT) Doppler maximal gradient (rest or Valsalva) from baseline to 6 months after initiation of mavacamten",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07716826"
+      ]
+    },
+    {
+      "name": "Change in Valsalva LVOT peak gradient from baseline to week 30, as determined by Doppler echocardiography.",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06856265"
+      ]
+    },
+    {
+      "name": "Clinical reason for mavacamten dose titration",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07557498"
+      ]
+    },
+    {
+      "name": "Clinical reason for mavacamten treatment discontinuation",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07557498"
+      ]
+    },
+    {
+      "name": "Clinical reason for temporary mavacamten treatment interuption",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07557498"
+      ]
+    },
+    {
+      "name": "Composite of Decision to Proceed With Septal Reduction Therapy (SRT) and SRT Guideline Eligible at Week 16",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT04349072"
+      ]
+    },
+    {
+      "name": "Composite of malignant ventricular arrhythmic events",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07695272"
+      ]
+    },
+    {
+      "name": "Composite of maximum left atrial volume index (LAVI) and left ventricular mass index (LVMI) at Week 48",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06112743"
+      ]
+    },
+    {
+      "name": "Correlation between myocardial perfusion reserve changes and changes in the performed distance in 6MWT.",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07150299"
+      ]
+    },
+    {
+      "name": "Date of diagnosis of hypertrophic cardiomyopathy",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07557498"
+      ]
+    },
+    {
+      "name": "Date of Hypertrophic Cardiomyopathy (HCM) diagnosis",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06372457"
+      ]
+    },
+    {
+      "name": "Date of mavacamten dosage change",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06372457"
+      ]
+    },
+    {
+      "name": "Date of mavacamten prescription",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06372457"
+      ]
+    },
+    {
+      "name": "Date of mavacamten treatment initiation",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06372457"
+      ]
+    },
+    {
+      "name": "Date of mavacamten treatment interuption or discontinuation",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06372457"
+      ]
+    },
+    {
+      "name": "Date of reason/trigger that initiated the path to Hypertrophic Cardiomyopathy (HCM) diagnosis",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06372457"
+      ]
+    },
+    {
+      "name": "Dates of follow-up after mavacamten treatment initiation",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06372457"
+      ]
+    },
+    {
+      "name": "Duration of mavacamten treatment",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07557498"
+      ]
+    },
+    {
+      "name": "Elimination Half-life (T1⁄2)",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT05135871"
+      ]
+    },
+    {
+      "name": "European participant CYP2C19 genotype",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06372457"
+      ]
+    },
+    {
+      "name": "Family history of hypertrophic cardiomyopathy",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07557498"
+      ]
+    },
+    {
+      "name": "Family history of Sudden Cardiac Death (SCD)",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07557498"
+      ]
+    },
+    {
+      "name": "Fetal/neonatal/infant outcomes",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT05939700"
+      ]
+    },
+    {
+      "name": "Frequency and severity of treatment-emergent adverse events and serious adverse events",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT03723655"
+      ]
+    },
+    {
+      "name": "Heath care resource utilization (HCRU)",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06372457"
+      ]
+    },
+    {
+      "name": "Hypertrophic Cardiomyopathy (HCM) subtype at diagnosis",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06372457"
+      ]
+    },
+    {
+      "name": "Hypertrophic Cardiomyopathy (HCM) symptom improvement post mavacamten treatment initiation",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06372457"
+      ]
+    },
+    {
+      "name": "Hypertrophic cardiomyopathy genetic testing results",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07557498"
+      ]
+    },
+    {
+      "name": "Incidence of adverse events (AEs) and/or serious AEs (SAEs)",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07383025"
+      ]
+    },
+    {
+      "name": "Incidence of serious Treatment Emergent Adverse Events (TEAEs)",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07004972"
+      ]
+    },
+    {
+      "name": "Incidence of Treatment-Emergent Adverse Events",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07077005"
+      ]
+    },
+    {
+      "name": "Incidence rate of new or worsening heart failure due to systolic dysfunction among participants with symptomatic obstructive HCM during periods of exposure to mavacamten and other oHCM treatment",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT05489705"
+      ]
+    },
+    {
+      "name": "Left ventricular ejection fraction (LVEF) and associated parameters",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07107373"
+      ]
+    },
+    {
+      "name": "Left Ventricular Ejection Fraction (LVEF) recovery after mavacamten discontinuation if discontinued due to LVEF<50%,",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07557498"
+      ]
+    },
+    {
+      "name": "Left Ventricular Ejection Fraction (LVEF) recovery after mavacamten interruption if the interruption was due to LVEF<50%",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07557498"
+      ]
+    },
+    {
+      "name": "Left ventricular outflow tract (LVOT) gradient and associated parameters",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07107373"
+      ]
+    },
+    {
+      "name": "Mavacamten index dose prescribed",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07168655"
+      ]
+    },
+    {
+      "name": "Maximum Concentration (Cmax)",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT05135871"
+      ]
+    },
+    {
+      "name": "Mean Change From Baseline in Serum NT-proBNP.",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT03496168"
+      ]
+    },
+    {
+      "name": "Mean Change From Baseline in the Overall KCCQ PRO Score.",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT03496168"
+      ]
+    },
+    {
+      "name": "New York Heart Association (NYHA) functional class",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07107373"
+      ]
+    },
+    {
+      "name": "Number of mavacamten dose titrations",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07557498"
+      ]
+    },
+    {
+      "name": "Number of participants in each study cohort",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07846059"
+      ]
+    },
+    {
+      "name": "Number of Participants Who Experienced Seizures",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT03496168"
+      ]
+    },
+    {
+      "name": "Number of Participants Who Experienced Sudden Death",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT03496168"
+      ]
+    },
+    {
+      "name": "Number of Participants Who Experienced Syncope",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT03496168"
+      ]
+    },
+    {
+      "name": "Number of Participants Who Had Cardiovascular Death",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT03496168"
+      ]
+    },
+    {
+      "name": "Number of Participants Who Received Septal Reduction Therapy",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT03496168"
+      ]
+    },
+    {
+      "name": "Number of Participants Who Were Experienced Myocardial Infarction",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT03496168"
+      ]
+    },
+    {
+      "name": "Number of Participants Who Were Experienced Strokes",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT03496168"
+      ]
+    },
+    {
+      "name": "Number of Participants Who Were Hospitalized for Cardiovascular Reasons.",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT03496168"
+      ]
+    },
+    {
+      "name": "Number of Participants With a Change in QT and QTcF Intervals.",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT03496168"
+      ]
+    },
+    {
+      "name": "Number of participants with adverse events",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06146660"
+      ]
+    },
+    {
+      "name": "Number of Participants With Heart Failure Due to Systolic Dysfunction, Defined as Asymptomatic LVEF < 50%",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT03496168"
+      ]
+    },
+    {
+      "name": "Number of Participants With LVEF < 50% as Measured by Echocardiography.",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT03496168"
+      ]
+    },
+    {
+      "name": "Number of Participants With Treatment Emergent Adverse Events and Treatment Emergent Serious Adverse Events",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT03496168"
+      ]
+    },
+    {
+      "name": "Number of Participants With Ventricular Arrhythmias.",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT03496168"
+      ]
+    },
+    {
+      "name": "Occurrence of mavacamten stable dose (a period of 6-months with the same dose)",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06372457"
+      ]
+    },
+    {
+      "name": "Other pharmacological and surgical treatments for obstructive hypertrophic cardiomyopathy (HCM)",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06551129"
+      ]
+    },
+    {
+      "name": "Outcome of adverse events (AEs) and/or serious AEs (SAEs)",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07383025"
+      ]
+    },
+    {
+      "name": "Participant age",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07168655"
+      ]
+    },
+    {
+      "name": "Participant age at Hypertrophic Cardiomyopathy (HCM) diagnosis",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06372457"
+      ]
+    },
+    {
+      "name": "Participant age at mavacamten treatment initiation",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06372457"
+      ]
+    },
+    {
+      "name": "Participant alcohol use",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06372457"
+      ]
+    },
+    {
+      "name": "Participant blood creatine levels",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06372457"
+      ]
+    },
+    {
+      "name": "Participant blood pressure (both systolic and diastolic)",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07557498"
+      ]
+    },
+    {
+      "name": "Participant Body Mass Index",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07168655"
+      ]
+    },
+    {
+      "name": "Participant body mass index (BMI) at Hypertrophic Cardiomyopathy (HCM) diagnosis",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06372457"
+      ]
+    },
+    {
+      "name": "Participant cardiac magnetic resonance imaging (MRI) results",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06372457"
+      ]
+    },
+    {
+      "name": "Participant cardiac monitoring results",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06372457"
+      ]
+    },
+    {
+      "name": "Participant cardiac troponin results",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06372457"
+      ]
+    },
+    {
+      "name": "Participant cardiopulmonary exercise test (CPET) results",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06372457"
+      ]
+    },
+    {
+      "name": "Participant cardiovascular (CV) and CV-related comorbidities",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06372457"
+      ]
+    },
+    {
+      "name": "Participant cardiovascular (CV) events",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06372457"
+      ]
+    },
+    {
+      "name": "Participant change in symptom severity as assessed by Patient Global Impression of Change (PGI-C)",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06551129"
+      ]
+    },
+    {
+      "name": "Participant clinical characteristics",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06549608"
+      ]
+    },
+    {
+      "name": "Participant comorbidities",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07168655"
+      ]
+    },
+    {
+      "name": "Participant comorbidities (cardiovascular and non-cardiovascular )",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07557498"
+      ]
+    },
+    {
+      "name": "Participant demographics",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06549608"
+      ]
+    },
+    {
+      "name": "Participant echocardiogram (ECHO) parameters at Hypertrophic Cardiomyopathy (HCM) diagnosis",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06372457"
+      ]
+    },
+    {
+      "name": "Participant echocardiogram measurements",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07168655"
+      ]
+    },
+    {
+      "name": "Participant echocardiogram measurements: Left ventricular ejection fraction (LVEF) percentage",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07168655"
+      ]
+    },
+    {
+      "name": "Participant echocardiogram measurements: Left ventricular outflow tract (LVOT) gradient results at rest, Valsalva and post-exercise (if available)",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07168655"
+      ]
+    },
+    {
+      "name": "Participant echocardiogram measurements: Maximum left ventricular wall thickness",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07168655"
+      ]
+    },
+    {
+      "name": "Participant educational level",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06372457"
+      ]
+    },
+    {
+      "name": "Participant electrocardiogram (ECG) rhythm results",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06372457"
+      ]
+    },
+    {
+      "name": "Participant employment status",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06372457"
+      ]
+    },
+    {
+      "name": "Participant ethnicity",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07168655"
+      ]
+    },
+    {
+      "name": "Participant exercise test results",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06372457"
+      ]
+    },
+    {
+      "name": "Participant family history",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07168655"
+      ]
+    },
+    {
+      "name": "Participant family history of Hypertrophic Cardiomyopathy (HCM)",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06372457"
+      ]
+    },
+    {
+      "name": "Participant family history of obstructive Hypertrophic Cardiomyopathy o(HCM)",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06372457"
+      ]
+    },
+    {
+      "name": "Participant family history of sudden cardiac death (SCD)",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06372457"
+      ]
+    },
+    {
+      "name": "Participant gender",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07168655"
+      ]
+    },
+    {
+      "name": "Participant genotype",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07168655"
+      ]
+    },
+    {
+      "name": "Participant height",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06372457"
+      ]
+    },
+    {
+      "name": "Participant Hypertrophic Cardiomyopathy (HCM) symptoms",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06372457"
+      ]
+    },
+    {
+      "name": "Participant hypertrophic cardiomyopathy (HCM) treatment history",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07168655"
+      ]
+    },
+    {
+      "name": "Participant Hypertrophic Cardiomyopathy symptoms as assessed by Hypertrophic Cardiomyopathy Symptom Questionnaire (HCMSQ v2,0 - 7-day recall version)",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06551129"
+      ]
+    },
+    {
+      "name": "Participant involvement in a Hypertrophy Cardiomyopathy (HCM) randomized clinical trial (RCT)",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06372457"
+      ]
+    },
+    {
+      "name": "Participant major injury or surgery since previous survey",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06551129"
+      ]
+    },
+    {
+      "name": "Participant mavacamten treatment status",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06551129"
+      ]
+    },
+    {
+      "name": "Participant medical history",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06551129"
+      ]
+    },
+    {
+      "name": "Participant N-terminal pro-B-type natriuretic peptide (NT-proBNP) results",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06372457"
+      ]
+    },
+    {
+      "name": "Participant New York Functional Class classification",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07168655"
+      ]
+    },
+    {
+      "name": "Participant New York Heart Association (NYHA) class",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06372457"
+      ]
+    },
+    {
+      "name": "Participant New York Heart Association (NYHA) class category",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07557498"
+      ]
+    },
+    {
+      "name": "Participant New York Heart Association (NYHA) functional class",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07168655"
+      ]
+    },
+    {
+      "name": "Participant non-cardiovascular (CV)-related comorbidities",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06372457"
+      ]
+    },
+    {
+      "name": "Participant obstructive hypertrophic cardiomyopathy (oHCM) symptoms (syncope, shortness of breath, fatigue, exercise intolerance, palpitations)",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07168655"
+      ]
+    },
+    {
+      "name": "Participant physical limitation, symptom stability, symptom frequency, symptom burden, self-efficacy, QoL, and social limitations as assessed by Kansas City Cardiomyopathy Questionnaire (KCCQ-23)",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06551129"
+      ]
+    },
+    {
+      "name": "Participant race",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07168655"
+      ]
+    },
+    {
+      "name": "Participant race/ethnicity",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06372457"
+      ]
+    },
+    {
+      "name": "Participant recreational drug use",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06372457"
+      ]
+    },
+    {
+      "name": "Participant septal reduction therapy",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06551129"
+      ]
+    },
+    {
+      "name": "Participant sex",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06372457"
+      ]
+    },
+    {
+      "name": "Participant smoking status",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06372457"
+      ]
+    },
+    {
+      "name": "Participant survey response on experience with CAMZYOS Risk Evaluation and Mitigation Strategy program (REMS) Program",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06551129"
+      ]
+    },
+    {
+      "name": "Participant symptom severity as assessed by self-assessed New York Heart Association (SA-NYHA) functional class",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06551129"
+      ]
+    },
+    {
+      "name": "Participant weight",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06372457"
+      ]
+    },
+    {
+      "name": "Participants With >= 1 NYHA Function Class Improvement",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT03496168"
+      ]
+    },
+    {
+      "name": "Percentage change in pressure gradient during the Valsalva maneuver",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07103655"
+      ]
+    },
+    {
+      "name": "Percentage of Participants Achieving A Clinical Response",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT03470545"
+      ]
+    },
+    {
+      "name": "Percentage of Participants Who Experienced at Least One Serious Treatment-emergent Adverse Event (STEAE)",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT03442764"
+      ]
+    },
+    {
+      "name": "Percentage of Participants Who Experienced at Least One Treatment Emergent Adverse Event (TEAE)",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT03442764"
+      ]
+    },
+    {
+      "name": "Plasma Concentration of Mavacamen Overtime",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT03496168"
+      ]
+    },
+    {
+      "name": "Post Valsalva Left Ventricular Outflow Tract (LVOT) Gradient Over Time",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT03496168"
+      ]
+    },
+    {
+      "name": "Post-exercise Left Ventricular Outflow Tract (LVOT) Gradient Over Time",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT03496168"
+      ]
+    },
+    {
+      "name": "Pregnancy outcomes",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT05939700"
+      ]
+    },
+    {
+      "name": "Reason for mavacamten dosage change",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06372457"
+      ]
+    },
+    {
+      "name": "Reason for mavacamten treatment interuption or discontinuation",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06372457"
+      ]
+    },
+    {
+      "name": "Reason/trigger for initiating the path to Hypertrophic Cardiomyopathy (HCM) diagnosis",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06372457"
+      ]
+    },
+    {
+      "name": "Response rate to Mavacamten treatment",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07439952"
+      ]
+    },
+    {
+      "name": "Resting Left Ventricular Outflow Tract (LVOT) Gradient Over Time",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT03496168"
+      ]
+    },
+    {
+      "name": "Safety Endpoints",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07600177"
+      ]
+    },
+    {
+      "name": "Supportive care provided to participants",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06372457"
+      ]
+    },
+    {
+      "name": "The change in peak left ventricular outflow tract (LVOT) gradient",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06947590"
+      ]
+    },
+    {
+      "name": "Time from mavacamten discontinuation to Left Ventricular Ejection Fraction (LVEF) recovery",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07557498"
+      ]
+    },
+    {
+      "name": "Time from mavacamten treatment interruption to Left Ventricular Ejection Fraction (LVEF) recovery",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07557498"
+      ]
+    },
+    {
+      "name": "Time to mavacamten treatment resumption",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07557498"
+      ]
+    },
+    {
+      "name": "Time to Maximum Concentration (Tmax)",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT05135871"
+      ]
+    },
+    {
+      "name": "Time to temporary mavacamten treatment interruption",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07557498"
+      ]
+    },
+    {
+      "name": "Type of changes to hypertrophic cardiomyopathy (HCM) background therapy",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07557498"
+      ]
+    },
+    {
+      "name": "Type of hypertrophic cardiomyopathy (HCM) background therapy prescribed",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07557498"
+      ]
+    },
+    {
+      "name": "Type of mavacamten dose tritration",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07557498"
+      ]
+    },
+    {
+      "name": "Type of prior surgeries and procedures",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07557498"
+      ]
+    },
+    {
+      "name": "Type of procedures received by participants",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT06372457"
+      ]
+    },
+    {
+      "name": "Week 24 Clinical and Hemodynamic Strategy Success Rate",
+      "n_trials": 1,
+      "nct_ids": [
+        "NCT07815301"
+      ]
+    }
+  ],
+  "n_results_posted": 8,
+  "n_results_not_posted": 36,
+  "n_results_unknown": 0,
+  "results_posted_nct_ids": [
+    "NCT03442764",
+    "NCT03470545",
+    "NCT03496168",
+    "NCT04349072",
+    "NCT05135871",
+    "NCT05174416",
+    "NCT05414175",
+    "NCT05582395"
+  ]
+}

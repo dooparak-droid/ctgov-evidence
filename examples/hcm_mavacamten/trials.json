@@ -1,0 +1,4171 @@
+{
+  "meta": {
+    "retrieved_at": "2026-10-16T00:38:16.746151+00:00",
+    "query": {
+      "condition": "hypertrophic cardiomyopathy",
+      "intervention": "mavacamten",
+      "phase": [],
+      "status": [],
+      "nct_ids": [],
+      "max_studies": 200
+    },
+    "total_found": 44,
+    "truncated": false,
+    "not_found": [],
+    "n_trials": 44
+  },
+  "trials": [
+    {
+      "nct_id": "NCT07529938",
+      "title": {
+        "value": "Mavacamten in Adult Patients With Obstructive Hypertrophic Cardiomyopathy",
+        "source": "NCT07529938:protocolSection.identificationModule.briefTitle"
+      },
+      "sponsor": {
+        "value": "Chinese Academy of Medical Sciences, Fuwai Hospital",
+        "source": "NCT07529938:protocolSection.sponsorCollaboratorsModule.leadSponsor.name"
+      },
+      "sponsor_class": {
+        "value": "OTHER",
+        "source": "NCT07529938:protocolSection.sponsorCollaboratorsModule.leadSponsor.class"
+      },
+      "study_type": {
+        "value": "OBSERVATIONAL",
+        "source": "NCT07529938:protocolSection.designModule.studyType"
+      },
+      "phase": {
+        "value": null,
+        "source": "NCT07529938:protocolSection.designModule.phases"
+      },
+      "status": {
+        "value": "COMPLETED",
+        "source": "NCT07529938:protocolSection.statusModule.overallStatus"
+      },
+      "enrollment": {
+        "value": 222,
+        "source": "NCT07529938:protocolSection.designModule.enrollmentInfo.count"
+      },
+      "enrollment_type": {
+        "value": "ACTUAL",
+        "source": "NCT07529938:protocolSection.designModule.enrollmentInfo.type"
+      },
+      "start_date": {
+        "value": "2024-01-01",
+        "source": "NCT07529938:protocolSection.statusModule.startDateStruct.date"
+      },
+      "primary_completion_date": {
+        "value": "2025-05-30",
+        "source": "NCT07529938:protocolSection.statusModule.primaryCompletionDateStruct.date"
+      },
+      "completion_date": {
+        "value": "2025-06-30",
+        "source": "NCT07529938:protocolSection.statusModule.completionDateStruct.date"
+      },
+      "allocation": {
+        "value": null,
+        "source": "NCT07529938:protocolSection.designModule.designInfo.allocation"
+      },
+      "masking": {
+        "value": null,
+        "source": "NCT07529938:protocolSection.designModule.designInfo.maskingInfo.masking"
+      },
+      "conditions": {
+        "value": [
+          "Hypertrophic Cardiomyopathy (HCM)",
+          "Obstructive Hypertrophic Cardiomyopathy (oHCM)"
+        ],
+        "source": "NCT07529938:protocolSection.conditionsModule.conditions"
+      },
+      "interventions": {
+        "value": [
+          "mavacamten"
+        ],
+        "source": "NCT07529938:protocolSection.armsInterventionsModule.interventions"
+      },
+      "primary_outcomes": {
+        "value": [
+          {
+            "measure": "Change in Resting Left Ventricular Outflow Tract (LVOT) Peak Gradient at Week 30",
+            "time_frame": "Baseline to Week 30"
+          }
+        ],
+        "source": "NCT07529938:protocolSection.outcomesModule.primaryOutcomes"
+      },
+      "has_results": {
+        "value": false,
+        "source": "NCT07529938:hasResults"
+      }
+    },
+    {
+      "nct_id": "NCT04349072",
+      "title": {
+        "value": "A Study to Evaluate Mavacamten in Adults With Symptomatic Obstructive HCM Who Are Eligible for Septal Reduction Therapy",
+        "source": "NCT04349072:protocolSection.identificationModule.briefTitle"
+      },
+      "sponsor": {
+        "value": "Bristol-Myers Squibb",
+        "source": "NCT04349072:protocolSection.sponsorCollaboratorsModule.leadSponsor.name"
+      },
+      "sponsor_class": {
+        "value": "INDUSTRY",
+        "source": "NCT04349072:protocolSection.sponsorCollaboratorsModule.leadSponsor.class"
+      },
+      "study_type": {
+        "value": "INTERVENTIONAL",
+        "source": "NCT04349072:protocolSection.designModule.studyType"
+      },
+      "phase": {
+        "value": [
+          "PHASE3"
+        ],
+        "source": "NCT04349072:protocolSection.designModule.phases"
+      },
+      "status": {
+        "value": "COMPLETED",
+        "source": "NCT04349072:protocolSection.statusModule.overallStatus"
+      },
+      "enrollment": {
+        "value": 112,
+        "source": "NCT04349072:protocolSection.designModule.enrollmentInfo.count"
+      },
+      "enrollment_type": {
+        "value": "ACTUAL",
+        "source": "NCT04349072:protocolSection.designModule.enrollmentInfo.type"
+      },
+      "start_date": {
+        "value": "2020-07-06",
+        "source": "NCT04349072:protocolSection.statusModule.startDateStruct.date"
+      },
+      "primary_completion_date": {
+        "value": "2022-02-07",
+        "source": "NCT04349072:protocolSection.statusModule.primaryCompletionDateStruct.date"
+      },
+      "completion_date": {
+        "value": "2024-05-20",
+        "source": "NCT04349072:protocolSection.statusModule.completionDateStruct.date"
+      },
+      "allocation": {
+        "value": "RANDOMIZED",
+        "source": "NCT04349072:protocolSection.designModule.designInfo.allocation"
+      },
+      "masking": {
+        "value": "QUADRUPLE",
+        "source": "NCT04349072:protocolSection.designModule.designInfo.maskingInfo.masking"
+      },
+      "conditions": {
+        "value": [
+          "HOCM, Hypertrophic Obstructive Cardiomyopathy"
+        ],
+        "source": "NCT04349072:protocolSection.conditionsModule.conditions"
+      },
+      "interventions": {
+        "value": [
+          "Mavacamten",
+          "Placebo"
+        ],
+        "source": "NCT04349072:protocolSection.armsInterventionsModule.interventions"
+      },
+      "primary_outcomes": {
+        "value": [
+          {
+            "measure": "Composite of Decision to Proceed With Septal Reduction Therapy (SRT) and SRT Guideline Eligible at Week 16",
+            "time_frame": "Week 16"
+          }
+        ],
+        "source": "NCT04349072:protocolSection.outcomesModule.primaryOutcomes"
+      },
+      "has_results": {
+        "value": true,
+        "source": "NCT04349072:hasResults"
+      }
+    },
+    {
+      "nct_id": "NCT07077005",
+      "title": {
+        "value": "Mavacamten Enables Exercise in Hypertrophic Obstructive Cardiomyopathy",
+        "source": "NCT07077005:protocolSection.identificationModule.briefTitle"
+      },
+      "sponsor": {
+        "value": "Technical University of Munich",
+        "source": "NCT07077005:protocolSection.sponsorCollaboratorsModule.leadSponsor.name"
+      },
+      "sponsor_class": {
+        "value": "OTHER",
+        "source": "NCT07077005:protocolSection.sponsorCollaboratorsModule.leadSponsor.class"
+      },
+      "study_type": {
+        "value": "INTERVENTIONAL",
+        "source": "NCT07077005:protocolSection.designModule.studyType"
+      },
+      "phase": {
+        "value": [
+          "NA"
+        ],
+        "source": "NCT07077005:protocolSection.designModule.phases"
+      },
+      "status": {
+        "value": "RECRUITING",
+        "source": "NCT07077005:protocolSection.statusModule.overallStatus"
+      },
+      "enrollment": {
+        "value": 24,
+        "source": "NCT07077005:protocolSection.designModule.enrollmentInfo.count"
+      },
+      "enrollment_type": {
+        "value": "ESTIMATED",
+        "source": "NCT07077005:protocolSection.designModule.enrollmentInfo.type"
+      },
+      "start_date": {
+        "value": "2025-11-01",
+        "source": "NCT07077005:protocolSection.statusModule.startDateStruct.date"
+      },
+      "primary_completion_date": {
+        "value": "2026-10-31",
+        "source": "NCT07077005:protocolSection.statusModule.primaryCompletionDateStruct.date"
+      },
+      "completion_date": {
+        "value": "2027-01-31",
+        "source": "NCT07077005:protocolSection.statusModule.completionDateStruct.date"
+      },
+      "allocation": {
+        "value": "RANDOMIZED",
+        "source": "NCT07077005:protocolSection.designModule.designInfo.allocation"
+      },
+      "masking": {
+        "value": "SINGLE",
+        "source": "NCT07077005:protocolSection.designModule.designInfo.maskingInfo.masking"
+      },
+      "conditions": {
+        "value": [
+          "Cardiomyopathy, Hypertrophic"
+        ],
+        "source": "NCT07077005:protocolSection.conditionsModule.conditions"
+      },
+      "interventions": {
+        "value": [
+          "Exercise training"
+        ],
+        "source": "NCT07077005:protocolSection.armsInterventionsModule.interventions"
+      },
+      "primary_outcomes": {
+        "value": [
+          {
+            "measure": "Incidence of Treatment-Emergent Adverse Events",
+            "time_frame": "6 weeks"
+          }
+        ],
+        "source": "NCT07077005:protocolSection.outcomesModule.primaryOutcomes"
+      },
+      "has_results": {
+        "value": false,
+        "source": "NCT07077005:hasResults"
+      }
+    },
+    {
+      "nct_id": "NCT05582395",
+      "title": {
+        "value": "A Study of Mavacamten in Non-Obstructive Hypertrophic Cardiomyopathy",
+        "source": "NCT05582395:protocolSection.identificationModule.briefTitle"
+      },
+      "sponsor": {
+        "value": "Bristol-Myers Squibb",
+        "source": "NCT05582395:protocolSection.sponsorCollaboratorsModule.leadSponsor.name"
+      },
+      "sponsor_class": {
+        "value": "INDUSTRY",
+        "source": "NCT05582395:protocolSection.sponsorCollaboratorsModule.leadSponsor.class"
+      },
+      "study_type": {
+        "value": "INTERVENTIONAL",
+        "source": "NCT05582395:protocolSection.designModule.studyType"
+      },
+      "phase": {
+        "value": [
+          "PHASE3"
+        ],
+        "source": "NCT05582395:protocolSection.designModule.phases"
+      },
+      "status": {
+        "value": "TERMINATED",
+        "source": "NCT05582395:protocolSection.statusModule.overallStatus"
+      },
+      "enrollment": {
+        "value": 580,
+        "source": "NCT05582395:protocolSection.designModule.enrollmentInfo.count"
+      },
+      "enrollment_type": {
+        "value": "ACTUAL",
+        "source": "NCT05582395:protocolSection.designModule.enrollmentInfo.type"
+      },
+      "start_date": {
+        "value": "2022-12-14",
+        "source": "NCT05582395:protocolSection.statusModule.startDateStruct.date"
+      },
+      "primary_completion_date": {
+        "value": "2025-03-06",
+        "source": "NCT05582395:protocolSection.statusModule.primaryCompletionDateStruct.date"
+      },
+      "completion_date": {
+        "value": "2025-10-20",
+        "source": "NCT05582395:protocolSection.statusModule.completionDateStruct.date"
+      },
+      "allocation": {
+        "value": "RANDOMIZED",
+        "source": "NCT05582395:protocolSection.designModule.designInfo.allocation"
+      },
+      "masking": {
+        "value": "DOUBLE",
+        "source": "NCT05582395:protocolSection.designModule.designInfo.maskingInfo.masking"
+      },
+      "conditions": {
+        "value": [
+          "Cardiomyopathy, Hypertrophic"
+        ],
+        "source": "NCT05582395:protocolSection.conditionsModule.conditions"
+      },
+      "interventions": {
+        "value": [
+          "Mavacamten",
+          "Placebo"
+        ],
+        "source": "NCT05582395:protocolSection.armsInterventionsModule.interventions"
+      },
+      "primary_outcomes": {
+        "value": [
+          {
+            "measure": "Change From Baseline in KCCQ-23 CSS at Week 48",
+            "time_frame": "From First dose to week 48"
+          },
+          {
+            "measure": "Change From Baseline in pVO2 at Week 48",
+            "time_frame": "From First dose to week 48"
+          }
+        ],
+        "source": "NCT05582395:protocolSection.outcomesModule.primaryOutcomes"
+      },
+      "has_results": {
+        "value": true,
+        "source": "NCT05582395:hasResults"
+      }
+    },
+    {
+      "nct_id": "NCT07361289",
+      "title": {
+        "value": "A Study to Assess the Real-World Effectiveness of Mavacamten in Adult Patients With Obstructive Hypertrophic Cardiomyopathy in China",
+        "source": "NCT07361289:protocolSection.identificationModule.briefTitle"
+      },
+      "sponsor": {
+        "value": "Bristol-Myers Squibb",
+        "source": "NCT07361289:protocolSection.sponsorCollaboratorsModule.leadSponsor.name"
+      },
+      "sponsor_class": {
+        "value": "INDUSTRY",
+        "source": "NCT07361289:protocolSection.sponsorCollaboratorsModule.leadSponsor.class"
+      },
+      "study_type": {
+        "value": "OBSERVATIONAL",
+        "source": "NCT07361289:protocolSection.designModule.studyType"
+      },
+      "phase": {
+        "value": null,
+        "source": "NCT07361289:protocolSection.designModule.phases"
+      },
+      "status": {
+        "value": "RECRUITING",
+        "source": "NCT07361289:protocolSection.statusModule.overallStatus"
+      },
+      "enrollment": {
+        "value": 500,
+        "source": "NCT07361289:protocolSection.designModule.enrollmentInfo.count"
+      },
+      "enrollment_type": {
+        "value": "ESTIMATED",
+        "source": "NCT07361289:protocolSection.designModule.enrollmentInfo.type"
+      },
+      "start_date": {
+        "value": "2026-01-15",
+        "source": "NCT07361289:protocolSection.statusModule.startDateStruct.date"
+      },
+      "primary_completion_date": {
+        "value": "2028-08-22",
+        "source": "NCT07361289:protocolSection.statusModule.primaryCompletionDateStruct.date"
+      },
+      "completion_date": {
+        "value": "2028-08-28",
+        "source": "NCT07361289:protocolSection.statusModule.completionDateStruct.date"
+      },
+      "allocation": {
+        "value": null,
+        "source": "NCT07361289:protocolSection.designModule.designInfo.allocation"
+      },
+      "masking": {
+        "value": null,
+        "source": "NCT07361289:protocolSection.designModule.designInfo.maskingInfo.masking"
+      },
+      "conditions": {
+        "value": [
+          "Hypertrophic Cardiomyopathy"
+        ],
+        "source": "NCT07361289:protocolSection.conditionsModule.conditions"
+      },
+      "interventions": {
+        "value": [
+          "Mavacamten"
+        ],
+        "source": "NCT07361289:protocolSection.armsInterventionsModule.interventions"
+      },
+      "primary_outcomes": {
+        "value": [
+          {
+            "measure": "Change from baseline in Valsalva left ventricular outflow tract (LVOT) gradient",
+            "time_frame": "Week 48, Week 96"
+          },
+          {
+            "measure": "Change from baseline in resting valsalva left ventricular outflow tract (LVOT) gradient",
+            "time_frame": "Week 48, Week 96"
+          }
+        ],
+        "source": "NCT07361289:protocolSection.outcomesModule.primaryOutcomes"
+      },
+      "has_results": {
+        "value": false,
+        "source": "NCT07361289:hasResults"
+      }
+    },
+    {
+      "nct_id": "NCT05489705",
+      "title": {
+        "value": "A Prospective Registry Study to Assess Real-world Patient Characteristics, Treatment Patterns, and Longitudinal Outcomes in Patients Receiving Mavacamten and Other Treatments for Symptomatic Obstructive Hypertrophic Cardiomyopathy (Obstructive-HCM)",
+        "source": "NCT05489705:protocolSection.identificationModule.briefTitle"
+      },
+      "sponsor": {
+        "value": "Bristol-Myers Squibb",
+        "source": "NCT05489705:protocolSection.sponsorCollaboratorsModule.leadSponsor.name"
+      },
+      "sponsor_class": {
+        "value": "INDUSTRY",
+        "source": "NCT05489705:protocolSection.sponsorCollaboratorsModule.leadSponsor.class"
+      },
+      "study_type": {
+        "value": "OBSERVATIONAL",
+        "source": "NCT05489705:protocolSection.designModule.studyType"
+      },
+      "phase": {
+        "value": null,
+        "source": "NCT05489705:protocolSection.designModule.phases"
+      },
+      "status": {
+        "value": "RECRUITING",
+        "source": "NCT05489705:protocolSection.statusModule.overallStatus"
+      },
+      "enrollment": {
+        "value": 1700,
+        "source": "NCT05489705:protocolSection.designModule.enrollmentInfo.count"
+      },
+      "enrollment_type": {
+        "value": "ESTIMATED",
+        "source": "NCT05489705:protocolSection.designModule.enrollmentInfo.type"
+      },
+      "start_date": {
+        "value": "2022-08-16",
+        "source": "NCT05489705:protocolSection.statusModule.startDateStruct.date"
+      },
+      "primary_completion_date": {
+        "value": "2029-08-17",
+        "source": "NCT05489705:protocolSection.statusModule.primaryCompletionDateStruct.date"
+      },
+      "completion_date": {
+        "value": "2029-08-17",
+        "source": "NCT05489705:protocolSection.statusModule.completionDateStruct.date"
+      },
+      "allocation": {
+        "value": null,
+        "source": "NCT05489705:protocolSection.designModule.designInfo.allocation"
+      },
+      "masking": {
+        "value": null,
+        "source": "NCT05489705:protocolSection.designModule.designInfo.maskingInfo.masking"
+      },
+      "conditions": {
+        "value": [
+          "Obstructive Hypertrophic Cardiomyopathy"
+        ],
+        "source": "NCT05489705:protocolSection.conditionsModule.conditions"
+      },
+      "interventions": {
+        "value": [
+          "Mavacamten",
+          "Non-mavacamten symptomatic oHCM therapy"
+        ],
+        "source": "NCT05489705:protocolSection.armsInterventionsModule.interventions"
+      },
+      "primary_outcomes": {
+        "value": [
+          {
+            "measure": "Incidence rate of new or worsening heart failure due to systolic dysfunction among participants with symptomatic obstructive HCM during periods of exposure to mavacamten and other oHCM treatment",
+            "time_frame": "Up to 5 Years"
+          },
+          {
+            "measure": "Change in resting left ventricular outflow tract (LVOT) gradient from baseline",
+            "time_frame": "Up to 18 months"
+          }
+        ],
+        "source": "NCT05489705:protocolSection.outcomesModule.primaryOutcomes"
+      },
+      "has_results": {
+        "value": false,
+        "source": "NCT05489705:hasResults"
+      }
+    },
+    {
+      "nct_id": "NCT07807384",
+      "title": {
+        "value": "Efficacy and Safety of an LVEF-Guided Mavacamten Dose Up-Titration Strategy in Chinese Patients With Symptomatic Obstructive Hypertrophic Cardiomyopathy",
+        "source": "NCT07807384:protocolSection.identificationModule.briefTitle"
+      },
+      "sponsor": {
+        "value": "Second Affiliated Hospital of Nanchang University",
+        "source": "NCT07807384:protocolSection.sponsorCollaboratorsModule.leadSponsor.name"
+      },
+      "sponsor_class": {
+        "value": "OTHER",
+        "source": "NCT07807384:protocolSection.sponsorCollaboratorsModule.leadSponsor.class"
+      },
+      "study_type": {
+        "value": "INTERVENTIONAL",
+        "source": "NCT07807384:protocolSection.designModule.studyType"
+      },
+      "phase": {
+        "value": [
+          "PHASE4"
+        ],
+        "source": "NCT07807384:protocolSection.designModule.phases"
+      },
+      "status": {
+        "value": "NOT_YET_RECRUITING",
+        "source": "NCT07807384:protocolSection.statusModule.overallStatus"
+      },
+      "enrollment": {
+        "value": 115,
+        "source": "NCT07807384:protocolSection.designModule.enrollmentInfo.count"
+      },
+      "enrollment_type": {
+        "value": "ESTIMATED",
+        "source": "NCT07807384:protocolSection.designModule.enrollmentInfo.type"
+      },
+      "start_date": {
+        "value": "2026-09",
+        "source": "NCT07807384:protocolSection.statusModule.startDateStruct.date"
+      },
+      "primary_completion_date": {
+        "value": "2026-09",
+        "source": "NCT07807384:protocolSection.statusModule.primaryCompletionDateStruct.date"
+      },
+      "completion_date": {
+        "value": "2026-09",
+        "source": "NCT07807384:protocolSection.statusModule.completionDateStruct.date"
+      },
+      "allocation": {
+        "value": "NA",
+        "source": "NCT07807384:protocolSection.designModule.designInfo.allocation"
+      },
+      "masking": {
+        "value": "NONE",
+        "source": "NCT07807384:protocolSection.designModule.designInfo.maskingInfo.masking"
+      },
+      "conditions": {
+        "value": [
+          "Obstructive Hypertrophic Cardiomyopathy (oHCM)"
+        ],
+        "source": "NCT07807384:protocolSection.conditionsModule.conditions"
+      },
+      "interventions": {
+        "value": [
+          "Mavacamten"
+        ],
+        "source": "NCT07807384:protocolSection.armsInterventionsModule.interventions"
+      },
+      "primary_outcomes": {
+        "value": [
+          {
+            "measure": "Change From Baseline in Valsalva Peak Left Ventricular Outflow Tract (LVOT) Pressure Gradient Assessed by Echocardiography at Week 24",
+            "time_frame": "Baseline, Week 4, Week 8, Week 12, and Week 24"
+          }
+        ],
+        "source": "NCT07807384:protocolSection.outcomesModule.primaryOutcomes"
+      },
+      "has_results": {
+        "value": false,
+        "source": "NCT07807384:hasResults"
+      }
+    },
+    {
+      "nct_id": "NCT05719805",
+      "title": {
+        "value": "A Study to Evaluate the Effects of Mavacamten in Healthy Participants",
+        "source": "NCT05719805:protocolSection.identificationModule.briefTitle"
+      },
+      "sponsor": {
+        "value": "Bristol-Myers Squibb",
+        "source": "NCT05719805:protocolSection.sponsorCollaboratorsModule.leadSponsor.name"
+      },
+      "sponsor_class": {
+        "value": "INDUSTRY",
+        "source": "NCT05719805:protocolSection.sponsorCollaboratorsModule.leadSponsor.class"
+      },
+      "study_type": {
+        "value": "INTERVENTIONAL",
+        "source": "NCT05719805:protocolSection.designModule.studyType"
+      },
+      "phase": {
+        "value": [
+          "PHASE1"
+        ],
+        "source": "NCT05719805:protocolSection.designModule.phases"
+      },
+      "status": {
+        "value": "COMPLETED",
+        "source": "NCT05719805:protocolSection.statusModule.overallStatus"
+      },
+      "enrollment": {
+        "value": 84,
+        "source": "NCT05719805:protocolSection.designModule.enrollmentInfo.count"
+      },
+      "enrollment_type": {
+        "value": "ACTUAL",
+        "source": "NCT05719805:protocolSection.designModule.enrollmentInfo.type"
+      },
+      "start_date": {
+        "value": "2023-02-20",
+        "source": "NCT05719805:protocolSection.statusModule.startDateStruct.date"
+      },
+      "primary_completion_date": {
+        "value": "2023-07-25",
+        "source": "NCT05719805:protocolSection.statusModule.primaryCompletionDateStruct.date"
+      },
+      "completion_date": {
+        "value": "2023-07-25",
+        "source": "NCT05719805:protocolSection.statusModule.completionDateStruct.date"
+      },
+      "allocation": {
+        "value": "RANDOMIZED",
+        "source": "NCT05719805:protocolSection.designModule.designInfo.allocation"
+      },
+      "masking": {
+        "value": "NONE",
+        "source": "NCT05719805:protocolSection.designModule.designInfo.maskingInfo.masking"
+      },
+      "conditions": {
+        "value": [
+          "Healthy Participants"
+        ],
+        "source": "NCT05719805:protocolSection.conditionsModule.conditions"
+      },
+      "interventions": {
+        "value": [
+          "Mavacamten"
+        ],
+        "source": "NCT05719805:protocolSection.armsInterventionsModule.interventions"
+      },
+      "primary_outcomes": {
+        "value": [
+          {
+            "measure": "Maximum observed plasma concentration (Cmax)",
+            "time_frame": "Predose and post-dose up to Day 80"
+          },
+          {
+            "measure": "Area under the plasma concentration-time curve from time zero to time of last quantifiable concentration (AUC [0-T])",
+            "time_frame": "Predose and post-dose up to Day 80"
+          },
+          {
+            "measure": "Area under the plasma concentration-time curve from time zero extrapolated to infinite time (AUC [INF])",
+            "time_frame": "Predose and post-dose up to Day 80"
+          }
+        ],
+        "source": "NCT05719805:protocolSection.outcomesModule.primaryOutcomes"
+      },
+      "has_results": {
+        "value": false,
+        "source": "NCT05719805:hasResults"
+      }
+    },
+    {
+      "nct_id": "NCT07383025",
+      "title": {
+        "value": "Mavacamten Post-marketing Surveillance in Patients With Obstructive Hypertrophic Cardiomyopathy in Japan",
+        "source": "NCT07383025:protocolSection.identificationModule.briefTitle"
+      },
+      "sponsor": {
+        "value": "Bristol-Myers Squibb",
+        "source": "NCT07383025:protocolSection.sponsorCollaboratorsModule.leadSponsor.name"
+      },
+      "sponsor_class": {
+        "value": "INDUSTRY",
+        "source": "NCT07383025:protocolSection.sponsorCollaboratorsModule.leadSponsor.class"
+      },
+      "study_type": {
+        "value": "OBSERVATIONAL",
+        "source": "NCT07383025:protocolSection.designModule.studyType"
+      },
+      "phase": {
+        "value": null,
+        "source": "NCT07383025:protocolSection.designModule.phases"
+      },
+      "status": {
+        "value": "RECRUITING",
+        "source": "NCT07383025:protocolSection.statusModule.overallStatus"
+      },
+      "enrollment": {
+        "value": 200,
+        "source": "NCT07383025:protocolSection.designModule.enrollmentInfo.count"
+      },
+      "enrollment_type": {
+        "value": "ESTIMATED",
+        "source": "NCT07383025:protocolSection.designModule.enrollmentInfo.type"
+      },
+      "start_date": {
+        "value": "2025-05-21",
+        "source": "NCT07383025:protocolSection.statusModule.startDateStruct.date"
+      },
+      "primary_completion_date": {
+        "value": "2029-11-30",
+        "source": "NCT07383025:protocolSection.statusModule.primaryCompletionDateStruct.date"
+      },
+      "completion_date": {
+        "value": "2029-11-30",
+        "source": "NCT07383025:protocolSection.statusModule.completionDateStruct.date"
+      },
+      "allocation": {
+        "value": null,
+        "source": "NCT07383025:protocolSection.designModule.designInfo.allocation"
+      },
+      "masking": {
+        "value": null,
+        "source": "NCT07383025:protocolSection.designModule.designInfo.maskingInfo.masking"
+      },
+      "conditions": {
+        "value": [
+          "Obstructive Hypertrophic Cardiomyopathy (oHCM)"
+        ],
+        "source": "NCT07383025:protocolSection.conditionsModule.conditions"
+      },
+      "interventions": {
+        "value": [
+          "Mavacamten"
+        ],
+        "source": "NCT07383025:protocolSection.armsInterventionsModule.interventions"
+      },
+      "primary_outcomes": {
+        "value": [
+          {
+            "measure": "Incidence of adverse events (AEs) and/or serious AEs (SAEs)",
+            "time_frame": "Up to 52 weeks"
+          },
+          {
+            "measure": "Actions taken after adverse events (AEs) and/or serious AEs (SAEs)",
+            "time_frame": "Up to 52 weeks"
+          },
+          {
+            "measure": "Outcome of adverse events (AEs) and/or serious AEs (SAEs)",
+            "time_frame": "Up to 52 weeks"
+          }
+        ],
+        "source": "NCT07383025:protocolSection.outcomesModule.primaryOutcomes"
+      },
+      "has_results": {
+        "value": false,
+        "source": "NCT07383025:hasResults"
+      }
+    },
+    {
+      "nct_id": "NCT07120776",
+      "title": {
+        "value": "Positron Emission Tomography to Assess the Effect of Camzyos on Ischaemia in HOCM: PEACH Trial",
+        "source": "NCT07120776:protocolSection.identificationModule.briefTitle"
+      },
+      "sponsor": {
+        "value": "University of Manchester",
+        "source": "NCT07120776:protocolSection.sponsorCollaboratorsModule.leadSponsor.name"
+      },
+      "sponsor_class": {
+        "value": "OTHER",
+        "source": "NCT07120776:protocolSection.sponsorCollaboratorsModule.leadSponsor.class"
+      },
+      "study_type": {
+        "value": "INTERVENTIONAL",
+        "source": "NCT07120776:protocolSection.designModule.studyType"
+      },
+      "phase": {
+        "value": [
+          "NA"
+        ],
+        "source": "NCT07120776:protocolSection.designModule.phases"
+      },
+      "status": {
+        "value": "RECRUITING",
+        "source": "NCT07120776:protocolSection.statusModule.overallStatus"
+      },
+      "enrollment": {
+        "value": 75,
+        "source": "NCT07120776:protocolSection.designModule.enrollmentInfo.count"
+      },
+      "enrollment_type": {
+        "value": "ESTIMATED",
+        "source": "NCT07120776:protocolSection.designModule.enrollmentInfo.type"
+      },
+      "start_date": {
+        "value": "2026-03-26",
+        "source": "NCT07120776:protocolSection.statusModule.startDateStruct.date"
+      },
+      "primary_completion_date": {
+        "value": "2028-10",
+        "source": "NCT07120776:protocolSection.statusModule.primaryCompletionDateStruct.date"
+      },
+      "completion_date": {
+        "value": "2028-10",
+        "source": "NCT07120776:protocolSection.statusModule.completionDateStruct.date"
+      },
+      "allocation": {
+        "value": "NA",
+        "source": "NCT07120776:protocolSection.designModule.designInfo.allocation"
+      },
+      "masking": {
+        "value": "NONE",
+        "source": "NCT07120776:protocolSection.designModule.designInfo.maskingInfo.masking"
+      },
+      "conditions": {
+        "value": [
+          "Hypertrophic Obstructive Cardiomyopathy \\(HOCM\\)",
+          "Left Ventricular Outflow Tract Obstruction",
+          "Myocardial Ischaemia"
+        ],
+        "source": "NCT07120776:protocolSection.conditionsModule.conditions"
+      },
+      "interventions": {
+        "value": [
+          "Camzyos (Mavacamten)"
+        ],
+        "source": "NCT07120776:protocolSection.armsInterventionsModule.interventions"
+      },
+      "primary_outcomes": {
+        "value": [
+          {
+            "measure": "Change in Myocardial Ischaemia:",
+            "time_frame": "12 months"
+          },
+          {
+            "measure": "Change in Myocardial Ischaemia:",
+            "time_frame": "12 months"
+          },
+          {
+            "measure": "Change in Myocardial Ischaemia:",
+            "time_frame": "12 months"
+          }
+        ],
+        "source": "NCT07120776:protocolSection.outcomesModule.primaryOutcomes"
+      },
+      "has_results": {
+        "value": false,
+        "source": "NCT07120776:hasResults"
+      }
+    },
+    {
+      "nct_id": "NCT07103655",
+      "title": {
+        "value": "The Therapeutic Value of Mavacamten in Hypertrophic Cardiomyopathy With Mid-to-Apical Left Ventricular Obstruction",
+        "source": "NCT07103655:protocolSection.identificationModule.briefTitle"
+      },
+      "sponsor": {
+        "value": "Second Affiliated Hospital, Zhejiang University, School of Medicine",
+        "source": "NCT07103655:protocolSection.sponsorCollaboratorsModule.leadSponsor.name"
+      },
+      "sponsor_class": {
+        "value": "OTHER",
+        "source": "NCT07103655:protocolSection.sponsorCollaboratorsModule.leadSponsor.class"
+      },
+      "study_type": {
+        "value": "INTERVENTIONAL",
+        "source": "NCT07103655:protocolSection.designModule.studyType"
+      },
+      "phase": {
+        "value": [
+          "PHASE4"
+        ],
+        "source": "NCT07103655:protocolSection.designModule.phases"
+      },
+      "status": {
+        "value": "ENROLLING_BY_INVITATION",
+        "source": "NCT07103655:protocolSection.statusModule.overallStatus"
+      },
+      "enrollment": {
+        "value": 132,
+        "source": "NCT07103655:protocolSection.designModule.enrollmentInfo.count"
+      },
+      "enrollment_type": {
+        "value": "ESTIMATED",
+        "source": "NCT07103655:protocolSection.designModule.enrollmentInfo.type"
+      },
+      "start_date": {
+        "value": "2026-03-01",
+        "source": "NCT07103655:protocolSection.statusModule.startDateStruct.date"
+      },
+      "primary_completion_date": {
+        "value": "2026-11-01",
+        "source": "NCT07103655:protocolSection.statusModule.primaryCompletionDateStruct.date"
+      },
+      "completion_date": {
+        "value": "2027-01-01",
+        "source": "NCT07103655:protocolSection.statusModule.completionDateStruct.date"
+      },
+      "allocation": {
+        "value": "NON_RANDOMIZED",
+        "source": "NCT07103655:protocolSection.designModule.designInfo.allocation"
+      },
+      "masking": {
+        "value": "NONE",
+        "source": "NCT07103655:protocolSection.designModule.designInfo.maskingInfo.masking"
+      },
+      "conditions": {
+        "value": [
+          "Hypertrophic Cardiomyopathy (HCM)"
+        ],
+        "source": "NCT07103655:protocolSection.conditionsModule.conditions"
+      },
+      "interventions": {
+        "value": [
+          "mavacamten",
+          "Beta Blocker (BB) - metoprolol, bisoprolol, carvedilol",
+          "diltiazem"
+        ],
+        "source": "NCT07103655:protocolSection.armsInterventionsModule.interventions"
+      },
+      "primary_outcomes": {
+        "value": [
+          {
+            "measure": "Percentage change in pressure gradient during the Valsalva maneuver",
+            "time_frame": "Week 36"
+          }
+        ],
+        "source": "NCT07103655:protocolSection.outcomesModule.primaryOutcomes"
+      },
+      "has_results": {
+        "value": false,
+        "source": "NCT07103655:hasResults"
+      }
+    },
+    {
+      "nct_id": "NCT07107373",
+      "title": {
+        "value": "A Study to Assess the Treatment of Obstructive Hypertrophic Cardiomyopathy (oHCM) With Mavacamten in the US",
+        "source": "NCT07107373:protocolSection.identificationModule.briefTitle"
+      },
+      "sponsor": {
+        "value": "Bristol-Myers Squibb",
+        "source": "NCT07107373:protocolSection.sponsorCollaboratorsModule.leadSponsor.name"
+      },
+      "sponsor_class": {
+        "value": "INDUSTRY",
+        "source": "NCT07107373:protocolSection.sponsorCollaboratorsModule.leadSponsor.class"
+      },
+      "study_type": {
+        "value": "OBSERVATIONAL",
+        "source": "NCT07107373:protocolSection.designModule.studyType"
+      },
+      "phase": {
+        "value": null,
+        "source": "NCT07107373:protocolSection.designModule.phases"
+      },
+      "status": {
+        "value": "ACTIVE_NOT_RECRUITING",
+        "source": "NCT07107373:protocolSection.statusModule.overallStatus"
+      },
+      "enrollment": {
+        "value": 150,
+        "source": "NCT07107373:protocolSection.designModule.enrollmentInfo.count"
+      },
+      "enrollment_type": {
+        "value": "ESTIMATED",
+        "source": "NCT07107373:protocolSection.designModule.enrollmentInfo.type"
+      },
+      "start_date": {
+        "value": "2023-12-22",
+        "source": "NCT07107373:protocolSection.statusModule.startDateStruct.date"
+      },
+      "primary_completion_date": {
+        "value": "2024-07-26",
+        "source": "NCT07107373:protocolSection.statusModule.primaryCompletionDateStruct.date"
+      },
+      "completion_date": {
+        "value": "2027-12-31",
+        "source": "NCT07107373:protocolSection.statusModule.completionDateStruct.date"
+      },
+      "allocation": {
+        "value": null,
+        "source": "NCT07107373:protocolSection.designModule.designInfo.allocation"
+      },
+      "masking": {
+        "value": null,
+        "source": "NCT07107373:protocolSection.designModule.designInfo.maskingInfo.masking"
+      },
+      "conditions": {
+        "value": [
+          "Obstructive Hypertrophic Cardiomyopathy (oHCM)"
+        ],
+        "source": "NCT07107373:protocolSection.conditionsModule.conditions"
+      },
+      "interventions": {
+        "value": [
+          "Mavacamten"
+        ],
+        "source": "NCT07107373:protocolSection.armsInterventionsModule.interventions"
+      },
+      "primary_outcomes": {
+        "value": [
+          {
+            "measure": "New York Heart Association (NYHA) functional class",
+            "time_frame": "Baseline, and at weeks 4, 8, 12, 24, 36, 48, 60, 72, and in increments of 12 weeks thereafter from index"
+          },
+          {
+            "measure": "Left ventricular outflow tract (LVOT) gradient and associated parameters",
+            "time_frame": "Baseline, and at weeks 4, 8, 12, 24, 36, 48, 60, 72, and in increments of 12 weeks thereafter from index"
+          },
+          {
+            "measure": "Left ventricular ejection fraction (LVEF) and associated parameters",
+            "time_frame": "Baseline, and at weeks 4, 8, 12, 24, 36, 48, 60, 72, and in increments of 12 weeks thereafter from index"
+          }
+        ],
+        "source": "NCT07107373:protocolSection.outcomesModule.primaryOutcomes"
+      },
+      "has_results": {
+        "value": false,
+        "source": "NCT07107373:hasResults"
+      }
+    },
+    {
+      "nct_id": "NCT07408427",
+      "title": {
+        "value": "Precision Pharmacogenetics and Genotype Class Based Prediction of Mavacamten Response in Obstructive Hypertrophic Cardiomyopathy",
+        "source": "NCT07408427:protocolSection.identificationModule.briefTitle"
+      },
+      "sponsor": {
+        "value": "University of Manchester",
+        "source": "NCT07408427:protocolSection.sponsorCollaboratorsModule.leadSponsor.name"
+      },
+      "sponsor_class": {
+        "value": "OTHER",
+        "source": "NCT07408427:protocolSection.sponsorCollaboratorsModule.leadSponsor.class"
+      },
+      "study_type": {
+        "value": "OBSERVATIONAL",
+        "source": "NCT07408427:protocolSection.designModule.studyType"
+      },
+      "phase": {
+        "value": null,
+        "source": "NCT07408427:protocolSection.designModule.phases"
+      },
+      "status": {
+        "value": "NOT_YET_RECRUITING",
+        "source": "NCT07408427:protocolSection.statusModule.overallStatus"
+      },
+      "enrollment": {
+        "value": 140,
+        "source": "NCT07408427:protocolSection.designModule.enrollmentInfo.count"
+      },
+      "enrollment_type": {
+        "value": "ESTIMATED",
+        "source": "NCT07408427:protocolSection.designModule.enrollmentInfo.type"
+      },
+      "start_date": {
+        "value": "2026-06",
+        "source": "NCT07408427:protocolSection.statusModule.startDateStruct.date"
+      },
+      "primary_completion_date": {
+        "value": "2029-06",
+        "source": "NCT07408427:protocolSection.statusModule.primaryCompletionDateStruct.date"
+      },
+      "completion_date": {
+        "value": "2029-12",
+        "source": "NCT07408427:protocolSection.statusModule.completionDateStruct.date"
+      },
+      "allocation": {
+        "value": null,
+        "source": "NCT07408427:protocolSection.designModule.designInfo.allocation"
+      },
+      "masking": {
+        "value": null,
+        "source": "NCT07408427:protocolSection.designModule.designInfo.maskingInfo.masking"
+      },
+      "conditions": {
+        "value": [
+          "Hypertrophic Cardiomyopathy (HCM)"
+        ],
+        "source": "NCT07408427:protocolSection.conditionsModule.conditions"
+      },
+      "interventions": {
+        "value": [
+          "Observational study, no new intervention offered"
+        ],
+        "source": "NCT07408427:protocolSection.armsInterventionsModule.interventions"
+      },
+      "primary_outcomes": {
+        "value": [
+          {
+            "measure": "Change in echocardiographic measure (LVOT gradient)",
+            "time_frame": "6 months"
+          }
+        ],
+        "source": "NCT07408427:protocolSection.outcomesModule.primaryOutcomes"
+      },
+      "has_results": {
+        "value": false,
+        "source": "NCT07408427:hasResults"
+      }
+    },
+    {
+      "nct_id": "NCT06253221",
+      "title": {
+        "value": "A Study to Evaluate Mavacamten in Adolescents With Symptomatic Obstructive Hypertrophic Cardiomyopathy",
+        "source": "NCT06253221:protocolSection.identificationModule.briefTitle"
+      },
+      "sponsor": {
+        "value": "Bristol-Myers Squibb",
+        "source": "NCT06253221:protocolSection.sponsorCollaboratorsModule.leadSponsor.name"
+      },
+      "sponsor_class": {
+        "value": "INDUSTRY",
+        "source": "NCT06253221:protocolSection.sponsorCollaboratorsModule.leadSponsor.class"
+      },
+      "study_type": {
+        "value": "INTERVENTIONAL",
+        "source": "NCT06253221:protocolSection.designModule.studyType"
+      },
+      "phase": {
+        "value": [
+          "PHASE3"
+        ],
+        "source": "NCT06253221:protocolSection.designModule.phases"
+      },
+      "status": {
+        "value": "ACTIVE_NOT_RECRUITING",
+        "source": "NCT06253221:protocolSection.statusModule.overallStatus"
+      },
+      "enrollment": {
+        "value": 44,
+        "source": "NCT06253221:protocolSection.designModule.enrollmentInfo.count"
+      },
+      "enrollment_type": {
+        "value": "ACTUAL",
+        "source": "NCT06253221:protocolSection.designModule.enrollmentInfo.type"
+      },
+      "start_date": {
+        "value": "2024-04-17",
+        "source": "NCT06253221:protocolSection.statusModule.startDateStruct.date"
+      },
+      "primary_completion_date": {
+        "value": "2025-11-25",
+        "source": "NCT06253221:protocolSection.statusModule.primaryCompletionDateStruct.date"
+      },
+      "completion_date": {
+        "value": "2031-03-28",
+        "source": "NCT06253221:protocolSection.statusModule.completionDateStruct.date"
+      },
+      "allocation": {
+        "value": "RANDOMIZED",
+        "source": "NCT06253221:protocolSection.designModule.designInfo.allocation"
+      },
+      "masking": {
+        "value": "QUADRUPLE",
+        "source": "NCT06253221:protocolSection.designModule.designInfo.maskingInfo.masking"
+      },
+      "conditions": {
+        "value": [
+          "Cardiomyopathy, Hypertrophic"
+        ],
+        "source": "NCT06253221:protocolSection.conditionsModule.conditions"
+      },
+      "interventions": {
+        "value": [
+          "Mavacamten",
+          "Placebo"
+        ],
+        "source": "NCT06253221:protocolSection.armsInterventionsModule.interventions"
+      },
+      "primary_outcomes": {
+        "value": [
+          {
+            "measure": "Change from baseline in Valsalva left ventricular outflow tract (LVOT) (VLVOT) gradient",
+            "time_frame": "At Week 28"
+          }
+        ],
+        "source": "NCT06253221:protocolSection.outcomesModule.primaryOutcomes"
+      },
+      "has_results": {
+        "value": false,
+        "source": "NCT06253221:hasResults"
+      }
+    },
+    {
+      "nct_id": "NCT07716826",
+      "title": {
+        "value": "IMPACT-CMH: Impact of Mitral Valve and Subvalvular Abnormalities in Obstructive Hypertrophic Cardiomyopathy Treated With Mavacamten",
+        "source": "NCT07716826:protocolSection.identificationModule.briefTitle"
+      },
+      "sponsor": {
+        "value": "French Cardiology Society",
+        "source": "NCT07716826:protocolSection.sponsorCollaboratorsModule.leadSponsor.name"
+      },
+      "sponsor_class": {
+        "value": "OTHER",
+        "source": "NCT07716826:protocolSection.sponsorCollaboratorsModule.leadSponsor.class"
+      },
+      "study_type": {
+        "value": "OBSERVATIONAL",
+        "source": "NCT07716826:protocolSection.designModule.studyType"
+      },
+      "phase": {
+        "value": null,
+        "source": "NCT07716826:protocolSection.designModule.phases"
+      },
+      "status": {
+        "value": "NOT_YET_RECRUITING",
+        "source": "NCT07716826:protocolSection.statusModule.overallStatus"
+      },
+      "enrollment": {
+        "value": 150,
+        "source": "NCT07716826:protocolSection.designModule.enrollmentInfo.count"
+      },
+      "enrollment_type": {
+        "value": "ESTIMATED",
+        "source": "NCT07716826:protocolSection.designModule.enrollmentInfo.type"
+      },
+      "start_date": {
+        "value": "2026-09",
+        "source": "NCT07716826:protocolSection.statusModule.startDateStruct.date"
+      },
+      "primary_completion_date": {
+        "value": "2026-12",
+        "source": "NCT07716826:protocolSection.statusModule.primaryCompletionDateStruct.date"
+      },
+      "completion_date": {
+        "value": "2026-12",
+        "source": "NCT07716826:protocolSection.statusModule.completionDateStruct.date"
+      },
+      "allocation": {
+        "value": null,
+        "source": "NCT07716826:protocolSection.designModule.designInfo.allocation"
+      },
+      "masking": {
+        "value": null,
+        "source": "NCT07716826:protocolSection.designModule.designInfo.maskingInfo.masking"
+      },
+      "conditions": {
+        "value": [
+          "Cardiomyopathy, Hypertrophic Obstructive"
+        ],
+        "source": "NCT07716826:protocolSection.conditionsModule.conditions"
+      },
+      "interventions": {
+        "value": null,
+        "source": "NCT07716826:protocolSection.armsInterventionsModule.interventions"
+      },
+      "primary_outcomes": {
+        "value": [
+          {
+            "measure": "Change in the highest left ventricular outflow tract (LVOT) Doppler maximal gradient (rest or Valsalva) from baseline to 6 months after initiation of mavacamten",
+            "time_frame": "Baseline and 6 months after initiation of mavacamten"
+          }
+        ],
+        "source": "NCT07716826:protocolSection.outcomesModule.primaryOutcomes"
+      },
+      "has_results": {
+        "value": false,
+        "source": "NCT07716826:hasResults"
+      }
+    },
+    {
+      "nct_id": "NCT06551129",
+      "title": {
+        "value": "Real-world Patient Reported Outcomes Among Patients Treated With Camzyos",
+        "source": "NCT06551129:protocolSection.identificationModule.briefTitle"
+      },
+      "sponsor": {
+        "value": "Bristol-Myers Squibb",
+        "source": "NCT06551129:protocolSection.sponsorCollaboratorsModule.leadSponsor.name"
+      },
+      "sponsor_class": {
+        "value": "INDUSTRY",
+        "source": "NCT06551129:protocolSection.sponsorCollaboratorsModule.leadSponsor.class"
+      },
+      "study_type": {
+        "value": "OBSERVATIONAL",
+        "source": "NCT06551129:protocolSection.designModule.studyType"
+      },
+      "phase": {
+        "value": null,
+        "source": "NCT06551129:protocolSection.designModule.phases"
+      },
+      "status": {
+        "value": "RECRUITING",
+        "source": "NCT06551129:protocolSection.statusModule.overallStatus"
+      },
+      "enrollment": {
+        "value": 118,
+        "source": "NCT06551129:protocolSection.designModule.enrollmentInfo.count"
+      },
+      "enrollment_type": {
+        "value": "ESTIMATED",
+        "source": "NCT06551129:protocolSection.designModule.enrollmentInfo.type"
+      },
+      "start_date": {
+        "value": "2024-05-10",
+        "source": "NCT06551129:protocolSection.statusModule.startDateStruct.date"
+      },
+      "primary_completion_date": {
+        "value": "2026-12-31",
+        "source": "NCT06551129:protocolSection.statusModule.primaryCompletionDateStruct.date"
+      },
+      "completion_date": {
+        "value": "2027-06-30",
+        "source": "NCT06551129:protocolSection.statusModule.completionDateStruct.date"
+      },
+      "allocation": {
+        "value": null,
+        "source": "NCT06551129:protocolSection.designModule.designInfo.allocation"
+      },
+      "masking": {
+        "value": null,
+        "source": "NCT06551129:protocolSection.designModule.designInfo.maskingInfo.masking"
+      },
+      "conditions": {
+        "value": [
+          "Obstructive Hypertrophic Cardiomyopathy"
+        ],
+        "source": "NCT06551129:protocolSection.conditionsModule.conditions"
+      },
+      "interventions": {
+        "value": [
+          "Mavacamten"
+        ],
+        "source": "NCT06551129:protocolSection.armsInterventionsModule.interventions"
+      },
+      "primary_outcomes": {
+        "value": [
+          {
+            "measure": "Participant Hypertrophic Cardiomyopathy symptoms as assessed by Hypertrophic Cardiomyopathy Symptom Questionnaire (HCMSQ v2,0 - 7-day recall version)",
+            "time_frame": "Baseline and weeks 2, 4, 8, 12, 24, 30, 48, 60, 72, 84 and 96"
+          },
+          {
+            "measure": "Participant physical limitation, symptom stability, symptom frequency, symptom burden, self-efficacy, QoL, and social limitations as assessed by Kansas City Cardiomyopathy Questionnaire (KCCQ-23)",
+            "time_frame": "Baseline and weeks 2, 4, 8, 12, 24, 30, 48, 60, 72, 84 and 96"
+          },
+          {
+            "measure": "Participant mavacamten treatment status",
+            "time_frame": "Weeks 2, 4, 8, 12, 24, 30, 48, 60, 72, 84 and 96"
+          },
+          {
+            "measure": "Other pharmacological and surgical treatments for obstructive hypertrophic cardiomyopathy (HCM)",
+            "time_frame": "Baseline and weeks 2, 4, 8, 12, 24, 30, 48, 60, 72, 84 and 96"
+          },
+          {
+            "measure": "Participant symptom severity as assessed by self-assessed New York Heart Association (SA-NYHA) functional class",
+            "time_frame": "Baseline and weeks 2, 4, 8, 12, 24, 30, 48, 60, 72, 84 and 96"
+          },
+          {
+            "measure": "Participant change in symptom severity as assessed by Patient Global Impression of Change (PGI-C)",
+            "time_frame": "Weeks 2, 4, 8, 12, 24, 30, 48, 72, and 96"
+          },
+          {
+            "measure": "Participant septal reduction therapy",
+            "time_frame": "Baseline and weeks 12, 30, 48 and 96"
+          },
+          {
+            "measure": "Participant major injury or surgery since previous survey",
+            "time_frame": "Weeks 2, 4, 8, 12, 24, 30, 48, 60, 72, 84 and 96"
+          },
+          {
+            "measure": "Participant survey response on experience with CAMZYOS Risk Evaluation and Mitigation Strategy program (REMS) Program",
+            "time_frame": "Baseline and weeks 4, 12, 30, 48, 72 and 96"
+          },
+          {
+            "measure": "Participant medical history",
+            "time_frame": "Baseline"
+          }
+        ],
+        "source": "NCT06551129:protocolSection.outcomesModule.primaryOutcomes"
+      },
+      "has_results": {
+        "value": false,
+        "source": "NCT06551129:hasResults"
+      }
+    },
+    {
+      "nct_id": "NCT07846059",
+      "title": {
+        "value": "Evaluation of Mavacamten-Based Practice in Chinese Adults With Obstructive Hypertrophic Cardiomyopathy",
+        "source": "NCT07846059:protocolSection.identificationModule.briefTitle"
+      },
+      "sponsor": {
+        "value": "Bristol-Myers Squibb",
+        "source": "NCT07846059:protocolSection.sponsorCollaboratorsModule.leadSponsor.name"
+      },
+      "sponsor_class": {
+        "value": "INDUSTRY",
+        "source": "NCT07846059:protocolSection.sponsorCollaboratorsModule.leadSponsor.class"
+      },
+      "study_type": {
+        "value": "OBSERVATIONAL",
+        "source": "NCT07846059:protocolSection.designModule.studyType"
+      },
+      "phase": {
+        "value": null,
+        "source": "NCT07846059:protocolSection.designModule.phases"
+      },
+      "status": {
+        "value": "NOT_YET_RECRUITING",
+        "source": "NCT07846059:protocolSection.statusModule.overallStatus"
+      },
+      "enrollment": {
+        "value": 800,
+        "source": "NCT07846059:protocolSection.designModule.enrollmentInfo.count"
+      },
+      "enrollment_type": {
+        "value": "ESTIMATED",
+        "source": "NCT07846059:protocolSection.designModule.enrollmentInfo.type"
+      },
+      "start_date": {
+        "value": "2026-09-30",
+        "source": "NCT07846059:protocolSection.statusModule.startDateStruct.date"
+      },
+      "primary_completion_date": {
+        "value": "2027-03-31",
+        "source": "NCT07846059:protocolSection.statusModule.primaryCompletionDateStruct.date"
+      },
+      "completion_date": {
+        "value": "2027-04-30",
+        "source": "NCT07846059:protocolSection.statusModule.completionDateStruct.date"
+      },
+      "allocation": {
+        "value": null,
+        "source": "NCT07846059:protocolSection.designModule.designInfo.allocation"
+      },
+      "masking": {
+        "value": null,
+        "source": "NCT07846059:protocolSection.designModule.designInfo.maskingInfo.masking"
+      },
+      "conditions": {
+        "value": [
+          "Obstructive Hypertrophic Cardiomyopathy (oHCM)"
+        ],
+        "source": "NCT07846059:protocolSection.conditionsModule.conditions"
+      },
+      "interventions": {
+        "value": [
+          "Mavacamten"
+        ],
+        "source": "NCT07846059:protocolSection.armsInterventionsModule.interventions"
+      },
+      "primary_outcomes": {
+        "value": [
+          {
+            "measure": "Number of participants in each study cohort",
+            "time_frame": "Baseline and months 1, 2, 3, 6, 9, 12 and 15"
+          },
+          {
+            "measure": "Absolute change (mmHg) from baseline in resting peak left ventricular outflow tract (LVOT) gradient assessed by transthoracic echocardiography",
+            "time_frame": "Baseline and at months 1, 2, 3, 6, 9, 12 and 15"
+          },
+          {
+            "measure": "Absolute change (mmHg) from baseline in post-Valsalva peak left ventricular outflow tract (LVOT) gradient assessed by transthoracic echocardiography",
+            "time_frame": "Baseline and at months 1, 2, 3, 6, 9, 12 and 15"
+          }
+        ],
+        "source": "NCT07846059:protocolSection.outcomesModule.primaryOutcomes"
+      },
+      "has_results": {
+        "value": false,
+        "source": "NCT07846059:hasResults"
+      }
+    },
+    {
+      "nct_id": "NCT07815301",
+      "title": {
+        "value": "Gradual Tapering or Discontinuation of Beta-Blockers After Stabilization With Mavacamten Therapy",
+        "source": "NCT07815301:protocolSection.identificationModule.briefTitle"
+      },
+      "sponsor": {
+        "value": "First Affiliated Hospital of Wenzhou Medical University",
+        "source": "NCT07815301:protocolSection.sponsorCollaboratorsModule.leadSponsor.name"
+      },
+      "sponsor_class": {
+        "value": "OTHER",
+        "source": "NCT07815301:protocolSection.sponsorCollaboratorsModule.leadSponsor.class"
+      },
+      "study_type": {
+        "value": "INTERVENTIONAL",
+        "source": "NCT07815301:protocolSection.designModule.studyType"
+      },
+      "phase": {
+        "value": [
+          "NA"
+        ],
+        "source": "NCT07815301:protocolSection.designModule.phases"
+      },
+      "status": {
+        "value": "NOT_YET_RECRUITING",
+        "source": "NCT07815301:protocolSection.statusModule.overallStatus"
+      },
+      "enrollment": {
+        "value": 286,
+        "source": "NCT07815301:protocolSection.designModule.enrollmentInfo.count"
+      },
+      "enrollment_type": {
+        "value": "ESTIMATED",
+        "source": "NCT07815301:protocolSection.designModule.enrollmentInfo.type"
+      },
+      "start_date": {
+        "value": "2026-12",
+        "source": "NCT07815301:protocolSection.statusModule.startDateStruct.date"
+      },
+      "primary_completion_date": {
+        "value": "2028-12",
+        "source": "NCT07815301:protocolSection.statusModule.primaryCompletionDateStruct.date"
+      },
+      "completion_date": {
+        "value": "2028-12",
+        "source": "NCT07815301:protocolSection.statusModule.completionDateStruct.date"
+      },
+      "allocation": {
+        "value": "RANDOMIZED",
+        "source": "NCT07815301:protocolSection.designModule.designInfo.allocation"
+      },
+      "masking": {
+        "value": "SINGLE",
+        "source": "NCT07815301:protocolSection.designModule.designInfo.maskingInfo.masking"
+      },
+      "conditions": {
+        "value": [
+          "Obstructive Hypertrophic Cardiomyopathy (oHCM)"
+        ],
+        "source": "NCT07815301:protocolSection.conditionsModule.conditions"
+      },
+      "interventions": {
+        "value": [
+          "Beta-Blocker Sequential Tapering and Discontinuation",
+          "Beta-Blocker Baseline Stable-Dose Maintenance"
+        ],
+        "source": "NCT07815301:protocolSection.armsInterventionsModule.interventions"
+      },
+      "primary_outcomes": {
+        "value": [
+          {
+            "measure": "Week 24 Clinical and Hemodynamic Strategy Success Rate",
+            "time_frame": "From randomization through Week 24"
+          }
+        ],
+        "source": "NCT07815301:protocolSection.outcomesModule.primaryOutcomes"
+      },
+      "has_results": {
+        "value": false,
+        "source": "NCT07815301:hasResults"
+      }
+    },
+    {
+      "nct_id": "NCT06947590",
+      "title": {
+        "value": "Efficacy of Mavacamten in Patients With Symptomatic Latent Obstructive Hypertrophic Cardiomyopathy",
+        "source": "NCT06947590:protocolSection.identificationModule.briefTitle"
+      },
+      "sponsor": {
+        "value": "Xu Liu",
+        "source": "NCT06947590:protocolSection.sponsorCollaboratorsModule.leadSponsor.name"
+      },
+      "sponsor_class": {
+        "value": "OTHER",
+        "source": "NCT06947590:protocolSection.sponsorCollaboratorsModule.leadSponsor.class"
+      },
+      "study_type": {
+        "value": "INTERVENTIONAL",
+        "source": "NCT06947590:protocolSection.designModule.studyType"
+      },
+      "phase": {
+        "value": [
+          "NA"
+        ],
+        "source": "NCT06947590:protocolSection.designModule.phases"
+      },
+      "status": {
+        "value": "ACTIVE_NOT_RECRUITING",
+        "source": "NCT06947590:protocolSection.statusModule.overallStatus"
+      },
+      "enrollment": {
+        "value": 78,
+        "source": "NCT06947590:protocolSection.designModule.enrollmentInfo.count"
+      },
+      "enrollment_type": {
+        "value": "ESTIMATED",
+        "source": "NCT06947590:protocolSection.designModule.enrollmentInfo.type"
+      },
+      "start_date": {
+        "value": "2025-04-20",
+        "source": "NCT06947590:protocolSection.statusModule.startDateStruct.date"
+      },
+      "primary_completion_date": {
+        "value": "2026-02-01",
+        "source": "NCT06947590:protocolSection.statusModule.primaryCompletionDateStruct.date"
+      },
+      "completion_date": {
+        "value": "2026-02-01",
+        "source": "NCT06947590:protocolSection.statusModule.completionDateStruct.date"
+      },
+      "allocation": {
+        "value": "RANDOMIZED",
+        "source": "NCT06947590:protocolSection.designModule.designInfo.allocation"
+      },
+      "masking": {
+        "value": "DOUBLE",
+        "source": "NCT06947590:protocolSection.designModule.designInfo.maskingInfo.masking"
+      },
+      "conditions": {
+        "value": [
+          "HCM - Hypertrophic Cardiomyopathy",
+          "Mavacamten"
+        ],
+        "source": "NCT06947590:protocolSection.conditionsModule.conditions"
+      },
+      "interventions": {
+        "value": [
+          "mavacamten"
+        ],
+        "source": "NCT06947590:protocolSection.armsInterventionsModule.interventions"
+      },
+      "primary_outcomes": {
+        "value": [
+          {
+            "measure": "The change in peak left ventricular outflow tract (LVOT) gradient",
+            "time_frame": "From baseline to week 30."
+          }
+        ],
+        "source": "NCT06947590:protocolSection.outcomesModule.primaryOutcomes"
+      },
+      "has_results": {
+        "value": false,
+        "source": "NCT06947590:hasResults"
+      }
+    },
+    {
+      "nct_id": "NCT07150299",
+      "title": {
+        "value": "Myocardial Perfusion Changes Following Optimal Medical Treatment in Symptomatic Hypertrophic Cardiomyopathy",
+        "source": "NCT07150299:protocolSection.identificationModule.briefTitle"
+      },
+      "sponsor": {
+        "value": "Medical University of Vienna",
+        "source": "NCT07150299:protocolSection.sponsorCollaboratorsModule.leadSponsor.name"
+      },
+      "sponsor_class": {
+        "value": "OTHER",
+        "source": "NCT07150299:protocolSection.sponsorCollaboratorsModule.leadSponsor.class"
+      },
+      "study_type": {
+        "value": "OBSERVATIONAL",
+        "source": "NCT07150299:protocolSection.designModule.studyType"
+      },
+      "phase": {
+        "value": null,
+        "source": "NCT07150299:protocolSection.designModule.phases"
+      },
+      "status": {
+        "value": "RECRUITING",
+        "source": "NCT07150299:protocolSection.statusModule.overallStatus"
+      },
+      "enrollment": {
+        "value": 20,
+        "source": "NCT07150299:protocolSection.designModule.enrollmentInfo.count"
+      },
+      "enrollment_type": {
+        "value": "ESTIMATED",
+        "source": "NCT07150299:protocolSection.designModule.enrollmentInfo.type"
+      },
+      "start_date": {
+        "value": "2025-09-05",
+        "source": "NCT07150299:protocolSection.statusModule.startDateStruct.date"
+      },
+      "primary_completion_date": {
+        "value": "2027-05",
+        "source": "NCT07150299:protocolSection.statusModule.primaryCompletionDateStruct.date"
+      },
+      "completion_date": {
+        "value": "2027-09",
+        "source": "NCT07150299:protocolSection.statusModule.completionDateStruct.date"
+      },
+      "allocation": {
+        "value": null,
+        "source": "NCT07150299:protocolSection.designModule.designInfo.allocation"
+      },
+      "masking": {
+        "value": null,
+        "source": "NCT07150299:protocolSection.designModule.designInfo.maskingInfo.masking"
+      },
+      "conditions": {
+        "value": [
+          "Hypertrophic Obstructive Cardiomyopathy \\(HOCM\\)"
+        ],
+        "source": "NCT07150299:protocolSection.conditionsModule.conditions"
+      },
+      "interventions": {
+        "value": [
+          "Mavacamten in clinical routine use"
+        ],
+        "source": "NCT07150299:protocolSection.armsInterventionsModule.interventions"
+      },
+      "primary_outcomes": {
+        "value": [
+          {
+            "measure": "Correlation between myocardial perfusion reserve changes and changes in the performed distance in 6MWT.",
+            "time_frame": "One year of maximal tolerated dose of mavacamten"
+          }
+        ],
+        "source": "NCT07150299:protocolSection.outcomesModule.primaryOutcomes"
+      },
+      "has_results": {
+        "value": false,
+        "source": "NCT07150299:hasResults"
+      }
+    },
+    {
+      "nct_id": "NCT07168655",
+      "title": {
+        "value": "Mavacamten in Obstructive Hypertrophic Cardiomyopathy",
+        "source": "NCT07168655:protocolSection.identificationModule.briefTitle"
+      },
+      "sponsor": {
+        "value": "Bristol-Myers Squibb",
+        "source": "NCT07168655:protocolSection.sponsorCollaboratorsModule.leadSponsor.name"
+      },
+      "sponsor_class": {
+        "value": "INDUSTRY",
+        "source": "NCT07168655:protocolSection.sponsorCollaboratorsModule.leadSponsor.class"
+      },
+      "study_type": {
+        "value": "OBSERVATIONAL",
+        "source": "NCT07168655:protocolSection.designModule.studyType"
+      },
+      "phase": {
+        "value": null,
+        "source": "NCT07168655:protocolSection.designModule.phases"
+      },
+      "status": {
+        "value": "COMPLETED",
+        "source": "NCT07168655:protocolSection.statusModule.overallStatus"
+      },
+      "enrollment": {
+        "value": 163,
+        "source": "NCT07168655:protocolSection.designModule.enrollmentInfo.count"
+      },
+      "enrollment_type": {
+        "value": "ACTUAL",
+        "source": "NCT07168655:protocolSection.designModule.enrollmentInfo.type"
+      },
+      "start_date": {
+        "value": "2023-02-21",
+        "source": "NCT07168655:protocolSection.statusModule.startDateStruct.date"
+      },
+      "primary_completion_date": {
+        "value": "2023-03-31",
+        "source": "NCT07168655:protocolSection.statusModule.primaryCompletionDateStruct.date"
+      },
+      "completion_date": {
+        "value": "2025-03-25",
+        "source": "NCT07168655:protocolSection.statusModule.completionDateStruct.date"
+      },
+      "allocation": {
+        "value": null,
+        "source": "NCT07168655:protocolSection.designModule.designInfo.allocation"
+      },
+      "masking": {
+        "value": null,
+        "source": "NCT07168655:protocolSection.designModule.designInfo.maskingInfo.masking"
+      },
+      "conditions": {
+        "value": [
+          "Obstructive Hypertrophic Cardiomyopathy (oHCM)"
+        ],
+        "source": "NCT07168655:protocolSection.conditionsModule.conditions"
+      },
+      "interventions": {
+        "value": [
+          "Mavacamten"
+        ],
+        "source": "NCT07168655:protocolSection.armsInterventionsModule.interventions"
+      },
+      "primary_outcomes": {
+        "value": [
+          {
+            "measure": "Participant New York Heart Association (NYHA) functional class",
+            "time_frame": "Baseline, and at weeks 4, 8, 12, 24, 36, 48, 60, 72, 84, 96, and 108 weeks"
+          },
+          {
+            "measure": "Participant echocardiogram measurements: Left ventricular outflow tract (LVOT) gradient results at rest, Valsalva and post-exercise (if available)",
+            "time_frame": "Baseline, and at weeks 4, 8, 12, 24, 36, 48, 60, 72, 84, 96, and 108 weeks"
+          },
+          {
+            "measure": "Participant echocardiogram measurements: Left ventricular ejection fraction (LVEF) percentage",
+            "time_frame": "Baseline, and at weeks 4, 8, 12, 24, 36, 48, 60, 72, 84, 96, and 108 weeks"
+          },
+          {
+            "measure": "Participant echocardiogram measurements: Maximum left ventricular wall thickness",
+            "time_frame": "Baseline, and at weeks 4, 8, 12, 24, 36, 48, 60, 72, 84, 96, and 108 weeks"
+          },
+          {
+            "measure": "Participant age",
+            "time_frame": "Baseline"
+          },
+          {
+            "measure": "Participant gender",
+            "time_frame": "Baseline"
+          },
+          {
+            "measure": "Participant race",
+            "time_frame": "Baseline"
+          },
+          {
+            "measure": "Participant ethnicity",
+            "time_frame": "Baseline"
+          },
+          {
+            "measure": "Participant insurance coverage",
+            "time_frame": "Baseline"
+          },
+          {
+            "measure": "Participant Body Mass Index",
+            "time_frame": "Baseline"
+          },
+          {
+            "measure": "Participant blood pressure",
+            "time_frame": "Baseline"
+          },
+          {
+            "measure": "Participant heart rate",
+            "time_frame": "Baseline"
+          },
+          {
+            "measure": "Participant genotype",
+            "time_frame": "Baseline"
+          },
+          {
+            "measure": "Participant family history",
+            "time_frame": "Baseline"
+          },
+          {
+            "measure": "Participant New York Functional Class classification",
+            "time_frame": "Baseline"
+          },
+          {
+            "measure": "Participant echocardiogram measurements",
+            "time_frame": "Baseline"
+          },
+          {
+            "measure": "Participant comorbidities",
+            "time_frame": "Baseline"
+          },
+          {
+            "measure": "Participant hypertrophic cardiomyopathy (HCM) treatment history",
+            "time_frame": "Baseline"
+          },
+          {
+            "measure": "Mavacamten index dose prescribed",
+            "time_frame": "Baseline"
+          },
+          {
+            "measure": "Participant obstructive hypertrophic cardiomyopathy (oHCM) symptoms (syncope, shortness of breath, fatigue, exercise intolerance, palpitations)",
+            "time_frame": "Baseline"
+          }
+        ],
+        "source": "NCT07168655:protocolSection.outcomesModule.primaryOutcomes"
+      },
+      "has_results": {
+        "value": false,
+        "source": "NCT07168655:hasResults"
+      }
+    },
+    {
+      "nct_id": "NCT07541833",
+      "title": {
+        "value": "Effectiveness and Treatment Patterns of Mavacamten in Patients With Obstructive Hypertrophic Cardiomyopathy in Japan (MANAGE-HCM)",
+        "source": "NCT07541833:protocolSection.identificationModule.briefTitle"
+      },
+      "sponsor": {
+        "value": "Bristol-Myers Squibb",
+        "source": "NCT07541833:protocolSection.sponsorCollaboratorsModule.leadSponsor.name"
+      },
+      "sponsor_class": {
+        "value": "INDUSTRY",
+        "source": "NCT07541833:protocolSection.sponsorCollaboratorsModule.leadSponsor.class"
+      },
+      "study_type": {
+        "value": "OBSERVATIONAL",
+        "source": "NCT07541833:protocolSection.designModule.studyType"
+      },
+      "phase": {
+        "value": null,
+        "source": "NCT07541833:protocolSection.designModule.phases"
+      },
+      "status": {
+        "value": "RECRUITING",
+        "source": "NCT07541833:protocolSection.statusModule.overallStatus"
+      },
+      "enrollment": {
+        "value": 36,
+        "source": "NCT07541833:protocolSection.designModule.enrollmentInfo.count"
+      },
+      "enrollment_type": {
+        "value": "ESTIMATED",
+        "source": "NCT07541833:protocolSection.designModule.enrollmentInfo.type"
+      },
+      "start_date": {
+        "value": "2026-02-05",
+        "source": "NCT07541833:protocolSection.statusModule.startDateStruct.date"
+      },
+      "primary_completion_date": {
+        "value": "2026-12-31",
+        "source": "NCT07541833:protocolSection.statusModule.primaryCompletionDateStruct.date"
+      },
+      "completion_date": {
+        "value": "2026-12-31",
+        "source": "NCT07541833:protocolSection.statusModule.completionDateStruct.date"
+      },
+      "allocation": {
+        "value": null,
+        "source": "NCT07541833:protocolSection.designModule.designInfo.allocation"
+      },
+      "masking": {
+        "value": null,
+        "source": "NCT07541833:protocolSection.designModule.designInfo.maskingInfo.masking"
+      },
+      "conditions": {
+        "value": [
+          "Cardiomyopathy"
+        ],
+        "source": "NCT07541833:protocolSection.conditionsModule.conditions"
+      },
+      "interventions": {
+        "value": [
+          "Mavacamten"
+        ],
+        "source": "NCT07541833:protocolSection.armsInterventionsModule.interventions"
+      },
+      "primary_outcomes": {
+        "value": [
+          {
+            "measure": "Change in either resting or Valsalva Left Ventricular Outflow Tract (LVOT) peak gradient whichever used to judge the initiation of mavacamten treatment",
+            "time_frame": "Baseline and up to week 16"
+          }
+        ],
+        "source": "NCT07541833:protocolSection.outcomesModule.primaryOutcomes"
+      },
+      "has_results": {
+        "value": false,
+        "source": "NCT07541833:hasResults"
+      }
+    },
+    {
+      "nct_id": "NCT03496168",
+      "title": {
+        "value": "Extension Study of Mavacamten (MYK-461) in Adults With Symptomatic Obstructive Hypertrophic Cardiomyopathy Previously Enrolled in PIONEER",
+        "source": "NCT03496168:protocolSection.identificationModule.briefTitle"
+      },
+      "sponsor": {
+        "value": "Bristol-Myers Squibb",
+        "source": "NCT03496168:protocolSection.sponsorCollaboratorsModule.leadSponsor.name"
+      },
+      "sponsor_class": {
+        "value": "INDUSTRY",
+        "source": "NCT03496168:protocolSection.sponsorCollaboratorsModule.leadSponsor.class"
+      },
+      "study_type": {
+        "value": "INTERVENTIONAL",
+        "source": "NCT03496168:protocolSection.designModule.studyType"
+      },
+      "phase": {
+        "value": [
+          "PHASE2"
+        ],
+        "source": "NCT03496168:protocolSection.designModule.phases"
+      },
+      "status": {
+        "value": "COMPLETED",
+        "source": "NCT03496168:protocolSection.statusModule.overallStatus"
+      },
+      "enrollment": {
+        "value": 13,
+        "source": "NCT03496168:protocolSection.designModule.enrollmentInfo.count"
+      },
+      "enrollment_type": {
+        "value": "ACTUAL",
+        "source": "NCT03496168:protocolSection.designModule.enrollmentInfo.type"
+      },
+      "start_date": {
+        "value": "2018-04-26",
+        "source": "NCT03496168:protocolSection.statusModule.startDateStruct.date"
+      },
+      "primary_completion_date": {
+        "value": "2023-11-09",
+        "source": "NCT03496168:protocolSection.statusModule.primaryCompletionDateStruct.date"
+      },
+      "completion_date": {
+        "value": "2023-11-09",
+        "source": "NCT03496168:protocolSection.statusModule.completionDateStruct.date"
+      },
+      "allocation": {
+        "value": "NA",
+        "source": "NCT03496168:protocolSection.designModule.designInfo.allocation"
+      },
+      "masking": {
+        "value": "NONE",
+        "source": "NCT03496168:protocolSection.designModule.designInfo.maskingInfo.masking"
+      },
+      "conditions": {
+        "value": [
+          "Hypertrophic Cardiomyopathy"
+        ],
+        "source": "NCT03496168:protocolSection.conditionsModule.conditions"
+      },
+      "interventions": {
+        "value": [
+          "mavacamten"
+        ],
+        "source": "NCT03496168:protocolSection.armsInterventionsModule.interventions"
+      },
+      "primary_outcomes": {
+        "value": [
+          {
+            "measure": "Number of Participants With Treatment Emergent Adverse Events and Treatment Emergent Serious Adverse Events",
+            "time_frame": "From first dose to end of treatment + 56 days (Approximately an average of 240 Weeks)"
+          },
+          {
+            "measure": "Number of Participants Who Had Cardiovascular Death",
+            "time_frame": "From first dose to end of study, (approximately 260 weeks)"
+          },
+          {
+            "measure": "Number of Participants Who Experienced Sudden Death",
+            "time_frame": "From first dose to end of study, (approximately 260 weeks)"
+          },
+          {
+            "measure": "Number of Participants Who Were Hospitalized for Cardiovascular Reasons.",
+            "time_frame": "From first dose to end of study, (approximately 260 weeks)"
+          },
+          {
+            "measure": "Number of Participants With Heart Failure Due to Systolic Dysfunction, Defined as Asymptomatic LVEF < 50%",
+            "time_frame": "From first dose to end of study, (approximately 260 weeks)"
+          },
+          {
+            "measure": "Number of Participants With LVEF < 50% as Measured by Echocardiography.",
+            "time_frame": "From first dose to end of study, (approximately 260 weeks)"
+          },
+          {
+            "measure": "Number of Participants Who Were Experienced Myocardial Infarction",
+            "time_frame": "From first dose to end of study, (approximately 260 weeks)"
+          },
+          {
+            "measure": "Number of Participants With Ventricular Arrhythmias.",
+            "time_frame": "From first dose to end of study, (approximately 260 weeks)"
+          },
+          {
+            "measure": "Number of Participants Who Experienced Syncope",
+            "time_frame": "From first dose to end of study, (approximately 260 weeks)"
+          },
+          {
+            "measure": "Number of Participants Who Experienced Seizures",
+            "time_frame": "From first dose to end of study, (approximately 260 weeks)"
+          },
+          {
+            "measure": "Number of Participants Who Were Experienced Strokes",
+            "time_frame": "From first dose to end of study, (approximately 260 weeks)"
+          },
+          {
+            "measure": "Number of Participants With a Change in QT and QTcF Intervals.",
+            "time_frame": "From first dose to end of study, (approximately 260 weeks)"
+          },
+          {
+            "measure": "Post-exercise Left Ventricular Outflow Tract (LVOT) Gradient Over Time",
+            "time_frame": "At Baseline, Week 4, Week 48, Week 72, Week 156, Week 204 and Week 252"
+          },
+          {
+            "measure": "Resting Left Ventricular Outflow Tract (LVOT) Gradient Over Time",
+            "time_frame": "At Baseline, Week 4, Week 48, Week 72, Week 156, Week 204 and Week 252"
+          },
+          {
+            "measure": "Post Valsalva Left Ventricular Outflow Tract (LVOT) Gradient Over Time",
+            "time_frame": "At Baseline, Week 4, Week 48, Week 72, Week 156, Week 204 and Week 252"
+          },
+          {
+            "measure": "Participants With >= 1 NYHA Function Class Improvement",
+            "time_frame": "At Baseline, Week 4, Week 8, Week 24, Week 48, Week 72, Week 96, Week 120, Week 144, Week 156, Week 180, Week 204, Week 228 and Week 252"
+          },
+          {
+            "measure": "Mean Change From Baseline in the Overall KCCQ PRO Score.",
+            "time_frame": "At Baseline, Week 4, Week 8, Week 24, Week 48, Week 72, Week 96, Week 120, Week 144, Week 156, Week 180, Week 204, Week 228 and Week 252"
+          },
+          {
+            "measure": "Mean Change From Baseline in Serum NT-proBNP.",
+            "time_frame": "At Baseline, Week 4, Week 8, Week 24, Week 48, Week 72, Week 96, Week 120, Week 144, Week 156, Week 180, Week 204, Week 228 and Week 252"
+          },
+          {
+            "measure": "Number of Participants Who Received Septal Reduction Therapy",
+            "time_frame": "252 weeks"
+          },
+          {
+            "measure": "Plasma Concentration of Mavacamen Overtime",
+            "time_frame": "At Baseline, Week 4, Week 8, Week 24, Week 48, Week 72, Week 96, Week 120, Week 144, Week 156, Week 180, Week 204, Week 228 and Week 252"
+          }
+        ],
+        "source": "NCT03496168:protocolSection.outcomesModule.primaryOutcomes"
+      },
+      "has_results": {
+        "value": true,
+        "source": "NCT03496168:hasResults"
+      }
+    },
+    {
+      "nct_id": "NCT06338202",
+      "title": {
+        "value": "Real-World Effectiveness of Mavacamten in Canada",
+        "source": "NCT06338202:protocolSection.identificationModule.briefTitle"
+      },
+      "sponsor": {
+        "value": "Bristol-Myers Squibb",
+        "source": "NCT06338202:protocolSection.sponsorCollaboratorsModule.leadSponsor.name"
+      },
+      "sponsor_class": {
+        "value": "INDUSTRY",
+        "source": "NCT06338202:protocolSection.sponsorCollaboratorsModule.leadSponsor.class"
+      },
+      "study_type": {
+        "value": "OBSERVATIONAL",
+        "source": "NCT06338202:protocolSection.designModule.studyType"
+      },
+      "phase": {
+        "value": null,
+        "source": "NCT06338202:protocolSection.designModule.phases"
+      },
+      "status": {
+        "value": "COMPLETED",
+        "source": "NCT06338202:protocolSection.statusModule.overallStatus"
+      },
+      "enrollment": {
+        "value": 115,
+        "source": "NCT06338202:protocolSection.designModule.enrollmentInfo.count"
+      },
+      "enrollment_type": {
+        "value": "ACTUAL",
+        "source": "NCT06338202:protocolSection.designModule.enrollmentInfo.type"
+      },
+      "start_date": {
+        "value": "2024-06-24",
+        "source": "NCT06338202:protocolSection.statusModule.startDateStruct.date"
+      },
+      "primary_completion_date": {
+        "value": "2024-11-12",
+        "source": "NCT06338202:protocolSection.statusModule.primaryCompletionDateStruct.date"
+      },
+      "completion_date": {
+        "value": "2024-12-19",
+        "source": "NCT06338202:protocolSection.statusModule.completionDateStruct.date"
+      },
+      "allocation": {
+        "value": null,
+        "source": "NCT06338202:protocolSection.designModule.designInfo.allocation"
+      },
+      "masking": {
+        "value": null,
+        "source": "NCT06338202:protocolSection.designModule.designInfo.maskingInfo.masking"
+      },
+      "conditions": {
+        "value": [
+          "Obstructive Hypertrophic Cardiomyopathy (oHCM)"
+        ],
+        "source": "NCT06338202:protocolSection.conditionsModule.conditions"
+      },
+      "interventions": {
+        "value": [
+          "Mavacamten"
+        ],
+        "source": "NCT06338202:protocolSection.armsInterventionsModule.interventions"
+      },
+      "primary_outcomes": {
+        "value": [
+          {
+            "measure": "Change in New York Heart Association (NYHA) functional class following mavacamten treatment initiation",
+            "time_frame": "Up to 1.5 years"
+          }
+        ],
+        "source": "NCT06338202:protocolSection.outcomesModule.primaryOutcomes"
+      },
+      "has_results": {
+        "value": false,
+        "source": "NCT06338202:hasResults"
+      }
+    },
+    {
+      "nct_id": "NCT05135871",
+      "title": {
+        "value": "Study Evaluating the Pharmacokinetics of Mavacamten in Healthy Adult Chinese Subjects",
+        "source": "NCT05135871:protocolSection.identificationModule.briefTitle"
+      },
+      "sponsor": {
+        "value": "LianBio LLC",
+        "source": "NCT05135871:protocolSection.sponsorCollaboratorsModule.leadSponsor.name"
+      },
+      "sponsor_class": {
+        "value": "INDUSTRY",
+        "source": "NCT05135871:protocolSection.sponsorCollaboratorsModule.leadSponsor.class"
+      },
+      "study_type": {
+        "value": "INTERVENTIONAL",
+        "source": "NCT05135871:protocolSection.designModule.studyType"
+      },
+      "phase": {
+        "value": [
+          "PHASE1"
+        ],
+        "source": "NCT05135871:protocolSection.designModule.phases"
+      },
+      "status": {
+        "value": "COMPLETED",
+        "source": "NCT05135871:protocolSection.statusModule.overallStatus"
+      },
+      "enrollment": {
+        "value": 45,
+        "source": "NCT05135871:protocolSection.designModule.enrollmentInfo.count"
+      },
+      "enrollment_type": {
+        "value": "ACTUAL",
+        "source": "NCT05135871:protocolSection.designModule.enrollmentInfo.type"
+      },
+      "start_date": {
+        "value": "2021-10-31",
+        "source": "NCT05135871:protocolSection.statusModule.startDateStruct.date"
+      },
+      "primary_completion_date": {
+        "value": "2022-02-05",
+        "source": "NCT05135871:protocolSection.statusModule.primaryCompletionDateStruct.date"
+      },
+      "completion_date": {
+        "value": "2022-02-28",
+        "source": "NCT05135871:protocolSection.statusModule.completionDateStruct.date"
+      },
+      "allocation": {
+        "value": "NON_RANDOMIZED",
+        "source": "NCT05135871:protocolSection.designModule.designInfo.allocation"
+      },
+      "masking": {
+        "value": "NONE",
+        "source": "NCT05135871:protocolSection.designModule.designInfo.maskingInfo.masking"
+      },
+      "conditions": {
+        "value": [
+          "Hypertrophic Cardiomyopathy"
+        ],
+        "source": "NCT05135871:protocolSection.conditionsModule.conditions"
+      },
+      "interventions": {
+        "value": [
+          "Mavacamten"
+        ],
+        "source": "NCT05135871:protocolSection.armsInterventionsModule.interventions"
+      },
+      "primary_outcomes": {
+        "value": [
+          {
+            "measure": "Area Under the Curve (AUC) (0-last), AUC(0-inf)",
+            "time_frame": "Predose, Day 1, Day 7, Day 10, Day 14, Day 21, Day 28, Day 35, Day 45, Day 67 and Day 75 post-dose"
+          },
+          {
+            "measure": "Maximum Concentration (Cmax)",
+            "time_frame": "Predose, Day 1, Day 7, Day 10, Day 14, Day 21, Day 28, Day 35, Day 45, Day 67 and Day 75 post-dose"
+          },
+          {
+            "measure": "Time to Maximum Concentration (Tmax)",
+            "time_frame": "Predose, Day 1, Day 7, Day 10, Day 14, Day 21, Day 28, Day 35, Day 45, Day 67 and Day 75 post-dose"
+          },
+          {
+            "measure": "Elimination Half-life (T1⁄2)",
+            "time_frame": "Predose, Day 1, Day 7, Day 10, Day 14, Day 21, Day 28, Day 35, Day 45, Day 67 and Day 75 post-dose"
+          },
+          {
+            "measure": "Apparent Volume of Distribution (Vd/F)",
+            "time_frame": "Predose, Day 1, Day 7, Day 10, Day 14, Day 21, Day 28, Day 35, Day 45, Day 67 and Day 75 post-dose"
+          },
+          {
+            "measure": "Apparent Clearance (CL/F)",
+            "time_frame": "Predose, Day 1, Day 7, Day 10, Day 14, Day 21, Day 28, Day 35, Day 45, Day 67 and Day 75 post-dose"
+          }
+        ],
+        "source": "NCT05135871:protocolSection.outcomesModule.primaryOutcomes"
+      },
+      "has_results": {
+        "value": true,
+        "source": "NCT05135871:hasResults"
+      }
+    },
+    {
+      "nct_id": "NCT06112743",
+      "title": {
+        "value": "A Study to Evaluate Mavacamten Impact on Myocardial Structure in Participants With Symptomatic Obstructive Hypertrophic Cardiomyopathy",
+        "source": "NCT06112743:protocolSection.identificationModule.briefTitle"
+      },
+      "sponsor": {
+        "value": "Bristol-Myers Squibb",
+        "source": "NCT06112743:protocolSection.sponsorCollaboratorsModule.leadSponsor.name"
+      },
+      "sponsor_class": {
+        "value": "INDUSTRY",
+        "source": "NCT06112743:protocolSection.sponsorCollaboratorsModule.leadSponsor.class"
+      },
+      "study_type": {
+        "value": "INTERVENTIONAL",
+        "source": "NCT06112743:protocolSection.designModule.studyType"
+      },
+      "phase": {
+        "value": [
+          "PHASE4"
+        ],
+        "source": "NCT06112743:protocolSection.designModule.phases"
+      },
+      "status": {
+        "value": "ACTIVE_NOT_RECRUITING",
+        "source": "NCT06112743:protocolSection.statusModule.overallStatus"
+      },
+      "enrollment": {
+        "value": 63,
+        "source": "NCT06112743:protocolSection.designModule.enrollmentInfo.count"
+      },
+      "enrollment_type": {
+        "value": "ACTUAL",
+        "source": "NCT06112743:protocolSection.designModule.enrollmentInfo.type"
+      },
+      "start_date": {
+        "value": "2024-01-24",
+        "source": "NCT06112743:protocolSection.statusModule.startDateStruct.date"
+      },
+      "primary_completion_date": {
+        "value": "2026-07-16",
+        "source": "NCT06112743:protocolSection.statusModule.primaryCompletionDateStruct.date"
+      },
+      "completion_date": {
+        "value": "2027-06-10",
+        "source": "NCT06112743:protocolSection.statusModule.completionDateStruct.date"
+      },
+      "allocation": {
+        "value": "NON_RANDOMIZED",
+        "source": "NCT06112743:protocolSection.designModule.designInfo.allocation"
+      },
+      "masking": {
+        "value": "NONE",
+        "source": "NCT06112743:protocolSection.designModule.designInfo.maskingInfo.masking"
+      },
+      "conditions": {
+        "value": [
+          "Cardiomyopathy, Hypertrophic"
+        ],
+        "source": "NCT06112743:protocolSection.conditionsModule.conditions"
+      },
+      "interventions": {
+        "value": [
+          "Mavacamten"
+        ],
+        "source": "NCT06112743:protocolSection.armsInterventionsModule.interventions"
+      },
+      "primary_outcomes": {
+        "value": [
+          {
+            "measure": "Composite of maximum left atrial volume index (LAVI) and left ventricular mass index (LVMI) at Week 48",
+            "time_frame": "At week 48"
+          }
+        ],
+        "source": "NCT06112743:protocolSection.outcomesModule.primaryOutcomes"
+      },
+      "has_results": {
+        "value": false,
+        "source": "NCT06112743:hasResults"
+      }
+    },
+    {
+      "nct_id": "NCT07600177",
+      "title": {
+        "value": "Mavacamten to Aficamten Transition in Patients With Obstructive Hypertrophic Cardiomyopathy",
+        "source": "NCT07600177:protocolSection.identificationModule.briefTitle"
+      },
+      "sponsor": {
+        "value": "Oregon Health and Science University",
+        "source": "NCT07600177:protocolSection.sponsorCollaboratorsModule.leadSponsor.name"
+      },
+      "sponsor_class": {
+        "value": "OTHER",
+        "source": "NCT07600177:protocolSection.sponsorCollaboratorsModule.leadSponsor.class"
+      },
+      "study_type": {
+        "value": "INTERVENTIONAL",
+        "source": "NCT07600177:protocolSection.designModule.studyType"
+      },
+      "phase": {
+        "value": [
+          "PHASE4"
+        ],
+        "source": "NCT07600177:protocolSection.designModule.phases"
+      },
+      "status": {
+        "value": "RECRUITING",
+        "source": "NCT07600177:protocolSection.statusModule.overallStatus"
+      },
+      "enrollment": {
+        "value": 40,
+        "source": "NCT07600177:protocolSection.designModule.enrollmentInfo.count"
+      },
+      "enrollment_type": {
+        "value": "ESTIMATED",
+        "source": "NCT07600177:protocolSection.designModule.enrollmentInfo.type"
+      },
+      "start_date": {
+        "value": "2026-05-05",
+        "source": "NCT07600177:protocolSection.statusModule.startDateStruct.date"
+      },
+      "primary_completion_date": {
+        "value": "2026-12-31",
+        "source": "NCT07600177:protocolSection.statusModule.primaryCompletionDateStruct.date"
+      },
+      "completion_date": {
+        "value": "2027-03-15",
+        "source": "NCT07600177:protocolSection.statusModule.completionDateStruct.date"
+      },
+      "allocation": {
+        "value": "NA",
+        "source": "NCT07600177:protocolSection.designModule.designInfo.allocation"
+      },
+      "masking": {
+        "value": "NONE",
+        "source": "NCT07600177:protocolSection.designModule.designInfo.maskingInfo.masking"
+      },
+      "conditions": {
+        "value": [
+          "Hypertrophic Cardiomyopathy (HCM)"
+        ],
+        "source": "NCT07600177:protocolSection.conditionsModule.conditions"
+      },
+      "interventions": {
+        "value": [
+          "Aficamten"
+        ],
+        "source": "NCT07600177:protocolSection.armsInterventionsModule.interventions"
+      },
+      "primary_outcomes": {
+        "value": [
+          {
+            "measure": "Safety Endpoints",
+            "time_frame": "Up to 16 weeks"
+          }
+        ],
+        "source": "NCT07600177:protocolSection.outcomesModule.primaryOutcomes"
+      },
+      "has_results": {
+        "value": false,
+        "source": "NCT07600177:hasResults"
+      }
+    },
+    {
+      "nct_id": "NCT06372457",
+      "title": {
+        "value": "COLLIGO-HCM: A Multinational Observational Study of the Real-World Effectiveness of Mavacamten Among Patients With Symptomatic Obstructive Hypertrophic Cardiomyopathy (oHCM)",
+        "source": "NCT06372457:protocolSection.identificationModule.briefTitle"
+      },
+      "sponsor": {
+        "value": "Bristol-Myers Squibb",
+        "source": "NCT06372457:protocolSection.sponsorCollaboratorsModule.leadSponsor.name"
+      },
+      "sponsor_class": {
+        "value": "INDUSTRY",
+        "source": "NCT06372457:protocolSection.sponsorCollaboratorsModule.leadSponsor.class"
+      },
+      "study_type": {
+        "value": "OBSERVATIONAL",
+        "source": "NCT06372457:protocolSection.designModule.studyType"
+      },
+      "phase": {
+        "value": null,
+        "source": "NCT06372457:protocolSection.designModule.phases"
+      },
+      "status": {
+        "value": "ACTIVE_NOT_RECRUITING",
+        "source": "NCT06372457:protocolSection.statusModule.overallStatus"
+      },
+      "enrollment": {
+        "value": 331,
+        "source": "NCT06372457:protocolSection.designModule.enrollmentInfo.count"
+      },
+      "enrollment_type": {
+        "value": "ACTUAL",
+        "source": "NCT06372457:protocolSection.designModule.enrollmentInfo.type"
+      },
+      "start_date": {
+        "value": "2023-12-01",
+        "source": "NCT06372457:protocolSection.statusModule.startDateStruct.date"
+      },
+      "primary_completion_date": {
+        "value": "2025-09-29",
+        "source": "NCT06372457:protocolSection.statusModule.primaryCompletionDateStruct.date"
+      },
+      "completion_date": {
+        "value": "2026-12-31",
+        "source": "NCT06372457:protocolSection.statusModule.completionDateStruct.date"
+      },
+      "allocation": {
+        "value": null,
+        "source": "NCT06372457:protocolSection.designModule.designInfo.allocation"
+      },
+      "masking": {
+        "value": null,
+        "source": "NCT06372457:protocolSection.designModule.designInfo.maskingInfo.masking"
+      },
+      "conditions": {
+        "value": [
+          "Hypertrophic Cardiomyopathy (HCM)"
+        ],
+        "source": "NCT06372457:protocolSection.conditionsModule.conditions"
+      },
+      "interventions": {
+        "value": [
+          "Approved Hypertrophic Cardiomyopathy drug treatments",
+          "Mavacamten"
+        ],
+        "source": "NCT06372457:protocolSection.armsInterventionsModule.interventions"
+      },
+      "primary_outcomes": {
+        "value": [
+          {
+            "measure": "Participant age at Hypertrophic Cardiomyopathy (HCM) diagnosis",
+            "time_frame": "Baseline, index date"
+          },
+          {
+            "measure": "Participant age at mavacamten treatment initiation",
+            "time_frame": "Index date"
+          },
+          {
+            "measure": "Participant sex",
+            "time_frame": "Baseline"
+          },
+          {
+            "measure": "Participant race/ethnicity",
+            "time_frame": "Baseline"
+          },
+          {
+            "measure": "Participant insurance coverage",
+            "time_frame": "Baseline"
+          },
+          {
+            "measure": "Participant employment status",
+            "time_frame": "Baseline"
+          },
+          {
+            "measure": "Participant educational level",
+            "time_frame": "Baseline"
+          },
+          {
+            "measure": "Date of Hypertrophic Cardiomyopathy (HCM) diagnosis",
+            "time_frame": "Baseline or index date"
+          },
+          {
+            "measure": "Participant body mass index (BMI) at Hypertrophic Cardiomyopathy (HCM) diagnosis",
+            "time_frame": "Baseline or index date"
+          },
+          {
+            "measure": "Hypertrophic Cardiomyopathy (HCM) subtype at diagnosis",
+            "time_frame": "Baseline or index date"
+          },
+          {
+            "measure": "Participant echocardiogram (ECHO) parameters at Hypertrophic Cardiomyopathy (HCM) diagnosis",
+            "time_frame": "Baseline or index date, and up to 33 months"
+          },
+          {
+            "measure": "Participant New York Heart Association (NYHA) class",
+            "time_frame": "Baseline or index date, and up to 33 months"
+          },
+          {
+            "measure": "Reason/trigger for initiating the path to Hypertrophic Cardiomyopathy (HCM) diagnosis",
+            "time_frame": "Baseline"
+          },
+          {
+            "measure": "Date of reason/trigger that initiated the path to Hypertrophic Cardiomyopathy (HCM) diagnosis",
+            "time_frame": "Baseline"
+          },
+          {
+            "measure": "Participant height",
+            "time_frame": "Baseline"
+          },
+          {
+            "measure": "Participant weight",
+            "time_frame": "Baseline"
+          },
+          {
+            "measure": "Participant blood pressure",
+            "time_frame": "Baseline"
+          },
+          {
+            "measure": "Participant heart rate",
+            "time_frame": "Baseline"
+          },
+          {
+            "measure": "Participant Hypertrophic Cardiomyopathy (HCM) symptoms",
+            "time_frame": "Baseline or index date, and up to 33 months"
+          },
+          {
+            "measure": "European participant CYP2C19 genotype",
+            "time_frame": "Baseline or index date, and up to 33 months"
+          },
+          {
+            "measure": "Participant family history of Hypertrophic Cardiomyopathy (HCM)",
+            "time_frame": "Baseline or index date"
+          },
+          {
+            "measure": "Participant family history of obstructive Hypertrophic Cardiomyopathy o(HCM)",
+            "time_frame": "Baseline or index date"
+          },
+          {
+            "measure": "Participant family history of sudden cardiac death (SCD)",
+            "time_frame": "Baseline or index date"
+          },
+          {
+            "measure": "Participant smoking status",
+            "time_frame": "Baseline or index date"
+          },
+          {
+            "measure": "Participant alcohol use",
+            "time_frame": "Baseline or index date"
+          },
+          {
+            "measure": "Participant recreational drug use",
+            "time_frame": "Baseline or index date"
+          },
+          {
+            "measure": "Participant involvement in a Hypertrophy Cardiomyopathy (HCM) randomized clinical trial (RCT)",
+            "time_frame": "Baseline or index date, and up to 33 months"
+          },
+          {
+            "measure": "Participant cardiovascular (CV) and CV-related comorbidities",
+            "time_frame": "Baseline and index date"
+          },
+          {
+            "measure": "Participant non-cardiovascular (CV)-related comorbidities",
+            "time_frame": "Baseline or index date"
+          },
+          {
+            "measure": "Participant electrocardiogram (ECG) rhythm results",
+            "time_frame": "Baseline or index date"
+          },
+          {
+            "measure": "Participant cardiac magnetic resonance imaging (MRI) results",
+            "time_frame": "Baseline or index date"
+          },
+          {
+            "measure": "Participant N-terminal pro-B-type natriuretic peptide (NT-proBNP) results",
+            "time_frame": "Baseline or index date"
+          },
+          {
+            "measure": "Participant cardiac troponin results",
+            "time_frame": "Baseline or index date"
+          },
+          {
+            "measure": "Participant cardiopulmonary exercise test (CPET) results",
+            "time_frame": "Baseline or index date"
+          },
+          {
+            "measure": "Participant cardiac monitoring results",
+            "time_frame": "Baseline or index date"
+          },
+          {
+            "measure": "Participant exercise test results",
+            "time_frame": "Baseline or index date"
+          },
+          {
+            "measure": "Participant blood creatine levels",
+            "time_frame": "Baseline or index date"
+          },
+          {
+            "measure": "Participant cardiovascular (CV) events",
+            "time_frame": "Baseline"
+          },
+          {
+            "measure": "Type of procedures received by participants",
+            "time_frame": "Baseline or index date, and up to 33 months"
+          },
+          {
+            "measure": "Cardiovascular treatments prescribed to participants",
+            "time_frame": "Baseline, and up to 33 months"
+          },
+          {
+            "measure": "Date of mavacamten prescription",
+            "time_frame": "Baseline"
+          },
+          {
+            "measure": "Date of mavacamten treatment initiation",
+            "time_frame": "Index date"
+          },
+          {
+            "measure": "Date of mavacamten dosage change",
+            "time_frame": "Up to 33 months"
+          },
+          {
+            "measure": "Reason for mavacamten dosage change",
+            "time_frame": "Up to 33 months"
+          },
+          {
+            "measure": "Occurrence of mavacamten stable dose (a period of 6-months with the same dose)",
+            "time_frame": "Up to 33 months"
+          },
+          {
+            "measure": "Dates of follow-up after mavacamten treatment initiation",
+            "time_frame": "Up to 33 months"
+          },
+          {
+            "measure": "Date of mavacamten treatment interuption or discontinuation",
+            "time_frame": "Up to 33 months"
+          },
+          {
+            "measure": "Reason for mavacamten treatment interuption or discontinuation",
+            "time_frame": "Up to 33 months"
+          },
+          {
+            "measure": "Supportive care provided to participants",
+            "time_frame": "Up to 33 months"
+          },
+          {
+            "measure": "Heath care resource utilization (HCRU)",
+            "time_frame": "Up to 33 months"
+          },
+          {
+            "measure": "Hypertrophic Cardiomyopathy (HCM) symptom improvement post mavacamten treatment initiation",
+            "time_frame": "Up to 33 months"
+          }
+        ],
+        "source": "NCT06372457:protocolSection.outcomesModule.primaryOutcomes"
+      },
+      "has_results": {
+        "value": false,
+        "source": "NCT06372457:hasResults"
+      }
+    },
+    {
+      "nct_id": "NCT03723655",
+      "title": {
+        "value": "A Long-Term Safety Extension Study of Mavacamten in Adults Who Have Completed MAVERICK-HCM or EXPLORER-HCM",
+        "source": "NCT03723655:protocolSection.identificationModule.briefTitle"
+      },
+      "sponsor": {
+        "value": "Bristol-Myers Squibb",
+        "source": "NCT03723655:protocolSection.sponsorCollaboratorsModule.leadSponsor.name"
+      },
+      "sponsor_class": {
+        "value": "INDUSTRY",
+        "source": "NCT03723655:protocolSection.sponsorCollaboratorsModule.leadSponsor.class"
+      },
+      "study_type": {
+        "value": "INTERVENTIONAL",
+        "source": "NCT03723655:protocolSection.designModule.studyType"
+      },
+      "phase": {
+        "value": [
+          "PHASE2",
+          "PHASE3"
+        ],
+        "source": "NCT03723655:protocolSection.designModule.phases"
+      },
+      "status": {
+        "value": "COMPLETED",
+        "source": "NCT03723655:protocolSection.statusModule.overallStatus"
+      },
+      "enrollment": {
+        "value": 314,
+        "source": "NCT03723655:protocolSection.designModule.enrollmentInfo.count"
+      },
+      "enrollment_type": {
+        "value": "ACTUAL",
+        "source": "NCT03723655:protocolSection.designModule.enrollmentInfo.type"
+      },
+      "start_date": {
+        "value": "2018-09-27",
+        "source": "NCT03723655:protocolSection.statusModule.startDateStruct.date"
+      },
+      "primary_completion_date": {
+        "value": "2026-01-16",
+        "source": "NCT03723655:protocolSection.statusModule.primaryCompletionDateStruct.date"
+      },
+      "completion_date": {
+        "value": "2026-01-16",
+        "source": "NCT03723655:protocolSection.statusModule.completionDateStruct.date"
+      },
+      "allocation": {
+        "value": "RANDOMIZED",
+        "source": "NCT03723655:protocolSection.designModule.designInfo.allocation"
+      },
+      "masking": {
+        "value": "TRIPLE",
+        "source": "NCT03723655:protocolSection.designModule.designInfo.maskingInfo.masking"
+      },
+      "conditions": {
+        "value": [
+          "Hypertrophic Cardiomyopathy",
+          "Obstructive Hypertrophic Cardiomyopathy",
+          "Non-obstructive Hypertrophic Cardiomyopathy"
+        ],
+        "source": "NCT03723655:protocolSection.conditionsModule.conditions"
+      },
+      "interventions": {
+        "value": [
+          "mavacamten"
+        ],
+        "source": "NCT03723655:protocolSection.armsInterventionsModule.interventions"
+      },
+      "primary_outcomes": {
+        "value": [
+          {
+            "measure": "Frequency and severity of treatment-emergent adverse events and serious adverse events",
+            "time_frame": "252 weeks"
+          }
+        ],
+        "source": "NCT03723655:protocolSection.outcomesModule.primaryOutcomes"
+      },
+      "has_results": {
+        "value": false,
+        "source": "NCT03723655:hasResults"
+      }
+    },
+    {
+      "nct_id": "NCT07695272",
+      "title": {
+        "value": "Radiomics Analysis of CMR Imaging for Arrhythmic Risk Prediction in Hypertrophic Cardiomyopathy, With Longitudinal Risk Reassessment After Mavacamten Therapy in Obstructive Patients",
+        "source": "NCT07695272:protocolSection.identificationModule.briefTitle"
+      },
+      "sponsor": {
+        "value": "Centro Cardiologico Monzino",
+        "source": "NCT07695272:protocolSection.sponsorCollaboratorsModule.leadSponsor.name"
+      },
+      "sponsor_class": {
+        "value": "OTHER",
+        "source": "NCT07695272:protocolSection.sponsorCollaboratorsModule.leadSponsor.class"
+      },
+      "study_type": {
+        "value": "OBSERVATIONAL",
+        "source": "NCT07695272:protocolSection.designModule.studyType"
+      },
+      "phase": {
+        "value": null,
+        "source": "NCT07695272:protocolSection.designModule.phases"
+      },
+      "status": {
+        "value": "ACTIVE_NOT_RECRUITING",
+        "source": "NCT07695272:protocolSection.statusModule.overallStatus"
+      },
+      "enrollment": {
+        "value": 2000,
+        "source": "NCT07695272:protocolSection.designModule.enrollmentInfo.count"
+      },
+      "enrollment_type": {
+        "value": "ACTUAL",
+        "source": "NCT07695272:protocolSection.designModule.enrollmentInfo.type"
+      },
+      "start_date": {
+        "value": "2026-06-01",
+        "source": "NCT07695272:protocolSection.statusModule.startDateStruct.date"
+      },
+      "primary_completion_date": {
+        "value": "2031-06-01",
+        "source": "NCT07695272:protocolSection.statusModule.primaryCompletionDateStruct.date"
+      },
+      "completion_date": {
+        "value": "2031-06-01",
+        "source": "NCT07695272:protocolSection.statusModule.completionDateStruct.date"
+      },
+      "allocation": {
+        "value": null,
+        "source": "NCT07695272:protocolSection.designModule.designInfo.allocation"
+      },
+      "masking": {
+        "value": null,
+        "source": "NCT07695272:protocolSection.designModule.designInfo.maskingInfo.masking"
+      },
+      "conditions": {
+        "value": [
+          "Hypertrophic Cardiomyopathy (HCM)",
+          "Cardiac Myosin Inhibitors"
+        ],
+        "source": "NCT07695272:protocolSection.conditionsModule.conditions"
+      },
+      "interventions": {
+        "value": null,
+        "source": "NCT07695272:protocolSection.armsInterventionsModule.interventions"
+      },
+      "primary_outcomes": {
+        "value": [
+          {
+            "measure": "Composite of malignant ventricular arrhythmic events",
+            "time_frame": "60 months"
+          }
+        ],
+        "source": "NCT07695272:protocolSection.outcomesModule.primaryOutcomes"
+      },
+      "has_results": {
+        "value": false,
+        "source": "NCT07695272:hasResults"
+      }
+    },
+    {
+      "nct_id": "NCT07004972",
+      "title": {
+        "value": "A Study of Mavacamten in Adults With Obstructive Hypertrophic Cardiomyopathy in India (ROVER)",
+        "source": "NCT07004972:protocolSection.identificationModule.briefTitle"
+      },
+      "sponsor": {
+        "value": "Bristol-Myers Squibb",
+        "source": "NCT07004972:protocolSection.sponsorCollaboratorsModule.leadSponsor.name"
+      },
+      "sponsor_class": {
+        "value": "INDUSTRY",
+        "source": "NCT07004972:protocolSection.sponsorCollaboratorsModule.leadSponsor.class"
+      },
+      "study_type": {
+        "value": "INTERVENTIONAL",
+        "source": "NCT07004972:protocolSection.designModule.studyType"
+      },
+      "phase": {
+        "value": [
+          "PHASE4"
+        ],
+        "source": "NCT07004972:protocolSection.designModule.phases"
+      },
+      "status": {
+        "value": "ACTIVE_NOT_RECRUITING",
+        "source": "NCT07004972:protocolSection.statusModule.overallStatus"
+      },
+      "enrollment": {
+        "value": 50,
+        "source": "NCT07004972:protocolSection.designModule.enrollmentInfo.count"
+      },
+      "enrollment_type": {
+        "value": "ESTIMATED",
+        "source": "NCT07004972:protocolSection.designModule.enrollmentInfo.type"
+      },
+      "start_date": {
+        "value": "2025-09-04",
+        "source": "NCT07004972:protocolSection.statusModule.startDateStruct.date"
+      },
+      "primary_completion_date": {
+        "value": "2027-12-13",
+        "source": "NCT07004972:protocolSection.statusModule.primaryCompletionDateStruct.date"
+      },
+      "completion_date": {
+        "value": "2027-12-13",
+        "source": "NCT07004972:protocolSection.statusModule.completionDateStruct.date"
+      },
+      "allocation": {
+        "value": "NA",
+        "source": "NCT07004972:protocolSection.designModule.designInfo.allocation"
+      },
+      "masking": {
+        "value": "NONE",
+        "source": "NCT07004972:protocolSection.designModule.designInfo.maskingInfo.masking"
+      },
+      "conditions": {
+        "value": [
+          "Symptomatic Obstructive Hypertrophic Cardiomyopathy"
+        ],
+        "source": "NCT07004972:protocolSection.conditionsModule.conditions"
+      },
+      "interventions": {
+        "value": [
+          "Mavacamten"
+        ],
+        "source": "NCT07004972:protocolSection.armsInterventionsModule.interventions"
+      },
+      "primary_outcomes": {
+        "value": [
+          {
+            "measure": "Incidence of serious Treatment Emergent Adverse Events (TEAEs)",
+            "time_frame": "Up to Week 48"
+          }
+        ],
+        "source": "NCT07004972:protocolSection.outcomesModule.primaryOutcomes"
+      },
+      "has_results": {
+        "value": false,
+        "source": "NCT07004972:hasResults"
+      }
+    },
+    {
+      "nct_id": "NCT03442764",
+      "title": {
+        "value": "A Phase 2 Study of Mavacamten in Adults With Symptomatic Non-Obstructive Hypertrophic Cardiomyopathy (nHCM)",
+        "source": "NCT03442764:protocolSection.identificationModule.briefTitle"
+      },
+      "sponsor": {
+        "value": "MyoKardia, Inc.",
+        "source": "NCT03442764:protocolSection.sponsorCollaboratorsModule.leadSponsor.name"
+      },
+      "sponsor_class": {
+        "value": "INDUSTRY",
+        "source": "NCT03442764:protocolSection.sponsorCollaboratorsModule.leadSponsor.class"
+      },
+      "study_type": {
+        "value": "INTERVENTIONAL",
+        "source": "NCT03442764:protocolSection.designModule.studyType"
+      },
+      "phase": {
+        "value": [
+          "PHASE2"
+        ],
+        "source": "NCT03442764:protocolSection.designModule.phases"
+      },
+      "status": {
+        "value": "COMPLETED",
+        "source": "NCT03442764:protocolSection.statusModule.overallStatus"
+      },
+      "enrollment": {
+        "value": 59,
+        "source": "NCT03442764:protocolSection.designModule.enrollmentInfo.count"
+      },
+      "enrollment_type": {
+        "value": "ACTUAL",
+        "source": "NCT03442764:protocolSection.designModule.enrollmentInfo.type"
+      },
+      "start_date": {
+        "value": "2018-03-30",
+        "source": "NCT03442764:protocolSection.statusModule.startDateStruct.date"
+      },
+      "primary_completion_date": {
+        "value": "2020-01-07",
+        "source": "NCT03442764:protocolSection.statusModule.primaryCompletionDateStruct.date"
+      },
+      "completion_date": {
+        "value": "2020-01-07",
+        "source": "NCT03442764:protocolSection.statusModule.completionDateStruct.date"
+      },
+      "allocation": {
+        "value": "RANDOMIZED",
+        "source": "NCT03442764:protocolSection.designModule.designInfo.allocation"
+      },
+      "masking": {
+        "value": "QUADRUPLE",
+        "source": "NCT03442764:protocolSection.designModule.designInfo.maskingInfo.masking"
+      },
+      "conditions": {
+        "value": [
+          "Non-obstructive Hypertrophic Cardiomyopathy"
+        ],
+        "source": "NCT03442764:protocolSection.conditionsModule.conditions"
+      },
+      "interventions": {
+        "value": [
+          "mavacamten",
+          "Placebo"
+        ],
+        "source": "NCT03442764:protocolSection.armsInterventionsModule.interventions"
+      },
+      "primary_outcomes": {
+        "value": [
+          {
+            "measure": "Percentage of Participants Who Experienced at Least One Treatment Emergent Adverse Event (TEAE)",
+            "time_frame": "From first dose to 8 weeks following last dose (Up to 24 weeks)"
+          },
+          {
+            "measure": "Percentage of Participants Who Experienced at Least One Serious Treatment-emergent Adverse Event (STEAE)",
+            "time_frame": "From first dose to 8 weeks following last dose (Up to 24 weeks)"
+          }
+        ],
+        "source": "NCT03442764:protocolSection.outcomesModule.primaryOutcomes"
+      },
+      "has_results": {
+        "value": true,
+        "source": "NCT03442764:hasResults"
+      }
+    },
+    {
+      "nct_id": "NCT07557498",
+      "title": {
+        "value": "Mavacamten Outcomes in Hypertrophic Cardiomyopathy (HCM) and the Associated Patient and Physician Experiences in the US",
+        "source": "NCT07557498:protocolSection.identificationModule.briefTitle"
+      },
+      "sponsor": {
+        "value": "Bristol-Myers Squibb",
+        "source": "NCT07557498:protocolSection.sponsorCollaboratorsModule.leadSponsor.name"
+      },
+      "sponsor_class": {
+        "value": "INDUSTRY",
+        "source": "NCT07557498:protocolSection.sponsorCollaboratorsModule.leadSponsor.class"
+      },
+      "study_type": {
+        "value": "OBSERVATIONAL",
+        "source": "NCT07557498:protocolSection.designModule.studyType"
+      },
+      "phase": {
+        "value": null,
+        "source": "NCT07557498:protocolSection.designModule.phases"
+      },
+      "status": {
+        "value": "RECRUITING",
+        "source": "NCT07557498:protocolSection.statusModule.overallStatus"
+      },
+      "enrollment": {
+        "value": 362,
+        "source": "NCT07557498:protocolSection.designModule.enrollmentInfo.count"
+      },
+      "enrollment_type": {
+        "value": "ESTIMATED",
+        "source": "NCT07557498:protocolSection.designModule.enrollmentInfo.type"
+      },
+      "start_date": {
+        "value": "2026-01-15",
+        "source": "NCT07557498:protocolSection.statusModule.startDateStruct.date"
+      },
+      "primary_completion_date": {
+        "value": "2026-12-14",
+        "source": "NCT07557498:protocolSection.statusModule.primaryCompletionDateStruct.date"
+      },
+      "completion_date": {
+        "value": "2027-06-17",
+        "source": "NCT07557498:protocolSection.statusModule.completionDateStruct.date"
+      },
+      "allocation": {
+        "value": null,
+        "source": "NCT07557498:protocolSection.designModule.designInfo.allocation"
+      },
+      "masking": {
+        "value": null,
+        "source": "NCT07557498:protocolSection.designModule.designInfo.maskingInfo.masking"
+      },
+      "conditions": {
+        "value": [
+          "Obstructive Hypertrophic Cardiomyopathy (oHCM)"
+        ],
+        "source": "NCT07557498:protocolSection.conditionsModule.conditions"
+      },
+      "interventions": {
+        "value": [
+          "Mavacamten"
+        ],
+        "source": "NCT07557498:protocolSection.armsInterventionsModule.interventions"
+      },
+      "primary_outcomes": {
+        "value": [
+          {
+            "measure": "Participant blood pressure (both systolic and diastolic)",
+            "time_frame": "Baseline"
+          },
+          {
+            "measure": "Date of diagnosis of hypertrophic cardiomyopathy",
+            "time_frame": "Baseline"
+          },
+          {
+            "measure": "Hypertrophic cardiomyopathy genetic testing results",
+            "time_frame": "Baseline"
+          },
+          {
+            "measure": "Family history of hypertrophic cardiomyopathy",
+            "time_frame": "Baseline"
+          },
+          {
+            "measure": "Family history of Sudden Cardiac Death (SCD)",
+            "time_frame": "Baseline"
+          },
+          {
+            "measure": "Participant comorbidities (cardiovascular and non-cardiovascular )",
+            "time_frame": "Baseline"
+          },
+          {
+            "measure": "Type of prior surgeries and procedures",
+            "time_frame": "Baseline and up to week 24"
+          },
+          {
+            "measure": "Participant New York Heart Association (NYHA) class category",
+            "time_frame": "Baseline, and at weeks 4, 8, 12, 24"
+          },
+          {
+            "measure": "Change in participant New York Heart Association (NYHA) class from baseline",
+            "time_frame": "Baseline, and at weeks 4, 8, 12, 24"
+          },
+          {
+            "measure": "Duration of mavacamten treatment",
+            "time_frame": "Baseline, and at weeks 4, 8, 12, 24"
+          },
+          {
+            "measure": "Number of mavacamten dose titrations",
+            "time_frame": "Baseline, and at weeks 4, 8, 12, 24"
+          },
+          {
+            "measure": "Type of mavacamten dose tritration",
+            "time_frame": "Baseline, and at weeks 4, 8, 12, 24"
+          },
+          {
+            "measure": "Clinical reason for mavacamten dose titration",
+            "time_frame": "Baseline, and at weeks 4, 8, 12, 24"
+          },
+          {
+            "measure": "Clinical reason for mavacamten treatment discontinuation",
+            "time_frame": "Baseline, and at weeks 4, 8, 12, 24"
+          },
+          {
+            "measure": "Left Ventricular Ejection Fraction (LVEF) recovery after mavacamten discontinuation if discontinued due to LVEF<50%,",
+            "time_frame": "Baseline, and at weeks 4, 8, 12, 24"
+          },
+          {
+            "measure": "Time from mavacamten discontinuation to Left Ventricular Ejection Fraction (LVEF) recovery",
+            "time_frame": "Baseline, and at weeks 4, 8, 12, 24"
+          },
+          {
+            "measure": "Clinical reason for temporary mavacamten treatment interuption",
+            "time_frame": "Baseline, and at weeks 4, 8, 12, 24"
+          },
+          {
+            "measure": "Time to temporary mavacamten treatment interruption",
+            "time_frame": "Baseline, and at weeks 4, 8, 12, 24"
+          },
+          {
+            "measure": "Left Ventricular Ejection Fraction (LVEF) recovery after mavacamten interruption if the interruption was due to LVEF<50%",
+            "time_frame": "Baseline, and at weeks 4, 8, 12, 24"
+          },
+          {
+            "measure": "Time from mavacamten treatment interruption to Left Ventricular Ejection Fraction (LVEF) recovery",
+            "time_frame": "Baseline, and at weeks 4, 8, 12, 24"
+          },
+          {
+            "measure": "Time to mavacamten treatment resumption",
+            "time_frame": "Baseline, and at weeks 4, 8, 12, 24"
+          },
+          {
+            "measure": "Type of hypertrophic cardiomyopathy (HCM) background therapy prescribed",
+            "time_frame": "Baseline, and at weeks 4, 8, 12, 24"
+          },
+          {
+            "measure": "Type of changes to hypertrophic cardiomyopathy (HCM) background therapy",
+            "time_frame": "At baseline, weeks 4, 8, 12, 24"
+          }
+        ],
+        "source": "NCT07557498:protocolSection.outcomesModule.primaryOutcomes"
+      },
+      "has_results": {
+        "value": false,
+        "source": "NCT07557498:hasResults"
+      }
+    },
+    {
+      "nct_id": "NCT03470545",
+      "title": {
+        "value": "Clinical Study to Evaluate Mavacamten (MYK-461) in Adults With Symptomatic Obstructive Hypertrophic Cardiomyopathy",
+        "source": "NCT03470545:protocolSection.identificationModule.briefTitle"
+      },
+      "sponsor": {
+        "value": "MyoKardia, Inc.",
+        "source": "NCT03470545:protocolSection.sponsorCollaboratorsModule.leadSponsor.name"
+      },
+      "sponsor_class": {
+        "value": "INDUSTRY",
+        "source": "NCT03470545:protocolSection.sponsorCollaboratorsModule.leadSponsor.class"
+      },
+      "study_type": {
+        "value": "INTERVENTIONAL",
+        "source": "NCT03470545:protocolSection.designModule.studyType"
+      },
+      "phase": {
+        "value": [
+          "PHASE3"
+        ],
+        "source": "NCT03470545:protocolSection.designModule.phases"
+      },
+      "status": {
+        "value": "COMPLETED",
+        "source": "NCT03470545:protocolSection.statusModule.overallStatus"
+      },
+      "enrollment": {
+        "value": 251,
+        "source": "NCT03470545:protocolSection.designModule.enrollmentInfo.count"
+      },
+      "enrollment_type": {
+        "value": "ACTUAL",
+        "source": "NCT03470545:protocolSection.designModule.enrollmentInfo.type"
+      },
+      "start_date": {
+        "value": "2018-05-29",
+        "source": "NCT03470545:protocolSection.statusModule.startDateStruct.date"
+      },
+      "primary_completion_date": {
+        "value": "2020-03-14",
+        "source": "NCT03470545:protocolSection.statusModule.primaryCompletionDateStruct.date"
+      },
+      "completion_date": {
+        "value": "2020-05-06",
+        "source": "NCT03470545:protocolSection.statusModule.completionDateStruct.date"
+      },
+      "allocation": {
+        "value": "RANDOMIZED",
+        "source": "NCT03470545:protocolSection.designModule.designInfo.allocation"
+      },
+      "masking": {
+        "value": "QUADRUPLE",
+        "source": "NCT03470545:protocolSection.designModule.designInfo.maskingInfo.masking"
+      },
+      "conditions": {
+        "value": [
+          "Obstructive Hypertrophic Cardiomyopathy"
+        ],
+        "source": "NCT03470545:protocolSection.conditionsModule.conditions"
+      },
+      "interventions": {
+        "value": [
+          "mavacamten",
+          "Placebo"
+        ],
+        "source": "NCT03470545:protocolSection.armsInterventionsModule.interventions"
+      },
+      "primary_outcomes": {
+        "value": [
+          {
+            "measure": "Percentage of Participants Achieving A Clinical Response",
+            "time_frame": "30 weeks"
+          }
+        ],
+        "source": "NCT03470545:protocolSection.outcomesModule.primaryOutcomes"
+      },
+      "has_results": {
+        "value": true,
+        "source": "NCT03470545:hasResults"
+      }
+    },
+    {
+      "nct_id": "NCT06023186",
+      "title": {
+        "value": "Effect of Mavacamten Treatment on Coronary Flow Reserve in oHCM",
+        "source": "NCT06023186:protocolSection.identificationModule.briefTitle"
+      },
+      "sponsor": {
+        "value": "Michael Ayers",
+        "source": "NCT06023186:protocolSection.sponsorCollaboratorsModule.leadSponsor.name"
+      },
+      "sponsor_class": {
+        "value": "OTHER",
+        "source": "NCT06023186:protocolSection.sponsorCollaboratorsModule.leadSponsor.class"
+      },
+      "study_type": {
+        "value": "OBSERVATIONAL",
+        "source": "NCT06023186:protocolSection.designModule.studyType"
+      },
+      "phase": {
+        "value": null,
+        "source": "NCT06023186:protocolSection.designModule.phases"
+      },
+      "status": {
+        "value": "RECRUITING",
+        "source": "NCT06023186:protocolSection.statusModule.overallStatus"
+      },
+      "enrollment": {
+        "value": 20,
+        "source": "NCT06023186:protocolSection.designModule.enrollmentInfo.count"
+      },
+      "enrollment_type": {
+        "value": "ESTIMATED",
+        "source": "NCT06023186:protocolSection.designModule.enrollmentInfo.type"
+      },
+      "start_date": {
+        "value": "2023-11-03",
+        "source": "NCT06023186:protocolSection.statusModule.startDateStruct.date"
+      },
+      "primary_completion_date": {
+        "value": "2026-08-31",
+        "source": "NCT06023186:protocolSection.statusModule.primaryCompletionDateStruct.date"
+      },
+      "completion_date": {
+        "value": "2026-09-30",
+        "source": "NCT06023186:protocolSection.statusModule.completionDateStruct.date"
+      },
+      "allocation": {
+        "value": null,
+        "source": "NCT06023186:protocolSection.designModule.designInfo.allocation"
+      },
+      "masking": {
+        "value": null,
+        "source": "NCT06023186:protocolSection.designModule.designInfo.maskingInfo.masking"
+      },
+      "conditions": {
+        "value": [
+          "Obstructive Hypertrophic Cardiomyopathy"
+        ],
+        "source": "NCT06023186:protocolSection.conditionsModule.conditions"
+      },
+      "interventions": {
+        "value": [
+          "mavacamten"
+        ],
+        "source": "NCT06023186:protocolSection.armsInterventionsModule.interventions"
+      },
+      "primary_outcomes": {
+        "value": [
+          {
+            "measure": "Change in myocardial perfusion reserve after 12 months of mavacamten treatment.",
+            "time_frame": "12 months"
+          }
+        ],
+        "source": "NCT06023186:protocolSection.outcomesModule.primaryOutcomes"
+      },
+      "has_results": {
+        "value": false,
+        "source": "NCT06023186:hasResults"
+      }
+    },
+    {
+      "nct_id": "NCT05174416",
+      "title": {
+        "value": "A Study to Evaluate the Efficacy and Safety of Mavacamten in Chinese Adults With Symptomatic Obstructive HCM",
+        "source": "NCT05174416:protocolSection.identificationModule.briefTitle"
+      },
+      "sponsor": {
+        "value": "LianBio LLC",
+        "source": "NCT05174416:protocolSection.sponsorCollaboratorsModule.leadSponsor.name"
+      },
+      "sponsor_class": {
+        "value": "INDUSTRY",
+        "source": "NCT05174416:protocolSection.sponsorCollaboratorsModule.leadSponsor.class"
+      },
+      "study_type": {
+        "value": "INTERVENTIONAL",
+        "source": "NCT05174416:protocolSection.designModule.studyType"
+      },
+      "phase": {
+        "value": [
+          "PHASE3"
+        ],
+        "source": "NCT05174416:protocolSection.designModule.phases"
+      },
+      "status": {
+        "value": "COMPLETED",
+        "source": "NCT05174416:protocolSection.statusModule.overallStatus"
+      },
+      "enrollment": {
+        "value": 81,
+        "source": "NCT05174416:protocolSection.designModule.enrollmentInfo.count"
+      },
+      "enrollment_type": {
+        "value": "ACTUAL",
+        "source": "NCT05174416:protocolSection.designModule.enrollmentInfo.type"
+      },
+      "start_date": {
+        "value": "2022-01-04",
+        "source": "NCT05174416:protocolSection.statusModule.startDateStruct.date"
+      },
+      "primary_completion_date": {
+        "value": "2023-03-06",
+        "source": "NCT05174416:protocolSection.statusModule.primaryCompletionDateStruct.date"
+      },
+      "completion_date": {
+        "value": "2024-07-22",
+        "source": "NCT05174416:protocolSection.statusModule.completionDateStruct.date"
+      },
+      "allocation": {
+        "value": "RANDOMIZED",
+        "source": "NCT05174416:protocolSection.designModule.designInfo.allocation"
+      },
+      "masking": {
+        "value": "QUADRUPLE",
+        "source": "NCT05174416:protocolSection.designModule.designInfo.maskingInfo.masking"
+      },
+      "conditions": {
+        "value": [
+          "Obstructive Hypertrophic Cardiomyopathy"
+        ],
+        "source": "NCT05174416:protocolSection.conditionsModule.conditions"
+      },
+      "interventions": {
+        "value": [
+          "Mavacamten",
+          "Placebo"
+        ],
+        "source": "NCT05174416:protocolSection.armsInterventionsModule.interventions"
+      },
+      "primary_outcomes": {
+        "value": [
+          {
+            "measure": "Change From Baseline to Week 30 in Valsalva Left Ventricular Outflow Tract (LVOT) Peak Gradient",
+            "time_frame": "30 weeks"
+          }
+        ],
+        "source": "NCT05174416:protocolSection.outcomesModule.primaryOutcomes"
+      },
+      "has_results": {
+        "value": true,
+        "source": "NCT05174416:hasResults"
+      }
+    },
+    {
+      "nct_id": "NCT07439952",
+      "title": {
+        "value": "Biological Collection for the Purpose of Exploring Genetic and Clinical-biological Factors Associated With Variability in Response to Mavacamten in the Treatment of Obstructive Hypertrophic Cardiomyopathy",
+        "source": "NCT07439952:protocolSection.identificationModule.briefTitle"
+      },
+      "sponsor": {
+        "value": "Assistance Publique - Hôpitaux de Paris",
+        "source": "NCT07439952:protocolSection.sponsorCollaboratorsModule.leadSponsor.name"
+      },
+      "sponsor_class": {
+        "value": "OTHER",
+        "source": "NCT07439952:protocolSection.sponsorCollaboratorsModule.leadSponsor.class"
+      },
+      "study_type": {
+        "value": "OBSERVATIONAL",
+        "source": "NCT07439952:protocolSection.designModule.studyType"
+      },
+      "phase": {
+        "value": null,
+        "source": "NCT07439952:protocolSection.designModule.phases"
+      },
+      "status": {
+        "value": "NOT_YET_RECRUITING",
+        "source": "NCT07439952:protocolSection.statusModule.overallStatus"
+      },
+      "enrollment": {
+        "value": 300,
+        "source": "NCT07439952:protocolSection.designModule.enrollmentInfo.count"
+      },
+      "enrollment_type": {
+        "value": "ESTIMATED",
+        "source": "NCT07439952:protocolSection.designModule.enrollmentInfo.type"
+      },
+      "start_date": {
+        "value": "2026-02-05",
+        "source": "NCT07439952:protocolSection.statusModule.startDateStruct.date"
+      },
+      "primary_completion_date": {
+        "value": "2029-07",
+        "source": "NCT07439952:protocolSection.statusModule.primaryCompletionDateStruct.date"
+      },
+      "completion_date": {
+        "value": "2029-07",
+        "source": "NCT07439952:protocolSection.statusModule.completionDateStruct.date"
+      },
+      "allocation": {
+        "value": null,
+        "source": "NCT07439952:protocolSection.designModule.designInfo.allocation"
+      },
+      "masking": {
+        "value": null,
+        "source": "NCT07439952:protocolSection.designModule.designInfo.maskingInfo.masking"
+      },
+      "conditions": {
+        "value": [
+          "Obstructive Hypertrophic Cardiomyopathy (oHCM)"
+        ],
+        "source": "NCT07439952:protocolSection.conditionsModule.conditions"
+      },
+      "interventions": {
+        "value": null,
+        "source": "NCT07439952:protocolSection.armsInterventionsModule.interventions"
+      },
+      "primary_outcomes": {
+        "value": [
+          {
+            "measure": "Response rate to Mavacamten treatment",
+            "time_frame": "Day 0, Week4, Week 8, Week 12, Week 24"
+          }
+        ],
+        "source": "NCT07439952:protocolSection.outcomesModule.primaryOutcomes"
+      },
+      "has_results": {
+        "value": false,
+        "source": "NCT07439952:hasResults"
+      }
+    },
+    {
+      "nct_id": "NCT06856265",
+      "title": {
+        "value": "Efficacy of Mavacamten Combined With Radiofrequency Ablation in Patients With Symptomatic Obstructive Hypertrophic Cardiomyopathy",
+        "source": "NCT06856265:protocolSection.identificationModule.briefTitle"
+      },
+      "sponsor": {
+        "value": "Shanghai Chest Hospital",
+        "source": "NCT06856265:protocolSection.sponsorCollaboratorsModule.leadSponsor.name"
+      },
+      "sponsor_class": {
+        "value": "OTHER",
+        "source": "NCT06856265:protocolSection.sponsorCollaboratorsModule.leadSponsor.class"
+      },
+      "study_type": {
+        "value": "INTERVENTIONAL",
+        "source": "NCT06856265:protocolSection.designModule.studyType"
+      },
+      "phase": {
+        "value": [
+          "NA"
+        ],
+        "source": "NCT06856265:protocolSection.designModule.phases"
+      },
+      "status": {
+        "value": "NOT_YET_RECRUITING",
+        "source": "NCT06856265:protocolSection.statusModule.overallStatus"
+      },
+      "enrollment": {
+        "value": 40,
+        "source": "NCT06856265:protocolSection.designModule.enrollmentInfo.count"
+      },
+      "enrollment_type": {
+        "value": "ESTIMATED",
+        "source": "NCT06856265:protocolSection.designModule.enrollmentInfo.type"
+      },
+      "start_date": {
+        "value": "2025-02-26",
+        "source": "NCT06856265:protocolSection.statusModule.startDateStruct.date"
+      },
+      "primary_completion_date": {
+        "value": "2025-12-01",
+        "source": "NCT06856265:protocolSection.statusModule.primaryCompletionDateStruct.date"
+      },
+      "completion_date": {
+        "value": "2025-12-01",
+        "source": "NCT06856265:protocolSection.statusModule.completionDateStruct.date"
+      },
+      "allocation": {
+        "value": "RANDOMIZED",
+        "source": "NCT06856265:protocolSection.designModule.designInfo.allocation"
+      },
+      "masking": {
+        "value": "NONE",
+        "source": "NCT06856265:protocolSection.designModule.designInfo.maskingInfo.masking"
+      },
+      "conditions": {
+        "value": [
+          "Obstructive Hypertrophic Cardiomyopathy",
+          "Mavacamten",
+          "Radiofrequency Ablation"
+        ],
+        "source": "NCT06856265:protocolSection.conditionsModule.conditions"
+      },
+      "interventions": {
+        "value": [
+          "radiofrequency ablation",
+          "Mavacamten"
+        ],
+        "source": "NCT06856265:protocolSection.armsInterventionsModule.interventions"
+      },
+      "primary_outcomes": {
+        "value": [
+          {
+            "measure": "Change in Valsalva LVOT peak gradient from baseline to week 30, as determined by Doppler echocardiography.",
+            "time_frame": "from baseline to week 30"
+          }
+        ],
+        "source": "NCT06856265:protocolSection.outcomesModule.primaryOutcomes"
+      },
+      "has_results": {
+        "value": false,
+        "source": "NCT06856265:hasResults"
+      }
+    },
+    {
+      "nct_id": "NCT07155434",
+      "title": {
+        "value": "ENABLE-HCM - AI-ENabled Echocardiography With Ultrasound Beyond the Echo Lab for Better HCM Imaging and Expanded Access",
+        "source": "NCT07155434:protocolSection.identificationModule.briefTitle"
+      },
+      "sponsor": {
+        "value": "UltraSight",
+        "source": "NCT07155434:protocolSection.sponsorCollaboratorsModule.leadSponsor.name"
+      },
+      "sponsor_class": {
+        "value": "INDUSTRY",
+        "source": "NCT07155434:protocolSection.sponsorCollaboratorsModule.leadSponsor.class"
+      },
+      "study_type": {
+        "value": "OBSERVATIONAL",
+        "source": "NCT07155434:protocolSection.designModule.studyType"
+      },
+      "phase": {
+        "value": null,
+        "source": "NCT07155434:protocolSection.designModule.phases"
+      },
+      "status": {
+        "value": "TERMINATED",
+        "source": "NCT07155434:protocolSection.statusModule.overallStatus"
+      },
+      "enrollment": {
+        "value": 36,
+        "source": "NCT07155434:protocolSection.designModule.enrollmentInfo.count"
+      },
+      "enrollment_type": {
+        "value": "ACTUAL",
+        "source": "NCT07155434:protocolSection.designModule.enrollmentInfo.type"
+      },
+      "start_date": {
+        "value": "2025-07-25",
+        "source": "NCT07155434:protocolSection.statusModule.startDateStruct.date"
+      },
+      "primary_completion_date": {
+        "value": "2026-02-24",
+        "source": "NCT07155434:protocolSection.statusModule.primaryCompletionDateStruct.date"
+      },
+      "completion_date": {
+        "value": "2026-02-24",
+        "source": "NCT07155434:protocolSection.statusModule.completionDateStruct.date"
+      },
+      "allocation": {
+        "value": null,
+        "source": "NCT07155434:protocolSection.designModule.designInfo.allocation"
+      },
+      "masking": {
+        "value": null,
+        "source": "NCT07155434:protocolSection.designModule.designInfo.maskingInfo.masking"
+      },
+      "conditions": {
+        "value": [
+          "Hypertrophic Cardiomyopathy (HCM)",
+          "Cardiac Imaging",
+          "Echocardiography",
+          "Mavacamten",
+          "Obstructive Cardiomyopathy, Hypertrophic"
+        ],
+        "source": "NCT07155434:protocolSection.conditionsModule.conditions"
+      },
+      "interventions": {
+        "value": null,
+        "source": "NCT07155434:protocolSection.armsInterventionsModule.interventions"
+      },
+      "primary_outcomes": {
+        "value": [
+          {
+            "measure": "Agreement in Left Ventricular Ejection Fraction (LVEF)",
+            "time_frame": "1 day"
+          }
+        ],
+        "source": "NCT07155434:protocolSection.outcomesModule.primaryOutcomes"
+      },
+      "has_results": {
+        "value": false,
+        "source": "NCT07155434:hasResults"
+      }
+    },
+    {
+      "nct_id": "NCT06549608",
+      "title": {
+        "value": "A Retrospective Cohort Study of Mavacamten Patient Support Program in Canada",
+        "source": "NCT06549608:protocolSection.identificationModule.briefTitle"
+      },
+      "sponsor": {
+        "value": "Bristol-Myers Squibb",
+        "source": "NCT06549608:protocolSection.sponsorCollaboratorsModule.leadSponsor.name"
+      },
+      "sponsor_class": {
+        "value": "INDUSTRY",
+        "source": "NCT06549608:protocolSection.sponsorCollaboratorsModule.leadSponsor.class"
+      },
+      "study_type": {
+        "value": "OBSERVATIONAL",
+        "source": "NCT06549608:protocolSection.designModule.studyType"
+      },
+      "phase": {
+        "value": null,
+        "source": "NCT06549608:protocolSection.designModule.phases"
+      },
+      "status": {
+        "value": "COMPLETED",
+        "source": "NCT06549608:protocolSection.statusModule.overallStatus"
+      },
+      "enrollment": {
+        "value": 683,
+        "source": "NCT06549608:protocolSection.designModule.enrollmentInfo.count"
+      },
+      "enrollment_type": {
+        "value": "ACTUAL",
+        "source": "NCT06549608:protocolSection.designModule.enrollmentInfo.type"
+      },
+      "start_date": {
+        "value": "2024-04-20",
+        "source": "NCT06549608:protocolSection.statusModule.startDateStruct.date"
+      },
+      "primary_completion_date": {
+        "value": "2024-05-06",
+        "source": "NCT06549608:protocolSection.statusModule.primaryCompletionDateStruct.date"
+      },
+      "completion_date": {
+        "value": "2025-04-18",
+        "source": "NCT06549608:protocolSection.statusModule.completionDateStruct.date"
+      },
+      "allocation": {
+        "value": null,
+        "source": "NCT06549608:protocolSection.designModule.designInfo.allocation"
+      },
+      "masking": {
+        "value": null,
+        "source": "NCT06549608:protocolSection.designModule.designInfo.maskingInfo.masking"
+      },
+      "conditions": {
+        "value": [
+          "Hypertrophic Cardiomyopathy"
+        ],
+        "source": "NCT06549608:protocolSection.conditionsModule.conditions"
+      },
+      "interventions": {
+        "value": [
+          "Mavacamten"
+        ],
+        "source": "NCT06549608:protocolSection.armsInterventionsModule.interventions"
+      },
+      "primary_outcomes": {
+        "value": [
+          {
+            "measure": "Participant demographics",
+            "time_frame": "Baseline"
+          },
+          {
+            "measure": "Participant clinical characteristics",
+            "time_frame": "Baseline"
+          }
+        ],
+        "source": "NCT06549608:protocolSection.outcomesModule.primaryOutcomes"
+      },
+      "has_results": {
+        "value": false,
+        "source": "NCT06549608:hasResults"
+      }
+    },
+    {
+      "nct_id": "NCT05939700",
+      "title": {
+        "value": "Mavacamten Pregnancy Surveillance Program",
+        "source": "NCT05939700:protocolSection.identificationModule.briefTitle"
+      },
+      "sponsor": {
+        "value": "Bristol-Myers Squibb",
+        "source": "NCT05939700:protocolSection.sponsorCollaboratorsModule.leadSponsor.name"
+      },
+      "sponsor_class": {
+        "value": "INDUSTRY",
+        "source": "NCT05939700:protocolSection.sponsorCollaboratorsModule.leadSponsor.class"
+      },
+      "study_type": {
+        "value": "OBSERVATIONAL",
+        "source": "NCT05939700:protocolSection.designModule.studyType"
+      },
+      "phase": {
+        "value": null,
+        "source": "NCT05939700:protocolSection.designModule.phases"
+      },
+      "status": {
+        "value": "RECRUITING",
+        "source": "NCT05939700:protocolSection.statusModule.overallStatus"
+      },
+      "enrollment": {
+        "value": 20,
+        "source": "NCT05939700:protocolSection.designModule.enrollmentInfo.count"
+      },
+      "enrollment_type": {
+        "value": "ESTIMATED",
+        "source": "NCT05939700:protocolSection.designModule.enrollmentInfo.type"
+      },
+      "start_date": {
+        "value": "2023-11-09",
+        "source": "NCT05939700:protocolSection.statusModule.startDateStruct.date"
+      },
+      "primary_completion_date": {
+        "value": "2027-04-30",
+        "source": "NCT05939700:protocolSection.statusModule.primaryCompletionDateStruct.date"
+      },
+      "completion_date": {
+        "value": "2027-04-30",
+        "source": "NCT05939700:protocolSection.statusModule.completionDateStruct.date"
+      },
+      "allocation": {
+        "value": null,
+        "source": "NCT05939700:protocolSection.designModule.designInfo.allocation"
+      },
+      "masking": {
+        "value": null,
+        "source": "NCT05939700:protocolSection.designModule.designInfo.maskingInfo.masking"
+      },
+      "conditions": {
+        "value": [
+          "Breastfeeding",
+          "Hypertrophic Cardiomyopathy",
+          "Pregnancy Related"
+        ],
+        "source": "NCT05939700:protocolSection.conditionsModule.conditions"
+      },
+      "interventions": {
+        "value": [
+          "Mavacamten"
+        ],
+        "source": "NCT05939700:protocolSection.armsInterventionsModule.interventions"
+      },
+      "primary_outcomes": {
+        "value": [
+          {
+            "measure": "Pregnancy outcomes",
+            "time_frame": "Up to 10 months"
+          },
+          {
+            "measure": "Fetal/neonatal/infant outcomes",
+            "time_frame": "Up to 12 months post pregnancy outcome"
+          }
+        ],
+        "source": "NCT05939700:protocolSection.outcomesModule.primaryOutcomes"
+      },
+      "has_results": {
+        "value": false,
+        "source": "NCT05939700:hasResults"
+      }
+    },
+    {
+      "nct_id": "NCT05414175",
+      "title": {
+        "value": "A Study of Mavacamten in Obstructive Hypertrophic Cardiomyopathy",
+        "source": "NCT05414175:protocolSection.identificationModule.briefTitle"
+      },
+      "sponsor": {
+        "value": "Bristol-Myers Squibb",
+        "source": "NCT05414175:protocolSection.sponsorCollaboratorsModule.leadSponsor.name"
+      },
+      "sponsor_class": {
+        "value": "INDUSTRY",
+        "source": "NCT05414175:protocolSection.sponsorCollaboratorsModule.leadSponsor.class"
+      },
+      "study_type": {
+        "value": "INTERVENTIONAL",
+        "source": "NCT05414175:protocolSection.designModule.studyType"
+      },
+      "phase": {
+        "value": [
+          "PHASE3"
+        ],
+        "source": "NCT05414175:protocolSection.designModule.phases"
+      },
+      "status": {
+        "value": "COMPLETED",
+        "source": "NCT05414175:protocolSection.statusModule.overallStatus"
+      },
+      "enrollment": {
+        "value": 38,
+        "source": "NCT05414175:protocolSection.designModule.enrollmentInfo.count"
+      },
+      "enrollment_type": {
+        "value": "ACTUAL",
+        "source": "NCT05414175:protocolSection.designModule.enrollmentInfo.type"
+      },
+      "start_date": {
+        "value": "2022-08-19",
+        "source": "NCT05414175:protocolSection.statusModule.startDateStruct.date"
+      },
+      "primary_completion_date": {
+        "value": "2023-11-27",
+        "source": "NCT05414175:protocolSection.statusModule.primaryCompletionDateStruct.date"
+      },
+      "completion_date": {
+        "value": "2025-12-11",
+        "source": "NCT05414175:protocolSection.statusModule.completionDateStruct.date"
+      },
+      "allocation": {
+        "value": "NA",
+        "source": "NCT05414175:protocolSection.designModule.designInfo.allocation"
+      },
+      "masking": {
+        "value": "NONE",
+        "source": "NCT05414175:protocolSection.designModule.designInfo.maskingInfo.masking"
+      },
+      "conditions": {
+        "value": [
+          "Cardiomyopathy, Hypertrophic Obstructive"
+        ],
+        "source": "NCT05414175:protocolSection.conditionsModule.conditions"
+      },
+      "interventions": {
+        "value": [
+          "Mavacamten"
+        ],
+        "source": "NCT05414175:protocolSection.armsInterventionsModule.interventions"
+      },
+      "primary_outcomes": {
+        "value": [
+          {
+            "measure": "Change From Baseline in Post-exercise Left Ventricular Outflow Tract (LVOT) Peak Gradient at Week 30",
+            "time_frame": "At Baseline and Week 30"
+          }
+        ],
+        "source": "NCT05414175:protocolSection.outcomesModule.primaryOutcomes"
+      },
+      "has_results": {
+        "value": true,
+        "source": "NCT05414175:hasResults"
+      }
+    },
+    {
+      "nct_id": "NCT06146660",
+      "title": {
+        "value": "A Study to Assess the Safety of Mavacamten in Korean Patients With Symptomatic Obstructive Hypertrophic Cardiomyopathy",
+        "source": "NCT06146660:protocolSection.identificationModule.briefTitle"
+      },
+      "sponsor": {
+        "value": "Bristol-Myers Squibb",
+        "source": "NCT06146660:protocolSection.sponsorCollaboratorsModule.leadSponsor.name"
+      },
+      "sponsor_class": {
+        "value": "INDUSTRY",
+        "source": "NCT06146660:protocolSection.sponsorCollaboratorsModule.leadSponsor.class"
+      },
+      "study_type": {
+        "value": "OBSERVATIONAL",
+        "source": "NCT06146660:protocolSection.designModule.studyType"
+      },
+      "phase": {
+        "value": null,
+        "source": "NCT06146660:protocolSection.designModule.phases"
+      },
+      "status": {
+        "value": "RECRUITING",
+        "source": "NCT06146660:protocolSection.statusModule.overallStatus"
+      },
+      "enrollment": {
+        "value": 600,
+        "source": "NCT06146660:protocolSection.designModule.enrollmentInfo.count"
+      },
+      "enrollment_type": {
+        "value": "ESTIMATED",
+        "source": "NCT06146660:protocolSection.designModule.enrollmentInfo.type"
+      },
+      "start_date": {
+        "value": "2024-07-24",
+        "source": "NCT06146660:protocolSection.statusModule.startDateStruct.date"
+      },
+      "primary_completion_date": {
+        "value": "2026-11-30",
+        "source": "NCT06146660:protocolSection.statusModule.primaryCompletionDateStruct.date"
+      },
+      "completion_date": {
+        "value": "2026-11-30",
+        "source": "NCT06146660:protocolSection.statusModule.completionDateStruct.date"
+      },
+      "allocation": {
+        "value": null,
+        "source": "NCT06146660:protocolSection.designModule.designInfo.allocation"
+      },
+      "masking": {
+        "value": null,
+        "source": "NCT06146660:protocolSection.designModule.designInfo.maskingInfo.masking"
+      },
+      "conditions": {
+        "value": [
+          "Obstructive Hypertrophic Cardiomyopathy"
+        ],
+        "source": "NCT06146660:protocolSection.conditionsModule.conditions"
+      },
+      "interventions": {
+        "value": [
+          "Mavacamten"
+        ],
+        "source": "NCT06146660:protocolSection.armsInterventionsModule.interventions"
+      },
+      "primary_outcomes": {
+        "value": [
+          {
+            "measure": "Number of participants with adverse events",
+            "time_frame": "Up to 12 months"
+          }
+        ],
+        "source": "NCT06146660:protocolSection.outcomesModule.primaryOutcomes"
+      },
+      "has_results": {
+        "value": false,
+        "source": "NCT06146660:hasResults"
+      }
+    },
+    {
+      "nct_id": "NCT05362045",
+      "title": {
+        "value": "A Study to Evaluate the Effects on the Single-Dose Drug Levels of Mavacamten in Healthy Participants",
+        "source": "NCT05362045:protocolSection.identificationModule.briefTitle"
+      },
+      "sponsor": {
+        "value": "Bristol-Myers Squibb",
+        "source": "NCT05362045:protocolSection.sponsorCollaboratorsModule.leadSponsor.name"
+      },
+      "sponsor_class": {
+        "value": "INDUSTRY",
+        "source": "NCT05362045:protocolSection.sponsorCollaboratorsModule.leadSponsor.class"
+      },
+      "study_type": {
+        "value": "INTERVENTIONAL",
+        "source": "NCT05362045:protocolSection.designModule.studyType"
+      },
+      "phase": {
+        "value": [
+          "PHASE1"
+        ],
+        "source": "NCT05362045:protocolSection.designModule.phases"
+      },
+      "status": {
+        "value": "COMPLETED",
+        "source": "NCT05362045:protocolSection.statusModule.overallStatus"
+      },
+      "enrollment": {
+        "value": 158,
+        "source": "NCT05362045:protocolSection.designModule.enrollmentInfo.count"
+      },
+      "enrollment_type": {
+        "value": "ACTUAL",
+        "source": "NCT05362045:protocolSection.designModule.enrollmentInfo.type"
+      },
+      "start_date": {
+        "value": "2022-05-16",
+        "source": "NCT05362045:protocolSection.statusModule.startDateStruct.date"
+      },
+      "primary_completion_date": {
+        "value": "2022-08-19",
+        "source": "NCT05362045:protocolSection.statusModule.primaryCompletionDateStruct.date"
+      },
+      "completion_date": {
+        "value": "2022-08-19",
+        "source": "NCT05362045:protocolSection.statusModule.completionDateStruct.date"
+      },
+      "allocation": {
+        "value": "RANDOMIZED",
+        "source": "NCT05362045:protocolSection.designModule.designInfo.allocation"
+      },
+      "masking": {
+        "value": "NONE",
+        "source": "NCT05362045:protocolSection.designModule.designInfo.maskingInfo.masking"
+      },
+      "conditions": {
+        "value": [
+          "Healthy Participants"
+        ],
+        "source": "NCT05362045:protocolSection.conditionsModule.conditions"
+      },
+      "interventions": {
+        "value": [
+          "Mavacamten"
+        ],
+        "source": "NCT05362045:protocolSection.armsInterventionsModule.interventions"
+      },
+      "primary_outcomes": {
+        "value": [
+          {
+            "measure": "Maximum observed plasma concentration (Cmax)",
+            "time_frame": "Up to approximately 1 month"
+          },
+          {
+            "measure": "Area under the plasma concentration-time curve from time zero to the time of the last quantifiable concentration ((AUC(0-T))",
+            "time_frame": "Up to approximately 1 month"
+          },
+          {
+            "measure": "Area under the plasma concentration-time curve from time zero extrapolated to infinite time ((AUC(INF))",
+            "time_frame": "Up to approximately 1 month"
+          }
+        ],
+        "source": "NCT05362045:protocolSection.outcomesModule.primaryOutcomes"
+      },
+      "has_results": {
+        "value": false,
+        "source": "NCT05362045:hasResults"
+      }
+    }
+  ]
+}
