@@ -1464,5 +1464,48 @@
     "NCT05174416",
     "NCT05414175",
     "NCT05582395"
-  ]
+  ],
+  "results_gap": {
+    "as_of": "2026-11-15",
+    "deadline_months": 12,
+    "n_not_interventional": 22,
+    "n_not_finished": 11,
+    "n_no_primary_completion_date": 0,
+    "n_finished_interventional": 11,
+    "n_results_posted": 8,
+    "n_reported_within_deadline": 4,
+    "n_reported_late": 4,
+    "median_months_to_first_submission": 12.9,
+    "n_not_yet_due": 1,
+    "n_overdue_no_results": 2,
+    "groups": {
+      "likely_applicable": [],
+      "cannot_tell": [],
+      "probably_not_covered": [],
+      "probably_exempt": [
+        {
+          "nct_id": "NCT05719805",
+          "title": "A Study to Evaluate the Effects of Mavacamten in Healthy Participants",
+          "sponsor": "Bristol-Myers Squibb",
+          "phase": "Phase 1",
+          "status": "COMPLETED",
+          "primary_completion_date": "2023-07-25",
+          "months_since_primary_completion": 39.7,
+          "group": "probably_exempt",
+          "reason": "Phase 1 trials are generally outside the reporting requirement"
+        },
+        {
+          "nct_id": "NCT05362045",
+          "title": "A Study to Evaluate the Effects on the Single-Dose Drug Levels of Mavacamten in Healthy Participants",
+          "sponsor": "Bristol-Myers Squibb",
+          "phase": "Phase 1",
+          "status": "COMPLETED",
+          "primary_completion_date": "2022-08-19",
+          "months_since_primary_completion": 50.9,
+          "group": "probably_exempt",
+          "reason": "Phase 1 trials are generally outside the reporting requirement"
+        }
+      ]
+    }
+  }
 }

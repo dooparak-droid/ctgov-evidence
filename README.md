@@ -13,6 +13,7 @@ Input is a search (condition and/or intervention, with optional phase and status
 | `trials.json` | One normalised record per trial. Each field is stored as `{value, source}`, where `source` is the path in the original record, for example `NCT04349072:protocolSection.designModule.enrollmentInfo.count`. A `meta` block holds the query and retrieval time. |
 | `evidence_table.csv` / `.md` | One row per trial: NCT ID, title, sponsor, phase, status, enrolment and its type, start and completion dates, design, first primary outcome, results posted. |
 | `summary.md` / `summary.json` | Counts by phase, status and study type; enrolment totals; lead sponsors; primary outcome measures; trials with posted results. Computed in code, not by an LLM. |
+| `results_gap.csv` / `.md` | Finished interventional trials with no results posted more than 12 months after primary completion, sorted by how likely the reporting rule applies. See below. |
 | `narrative.md` | Only with `--narrative`. A short paragraph written by an LLM, with a verification line. |
 
 Fields that are missing in the registry stay `None` and keep their source path. Nothing is guessed or filled in.
@@ -50,6 +51,19 @@ ev.trials[0].enrollment  # Sourced(value=..., source="NCT...:protocolSection....
 ```
 
 Searches stop at `--max-studies` (default 200). If the registry has more matches, the output says so.
+
+### Results gap check
+
+US law (FDAAA 801) generally expects the sponsors of "applicable clinical trials" to submit summary results to ClinicalTrials.gov within 12 months of the primary completion date. The tool lists finished (completed or terminated) interventional trials that are past that point with no results posted, as of the retrieval date.
+
+The registry does not say whether a trial is legally covered, so flagged trials are sorted into four groups.
+
+- **Likely applicable.** Marked as an FDA-regulated drug or device, and not Phase 1 only.
+- **Probably not covered.** Marked as not FDA-regulated.
+- **Cannot tell.** No FDA-regulation flag is recorded. In a 300-trial heart failure search, these flags were empty for 203 of the 217 trials that started before 2017 and present for all 83 that started later, so this group is mostly older records.
+- **Probably exempt.** Phase 1 only.
+
+A flag means no results are posted where they would normally be expected. It is not a finding of non-compliance. Results may exist in a journal, a sponsor can certify a delay, and the rules have details (such as small device feasibility studies) that registry fields do not capture. The check does not search the literature. For trials that did post results, the tool reports the median time from primary completion to first submission.
 
 ### Narrative and verification
 

@@ -93,4 +93,7 @@ def extract_trial(raw: dict[str, Any]) -> Trial:
         interventions=f(f"{p}.armsInterventionsModule.interventions", _names),
         primary_outcomes=f(f"{p}.outcomesModule.primaryOutcomes", _outcomes),
         has_results=f("hasResults", bool),
+        results_first_submitted=f(f"{p}.statusModule.resultsFirstSubmitDate", str),
+        fda_regulated_drug=f(f"{p}.oversightModule.isFdaRegulatedDrug", bool),
+        fda_regulated_device=f(f"{p}.oversightModule.isFdaRegulatedDevice", bool),
     )

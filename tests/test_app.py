@@ -75,3 +75,10 @@ def test_narrative_with_own_key_marks_failures(app, monkeypatch):
     assert not app.exception
     assert any("1 verified / 2 sentences" in s.value for s in app.subheader)
     assert len(app.error) == 1 and "[unverified]" in app.error[0].value
+
+
+def test_results_gap_tab_renders(app):
+    app.sidebar.button[0].click().run()
+    assert not app.exception
+    assert "Results gap" in [t.label for t in app.tabs]
+    assert any("Finished interventional" == m.label for m in app.metric)

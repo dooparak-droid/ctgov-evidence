@@ -51,12 +51,13 @@ def build_evidence(query: Query, *, client: CTGovClient | None = None) -> Eviden
             client.close()
 
     trials = [extract_trial(r) for r in raws]
+    retrieved_at = datetime.now(UTC)
     return Evidence(
         query=query,
-        retrieved_at=datetime.now(UTC),
+        retrieved_at=retrieved_at,
         total_found=total_found,
         truncated=truncated,
         not_found=not_found,
         trials=trials,
-        summary=summarise(trials),
+        summary=summarise(trials, as_of=retrieved_at.date()),
     )

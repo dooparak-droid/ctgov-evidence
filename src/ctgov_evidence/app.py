@@ -12,6 +12,7 @@ import streamlit as st
 
 from ctgov_evidence import Evidence, Query, build_evidence
 from ctgov_evidence.client import RegistryError
+from ctgov_evidence.gap import GROUP_LABELS, gap_rows
 from ctgov_evidence.narrative import NarrativeError, NarrativeUnavailable, generate_narrative
 from ctgov_evidence.summarise import phase_label, summary_markdown, table_rows
 from ctgov_evidence.verify import verify_narrative
@@ -110,8 +111,8 @@ c3.metric("Lead sponsors", len(s.sponsors))
 actual = s.enrollment.get("ACTUAL")
 c4.metric("Participants (actual counts)", f"{actual.total:,}" if actual else "0")
 
-tab_summary, tab_table, tab_trial, tab_narr = st.tabs(
-    ["Summary", "Evidence table", "Trial detail", "Narrative"]
+tab_summary, tab_table, tab_gap, tab_trial, tab_narr = st.tabs(
+    ["Summary", "Evidence table", "Results gap", "Trial detail", "Narrative"]
 )
 
 with tab_summary:
@@ -119,6 +120,27 @@ with tab_summary:
 
 with tab_table:
     st.dataframe(table_rows(ev.trials), width="stretch")
+
+with tab_gap:
+    gap = s.results_gap
+    st.write(
+        f"Finished interventional trials checked against the {gap.deadline_months}-month "
+        f"results deadline, as of {gap.as_of.isoformat()}. The registry does not say which "
+        "trials are legally covered, so a trial listed here has no results posted where they "
+        "would normally be expected. Results may still exist in a journal."
+    )
+    g1, g2, g3 = st.columns(3)
+    g1.metric("Finished interventional", gap.n_finished_interventional)
+    g2.metric("Results posted", gap.n_results_posted)
+    g3.metric("Past deadline, none posted", gap.n_overdue_no_results)
+    rows = gap_rows(gap)
+    if rows:
+        group_names = {k: v.split(" (")[0] for k, v in GROUP_LABELS.items()}
+        for row in rows:
+            row["group"] = group_names[row["group"]]
+        st.dataframe(rows, width="stretch")
+    else:
+        st.success("No finished trial in this set is past its deadline without results.")
 
 with tab_trial:
     labels = {t.nct_id: f"{t.nct_id}  {(t.title.value or '')[:80]}" for t in ev.trials}

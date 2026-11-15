@@ -6,28 +6,12 @@ import csv
 import json
 import re
 from collections import defaultdict
+from datetime import date
 from pathlib import Path
 
+from .gap import GAP_FILE_COLUMNS, gap_markdown, gap_rows, results_gap
+from .labels import NOT_REPORTED, PHASE_LABELS, PHASE_ORDER, phase_label
 from .models import CountedItem, EnrollmentGroup, Evidence, Summary, Trial
-
-PHASE_ORDER = ["EARLY_PHASE1", "PHASE1", "PHASE2", "PHASE3", "PHASE4", "NA"]
-PHASE_LABELS = {
-    "EARLY_PHASE1": "Early Phase 1",
-    "PHASE1": "Phase 1",
-    "PHASE2": "Phase 2",
-    "PHASE3": "Phase 3",
-    "PHASE4": "Phase 4",
-    "NA": "Not applicable",
-}
-NOT_REPORTED = "Not reported"
-
-
-def phase_label(phases: list[str] | None) -> str:
-    """One label per trial, so counts by phase sum to the number of trials."""
-    if not phases:
-        return NOT_REPORTED
-    ordered = sorted(phases, key=lambda p: PHASE_ORDER.index(p) if p in PHASE_ORDER else 99)
-    return " / ".join(PHASE_LABELS.get(p, p) for p in ordered)
 
 
 def _phase_sort_key(label: str) -> tuple[int, str]:
@@ -52,7 +36,7 @@ def _ranked(groups: dict[str, tuple[str, list[str]]]) -> list[CountedItem]:
     return sorted(items, key=lambda i: (-i.n_trials, i.name.casefold()))
 
 
-def summarise(trials: list[Trial]) -> Summary:
+def summarise(trials: list[Trial], as_of: date | None = None) -> Summary:
     by_phase: dict[str, int] = defaultdict(int)
     by_status: dict[str, int] = defaultdict(int)
     by_type: dict[str, int] = defaultdict(int)
@@ -111,6 +95,7 @@ def summarise(trials: list[Trial]) -> Summary:
         n_results_not_posted=n_not_posted,
         n_results_unknown=n_unknown,
         results_posted_nct_ids=sorted(posted),
+        results_gap=results_gap(trials, as_of or date.today()),
     )
 
 
@@ -259,11 +244,12 @@ def summary_markdown(ev: Evidence, top_outcomes: int = 10, top_sponsors: int = 1
     if s.results_posted_nct_ids:
         lines.append("")
         lines.append("Trials with posted results: " + ", ".join(s.results_posted_nct_ids) + ".")
+    lines += ["", gap_markdown(s.results_gap).rstrip()]
     return "\n".join(lines) + "\n"
 
 
 def write_outputs(ev: Evidence, out_dir: str | Path) -> dict[str, Path]:
-    """Write trials.json, evidence_table.csv/.md and summary.md/.json to ``out_dir``."""
+    """Write trials, evidence table, summary and results-gap files to ``out_dir``."""
     out = Path(out_dir)
     out.mkdir(parents=True, exist_ok=True)
     rows = table_rows(ev.trials)
@@ -273,6 +259,8 @@ def write_outputs(ev: Evidence, out_dir: str | Path) -> dict[str, Path]:
         "table_md": out / "evidence_table.md",
         "summary_md": out / "summary.md",
         "summary_json": out / "summary.json",
+        "gap_csv": out / "results_gap.csv",
+        "gap_md": out / "results_gap.md",
     }
     trials_doc = {
         "meta": {
@@ -293,6 +281,11 @@ def write_outputs(ev: Evidence, out_dir: str | Path) -> dict[str, Path]:
     paths["table_md"].write_text(table_markdown(rows))
     paths["summary_md"].write_text(summary_markdown(ev))
     paths["summary_json"].write_text(
-        json.dumps(ev.summary.model_dump(), indent=2, ensure_ascii=False) + "\n"
+        json.dumps(ev.summary.model_dump(mode="json"), indent=2, ensure_ascii=False) + "\n"
     )
+    with paths["gap_csv"].open("w", newline="", encoding="utf-8") as fh:
+        writer = csv.DictWriter(fh, fieldnames=GAP_FILE_COLUMNS)
+        writer.writeheader()
+        writer.writerows(gap_rows(ev.summary.results_gap))
+    paths["gap_md"].write_text(gap_markdown(ev.summary.results_gap, heading="#", max_rows=None))
     return paths
