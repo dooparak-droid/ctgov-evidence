@@ -31,12 +31,29 @@ STATUSES = [
 ]
 
 
-def shared_key() -> str | None:
+KEY_NAMES = ("GEMINI_API_KEY", "GOOGLE_API_KEY")
+
+
+def find_shared_key() -> tuple[str | None, str]:
+    """Look for a Gemini key in Streamlit secrets, then the environment.
+
+    Returns the key (or None) and a plain-language note on where it came from or what was
+    seen instead. The note never contains the key itself.
+    """
+    secret_names: list[str] = []
     try:
-        key = st.secrets.get("GEMINI_API_KEY")
-    except Exception:  # no secrets file configured
-        key = None
-    return key or os.environ.get("GEMINI_API_KEY")
+        secret_names = [str(k) for k in st.secrets.keys()]
+        for name in KEY_NAMES:
+            value = st.secrets.get(name)
+            if value:
+                return str(value), f"Streamlit secrets ({name})"
+    except Exception:  # no secrets configured
+        pass
+    for name in KEY_NAMES:
+        if os.environ.get(name):
+            return os.environ[name], f"environment ({name})"
+    seen = ", ".join(secret_names) if secret_names else "none"
+    return None, f"No key found. Secret names the app can see: {seen}. Expected GEMINI_API_KEY."
 
 
 @st.cache_data(ttl=3600, show_spinner=False)
@@ -155,12 +172,21 @@ with tab_narr:
         "An LLM writes a short paragraph from the structured trials only. Each sentence is then "
         "checked against the records it cites, and sentences that cannot be supported are marked."
     )
-    own_key = st.text_input("Your Gemini API key (optional, not stored)", type="password")
+    shared, shared_note = find_shared_key()
+    if shared:
+        st.caption(
+            f"A shared Gemini key is configured ({shared_note}), so you do not need to enter "
+            f"one. It is limited to {SHARED_KEY_LIMIT} narratives per session."
+        )
+    else:
+        st.caption(shared_note)
+    with st.expander("Use your own Gemini key instead (optional, not stored)"):
+        own_key = st.text_input("Your Gemini API key", type="password")
     used = st.session_state.get("narratives_used", 0)
-    key = own_key or shared_key()
+    key = own_key or shared
     limited = not own_key
     if not key:
-        st.info("No Gemini key is configured. Paste one above to generate a narrative.")
+        st.info("No Gemini key is available. Paste one above to generate a narrative.")
     elif limited and used >= SHARED_KEY_LIMIT:
         st.info(
             f"The shared key is limited to {SHARED_KEY_LIMIT} narratives per session. "

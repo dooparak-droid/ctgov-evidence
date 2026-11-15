@@ -59,7 +59,7 @@ def test_search_without_terms_shows_error(app):
 
 def test_narrative_without_key_explains(app):
     app.sidebar.button[0].click().run()
-    assert any("No Gemini key" in i.value for i in app.info)
+    assert any("No Gemini key is available" in i.value for i in app.info)
 
 
 def test_narrative_with_own_key_marks_failures(app, monkeypatch):
@@ -82,3 +82,29 @@ def test_results_gap_tab_renders(app):
     assert not app.exception
     assert "Results gap" in [t.label for t in app.tabs]
     assert any("Finished interventional" == m.label for m in app.metric)
+
+
+def test_shared_key_is_used_without_typing_and_never_displayed(app, monkeypatch):
+    monkeypatch.setenv("GEMINI_API_KEY", "AQ.shared-secret-value")
+    seen = {}
+
+    def fake(ev, provider=None, model=None, http_client=None, api_key=None):
+        seen["key"] = api_key
+        first = ev.trials[0].nct_id
+        return f"{first} is a trial [{first}]."
+
+    monkeypatch.setattr(narrative, "generate_narrative", fake)
+    app.sidebar.button[0].click().run()
+    captions = " ".join(c.value for c in app.caption)
+    assert "shared Gemini key is configured" in captions
+    assert "shared-secret-value" not in captions
+    assert not any("No Gemini key" in i.value for i in app.info)
+    next(b for b in app.button if b.label == "Write and verify narrative").click().run()
+    assert seen["key"] == "AQ.shared-secret-value"
+    assert not app.exception
+
+
+def test_missing_key_explains_what_was_looked_for(app):
+    app.sidebar.button[0].click().run()
+    captions = " ".join(c.value for c in app.caption)
+    assert "No key found" in captions and "GEMINI_API_KEY" in captions
