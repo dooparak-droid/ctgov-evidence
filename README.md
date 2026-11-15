@@ -2,6 +2,8 @@
 
 ctgov-evidence turns ClinicalTrials.gov records into a structured evidence summary in which every value points back to the field it came from. An optional LLM-written paragraph is checked sentence by sentence against those records, and sentences that cannot be supported are marked or removed.
 
+Live demo: https://ctgov-evidence-yan7vnzu63pgnrdn3um6bl.streamlit.app/
+
 This is the same idea as codelist-rag, which checks every code an LLM proposes against SNOMED-CT before accepting it.
 
 ## What it does
